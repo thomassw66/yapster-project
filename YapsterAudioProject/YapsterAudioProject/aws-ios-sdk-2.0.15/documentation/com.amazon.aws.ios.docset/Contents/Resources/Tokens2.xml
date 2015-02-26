@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAbstractIdentityProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAbstractIdentityProvider</TokenIdentifier>
+			<Abstract type="html">An abstract implementation of the AWSCognitoIdentityProvider. Developers should extend this class
+when they want to implement developer authenticated identities but do not need to support the basic
+Amazon Cognito authflow in the same application.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAbstractIdentityProvider/getIdentityId</TokenIdentifier>
+			<Abstract type="html">Get/retrieve the identity id for this provider. If an identity id is already set on this
+provider, no remote call is made and the identity will be returned as a result of the BFTask
+(the identityId is also available as a property).
+If no identityId is set on this provider, one will be retrieved from the service.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.m</DeclaredIn>
+			
+			<Declaration>- (BFTask *)getIdentityId</Declaration>
+			
+			
+			<Anchor>//api/name/getIdentityId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAbstractIdentityProvider/clear</TokenIdentifier>
+			<Abstract type="html">Clear saved values for identityId, token, and logins.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.m</DeclaredIn>
+			
+			<Declaration>- (void)clear</Declaration>
+			
+			
+			<Anchor>//api/name/clear</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAbstractIdentityProvider/isAuthenticated</TokenIdentifier>
+			<Abstract type="html">Is this provider considered &apos;authenticated&apos;. By default, only returns YES if logins is set.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)isAuthenticated</Declaration>
+			
+			
+			<Anchor>//api/name/isAuthenticated</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAbstractIdentityProvider/setLogins:</TokenIdentifier>
+			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
+The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
+OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.m</DeclaredIn>
+			
+			<Declaration>- (void)setLogins:(NSDictionary *)logins</Declaration>
+			
+			
+			<Anchor>//api/name/setLogins:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAbstractIdentityProvider/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">The identity id as determined by the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.m</DeclaredIn>
+			
+			<Declaration>- (void)setIdentityId:(NSString *)identityId</Declaration>
+			
+			
+			<Anchor>//api/name/setIdentityId:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAbstractIdentityProvider/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAbstractIdentityProvider/identityPoolId</TokenIdentifier>
+			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAbstractIdentityProvider/identityPoolId</TokenIdentifier>
+			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

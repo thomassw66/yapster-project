@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingCompleteLifecycleActionType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingCompleteLifecycleActionType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCompleteLifecycleActionType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group to which the lifecycle hook belongs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCompleteLifecycleActionType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group to which the lifecycle hook belongs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCompleteLifecycleActionType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group to which the lifecycle hook belongs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCompleteLifecycleActionType/setLifecycleActionResult:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The action the Auto Scaling group should take. The value for this parameter can be either &lt;code&gt;CONTINUE&lt;/code&gt; or &lt;code&gt;ABANDON&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleActionResult</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleActionResult</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCompleteLifecycleActionType/lifecycleActionResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The action the Auto Scaling group should take. The value for this parameter can be either &lt;code&gt;CONTINUE&lt;/code&gt; or &lt;code&gt;ABANDON&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleActionResult</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleActionResult</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCompleteLifecycleActionType/lifecycleActionResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The action the Auto Scaling group should take. The value for this parameter can be either &lt;code&gt;CONTINUE&lt;/code&gt; or &lt;code&gt;ABANDON&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleActionResult</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleActionResult</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCompleteLifecycleActionType/setLifecycleActionToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A universally unique identifier (UUID) that identifies a specific lifecycle action associated with an instance. Auto Scaling sends this token to the notification target you specified when you created the lifecycle hook.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleActionToken</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleActionToken</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCompleteLifecycleActionType/lifecycleActionToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A universally unique identifier (UUID) that identifies a specific lifecycle action associated with an instance. Auto Scaling sends this token to the notification target you specified when you created the lifecycle hook.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleActionToken</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleActionToken</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCompleteLifecycleActionType/lifecycleActionToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A universally unique identifier (UUID) that identifies a specific lifecycle action associated with an instance. Auto Scaling sends this token to the notification target you specified when you created the lifecycle hook.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleActionToken</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleActionToken</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCompleteLifecycleActionType/setLifecycleHookName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the lifecycle hook.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleHookName</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCompleteLifecycleActionType/lifecycleHookName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the lifecycle hook.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleHookName</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCompleteLifecycleActionType/lifecycleHookName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the lifecycle hook.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleHookName</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

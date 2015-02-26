@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoIdentityGetOpenIdTokenInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenInput</TokenIdentifier>
+			<Abstract type="html">Input to the GetOpenIdToken action.
+Required parameters: [IdentityId]</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="132"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenInput/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenInput/identityId</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetOpenIdTokenInput/identityId</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenInput/setLogins:</TokenIdentifier>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenInput/logins</TokenIdentifier>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetOpenIdTokenInput/logins</TokenIdentifier>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

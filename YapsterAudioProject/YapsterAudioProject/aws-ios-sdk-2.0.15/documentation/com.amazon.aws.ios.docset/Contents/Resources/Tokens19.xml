@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingCreateLaunchConfigurationType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingCreateLaunchConfigurationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;
+Required parameters: [LaunchConfigurationName]</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setAssociatePublicIpAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Used for Auto Scaling groups that launch instances into an Amazon Virtual Private Cloud (Amazon VPC). Specifies whether to assign a public IP address to each instance launched in a Amazon VPC. For more information, see Supported Platforms.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *associatePublicIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/associatePublicIpAddress</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/associatePublicIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Used for Auto Scaling groups that launch instances into an Amazon Virtual Private Cloud (Amazon VPC). Specifies whether to assign a public IP address to each instance launched in a Amazon VPC. For more information, see Supported Platforms.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *associatePublicIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/associatePublicIpAddress</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/associatePublicIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Used for Auto Scaling groups that launch instances into an Amazon Virtual Private Cloud (Amazon VPC). Specifies whether to assign a public IP address to each instance launched in a Amazon VPC. For more information, see Supported Platforms.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *associatePublicIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/associatePublicIpAddress</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of mappings that specify how block devices are exposed to the instance. Each mapping is made up of a &lt;i&gt;VirtualName&lt;/i&gt;, a &lt;i&gt;DeviceName&lt;/i&gt;, and an &lt;i&gt;ebs&lt;/i&gt; data structure that contains information about the associated Elastic Block Storage volume. For more information about Amazon EC2 BlockDeviceMappings, go to  Block Device Mapping in the Amazon EC2 product documentation. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of mappings that specify how block devices are exposed to the instance. Each mapping is made up of a &lt;i&gt;VirtualName&lt;/i&gt;, a &lt;i&gt;DeviceName&lt;/i&gt;, and an &lt;i&gt;ebs&lt;/i&gt; data structure that contains information about the associated Elastic Block Storage volume. For more information about Amazon EC2 BlockDeviceMappings, go to  Block Device Mapping in the Amazon EC2 product documentation. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of mappings that specify how block devices are exposed to the instance. Each mapping is made up of a &lt;i&gt;VirtualName&lt;/i&gt;, a &lt;i&gt;DeviceName&lt;/i&gt;, and an &lt;i&gt;ebs&lt;/i&gt; data structure that contains information about the associated Elastic Block Storage volume. For more information about Amazon EC2 BlockDeviceMappings, go to  Block Device Mapping in the Amazon EC2 product documentation. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setEbsOptimized:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Whether the instance is optimized for EBS I/O. The optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization is not available with all instance types. Additional usage charges apply when using an EBS Optimized instance. By default the instance is not optimized for EBS I/O. For information about EBS-optimized instances, go to EBS-Optimized Instances in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Whether the instance is optimized for EBS I/O. The optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization is not available with all instance types. Additional usage charges apply when using an EBS Optimized instance. By default the instance is not optimized for EBS I/O. For information about EBS-optimized instances, go to EBS-Optimized Instances in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Whether the instance is optimized for EBS I/O. The optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization is not available with all instance types. Additional usage charges apply when using an EBS Optimized instance. By default the instance is not optimized for EBS I/O. For information about EBS-optimized instances, go to EBS-Optimized Instances in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setIamInstanceProfile:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or the Amazon Resource Name (ARN) of the instance profile associated with the IAM role for the instance.&lt;/p&gt;&lt;p&gt;Amazon EC2 instances launched with an IAM role will automatically have AWS security credentials available. You can use IAM roles with Auto Scaling to automatically enable applications running on your Amazon EC2 instances to securely access other AWS resources. For information on launching EC2 instances with an IAM role, go to Launching Auto Scaling Instances With an IAM Role in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/iamInstanceProfile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or the Amazon Resource Name (ARN) of the instance profile associated with the IAM role for the instance.&lt;/p&gt;&lt;p&gt;Amazon EC2 instances launched with an IAM role will automatically have AWS security credentials available. You can use IAM roles with Auto Scaling to automatically enable applications running on your Amazon EC2 instances to securely access other AWS resources. For information on launching EC2 instances with an IAM role, go to Launching Auto Scaling Instances With an IAM Role in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/iamInstanceProfile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or the Amazon Resource Name (ARN) of the instance profile associated with the IAM role for the instance.&lt;/p&gt;&lt;p&gt;Amazon EC2 instances launched with an IAM role will automatically have AWS security credentials available. You can use IAM roles with Auto Scaling to automatically enable applications running on your Amazon EC2 instances to securely access other AWS resources. For information on launching EC2 instances with an IAM role, go to Launching Auto Scaling Instances With an IAM Role in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setImageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Unique ID of the Amazon Machine Image (AMI) you want to use to launch your EC2 instances. For information about finding Amazon EC2 AMIs, see Finding a Suitable AMI in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Unique ID of the Amazon Machine Image (AMI) you want to use to launch your EC2 instances. For information about finding Amazon EC2 AMIs, see Finding a Suitable AMI in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Unique ID of the Amazon Machine Image (AMI) you want to use to launch your EC2 instances. For information about finding Amazon EC2 AMIs, see Finding a Suitable AMI in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the Amazon EC2 instance you want to use to create the launch configuration. Use this attribute if you want the launch configuration to derive its attributes from an EC2 instance. &lt;/p&gt;&lt;p&gt; When you use an instance to create a launch configuration, all you need to specify is the &lt;code&gt;InstanceId&lt;/code&gt;. The new launch configuration, by default, derives all the attributes from the specified instance with the exception of &lt;code&gt;BlockDeviceMapping&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;If you want to create a launch configuration with &lt;code&gt;BlockDeviceMapping&lt;/code&gt; or override any other instance attributes, specify them as part of the same request.&lt;/p&gt;&lt;p&gt;For more information on using an InstanceID to create a launch configuration, see Create a Launch Configuration Using an Amazon EC2 Instance in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the Amazon EC2 instance you want to use to create the launch configuration. Use this attribute if you want the launch configuration to derive its attributes from an EC2 instance. &lt;/p&gt;&lt;p&gt; When you use an instance to create a launch configuration, all you need to specify is the &lt;code&gt;InstanceId&lt;/code&gt;. The new launch configuration, by default, derives all the attributes from the specified instance with the exception of &lt;code&gt;BlockDeviceMapping&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;If you want to create a launch configuration with &lt;code&gt;BlockDeviceMapping&lt;/code&gt; or override any other instance attributes, specify them as part of the same request.&lt;/p&gt;&lt;p&gt;For more information on using an InstanceID to create a launch configuration, see Create a Launch Configuration Using an Amazon EC2 Instance in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the Amazon EC2 instance you want to use to create the launch configuration. Use this attribute if you want the launch configuration to derive its attributes from an EC2 instance. &lt;/p&gt;&lt;p&gt; When you use an instance to create a launch configuration, all you need to specify is the &lt;code&gt;InstanceId&lt;/code&gt;. The new launch configuration, by default, derives all the attributes from the specified instance with the exception of &lt;code&gt;BlockDeviceMapping&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;If you want to create a launch configuration with &lt;code&gt;BlockDeviceMapping&lt;/code&gt; or override any other instance attributes, specify them as part of the same request.&lt;/p&gt;&lt;p&gt;For more information on using an InstanceID to create a launch configuration, see Create a Launch Configuration Using an Amazon EC2 Instance in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setInstanceMonitoring:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables detailed monitoring if it is disabled. Detailed monitoring is enabled by default.&lt;/p&gt;&lt;p&gt; When detailed monitoring is enabled, Amazon Cloudwatch will generate metrics every minute and your account will be charged a fee. When you disable detailed monitoring, by specifying &lt;code&gt;False&lt;/code&gt;, Cloudwatch will generate metrics every 5 minutes. For more information, see Amazon CloudWatch Developer Guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingInstanceMonitoring *instanceMonitoring</Declaration>
+			
+			
+			<Anchor>//api/name/instanceMonitoring</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/instanceMonitoring</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables detailed monitoring if it is disabled. Detailed monitoring is enabled by default.&lt;/p&gt;&lt;p&gt; When detailed monitoring is enabled, Amazon Cloudwatch will generate metrics every minute and your account will be charged a fee. When you disable detailed monitoring, by specifying &lt;code&gt;False&lt;/code&gt;, Cloudwatch will generate metrics every 5 minutes. For more information, see Amazon CloudWatch Developer Guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingInstanceMonitoring *instanceMonitoring</Declaration>
+			
+			
+			<Anchor>//api/name/instanceMonitoring</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/instanceMonitoring</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables detailed monitoring if it is disabled. Detailed monitoring is enabled by default.&lt;/p&gt;&lt;p&gt; When detailed monitoring is enabled, Amazon Cloudwatch will generate metrics every minute and your account will be charged a fee. When you disable detailed monitoring, by specifying &lt;code&gt;False&lt;/code&gt;, Cloudwatch will generate metrics every 5 minutes. For more information, see Amazon CloudWatch Developer Guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingInstanceMonitoring *instanceMonitoring</Declaration>
+			
+			
+			<Anchor>//api/name/instanceMonitoring</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The instance type of the Amazon EC2 instance. For information about available Amazon EC2 instance types, see  Available Instance Types in the &lt;i&gt;Amazon Elastic Cloud Compute User Guide.&lt;/i&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The instance type of the Amazon EC2 instance. For information about available Amazon EC2 instance types, see  Available Instance Types in the &lt;i&gt;Amazon Elastic Cloud Compute User Guide.&lt;/i&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The instance type of the Amazon EC2 instance. For information about available Amazon EC2 instance types, see  Available Instance Types in the &lt;i&gt;Amazon Elastic Cloud Compute User Guide.&lt;/i&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setKernelId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the kernel associated with the Amazon EC2 AMI. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the kernel associated with the Amazon EC2 AMI. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the kernel associated with the Amazon EC2 AMI. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setKeyName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Amazon EC2 key pair. For more information, see Getting a Key Pair in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/keyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Amazon EC2 key pair. For more information, see Getting a Key Pair in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/keyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Amazon EC2 key pair. For more information, see Getting a Key Pair in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setLaunchConfigurationName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the launch configuration to create. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/launchConfigurationName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the launch configuration to create. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/launchConfigurationName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the launch configuration to create. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setPlacementTenancy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance. An instance with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; runs on single-tenant hardware and can only be launched in a VPC.&lt;/p&gt;&lt;p&gt;You must set the value of this parameter to &lt;code&gt;dedicated&lt;/code&gt; if want to launch Dedicated Instances in a shared tenancy VPC (VPC with instance placement tenancy attribute set to &lt;code&gt;default&lt;/code&gt;).&lt;/p&gt;&lt;p&gt;If you specify a value for this parameter, be sure to specify at least one VPC subnet using the &lt;i&gt;VPCZoneIdentifier&lt;/i&gt; parameter when you create your Auto Scaling group. &lt;/p&gt;&lt;p&gt;For more information, see Auto Scaling in Amazon Virtual Private Cloud in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;default&lt;/code&gt; | &lt;code&gt;dedicated&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *placementTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/placementTenancy</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/placementTenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance. An instance with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; runs on single-tenant hardware and can only be launched in a VPC.&lt;/p&gt;&lt;p&gt;You must set the value of this parameter to &lt;code&gt;dedicated&lt;/code&gt; if want to launch Dedicated Instances in a shared tenancy VPC (VPC with instance placement tenancy attribute set to &lt;code&gt;default&lt;/code&gt;).&lt;/p&gt;&lt;p&gt;If you specify a value for this parameter, be sure to specify at least one VPC subnet using the &lt;i&gt;VPCZoneIdentifier&lt;/i&gt; parameter when you create your Auto Scaling group. &lt;/p&gt;&lt;p&gt;For more information, see Auto Scaling in Amazon Virtual Private Cloud in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;default&lt;/code&gt; | &lt;code&gt;dedicated&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *placementTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/placementTenancy</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/placementTenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance. An instance with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; runs on single-tenant hardware and can only be launched in a VPC.&lt;/p&gt;&lt;p&gt;You must set the value of this parameter to &lt;code&gt;dedicated&lt;/code&gt; if want to launch Dedicated Instances in a shared tenancy VPC (VPC with instance placement tenancy attribute set to &lt;code&gt;default&lt;/code&gt;).&lt;/p&gt;&lt;p&gt;If you specify a value for this parameter, be sure to specify at least one VPC subnet using the &lt;i&gt;VPCZoneIdentifier&lt;/i&gt; parameter when you create your Auto Scaling group. &lt;/p&gt;&lt;p&gt;For more information, see Auto Scaling in Amazon Virtual Private Cloud in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;default&lt;/code&gt; | &lt;code&gt;dedicated&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *placementTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/placementTenancy</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the RAM disk associated with the Amazon EC2 AMI. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the RAM disk associated with the Amazon EC2 AMI. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The ID of the RAM disk associated with the Amazon EC2 AMI. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setSecurityGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The security groups with which to associate Amazon EC2 or Amazon VPC instances.&lt;/p&gt;&lt;p&gt;If your instances are launched in EC2, you can either specify Amazon EC2 security group names or the security group IDs. For more information about Amazon EC2 security groups, see Security Groups in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/securityGroups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The security groups with which to associate Amazon EC2 or Amazon VPC instances.&lt;/p&gt;&lt;p&gt;If your instances are launched in EC2, you can either specify Amazon EC2 security group names or the security group IDs. For more information about Amazon EC2 security groups, see Security Groups in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/securityGroups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The security groups with which to associate Amazon EC2 or Amazon VPC instances.&lt;/p&gt;&lt;p&gt;If your instances are launched in EC2, you can either specify Amazon EC2 security group names or the security group IDs. For more information about Amazon EC2 security groups, see Security Groups in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setSpotPrice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price to be paid for any Spot Instance launched to fulfill the request. Spot Instances are launched when the price you specify exceeds the current Spot market price. For more information on launching Spot Instances, see  Using Auto Scaling to Launch Spot Instances in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price to be paid for any Spot Instance launched to fulfill the request. Spot Instances are launched when the price you specify exceeds the current Spot market price. For more information on launching Spot Instances, see  Using Auto Scaling to Launch Spot Instances in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price to be paid for any Spot Instance launched to fulfill the request. Spot Instances are launched when the price you specify exceeds the current Spot market price. For more information on launching Spot Instances, see  Using Auto Scaling to Launch Spot Instances in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/setUserData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The user data to make available to the launched Amazon EC2 instances. For more information about Amazon EC2 user data, see User Data Retrieval in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;&lt;note&gt; At this time, Auto Scaling launch configurations don&apos;t support compressed (e.g. zipped) user data files. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingCreateLaunchConfigurationType/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The user data to make available to the launched Amazon EC2 instances. For more information about Amazon EC2 user data, see User Data Retrieval in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;&lt;note&gt; At this time, Auto Scaling launch configurations don&apos;t support compressed (e.g. zipped) user data files. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingCreateLaunchConfigurationType/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The user data to make available to the launched Amazon EC2 instances. For more information about Amazon EC2 user data, see User Data Retrieval in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;. &lt;/p&gt;&lt;note&gt; At this time, Auto Scaling launch configurations don&apos;t support compressed (e.g. zipped) user data files. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

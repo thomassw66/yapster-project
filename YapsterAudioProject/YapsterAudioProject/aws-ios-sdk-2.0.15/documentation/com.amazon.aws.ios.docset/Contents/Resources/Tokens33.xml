@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingDescribeLifecycleHooksAnswer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeLifecycleHooksAnswer</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The output of the &lt;a&gt;DescribeLifecycleHooks&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeLifecycleHooksAnswer/setLifecycleHooks:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the lifecycle hooks that belong to the specified Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHooks</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHooks</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeLifecycleHooksAnswer/lifecycleHooks</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the lifecycle hooks that belong to the specified Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHooks</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHooks</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeLifecycleHooksAnswer/lifecycleHooks</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the lifecycle hooks that belong to the specified Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHooks</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHooks</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

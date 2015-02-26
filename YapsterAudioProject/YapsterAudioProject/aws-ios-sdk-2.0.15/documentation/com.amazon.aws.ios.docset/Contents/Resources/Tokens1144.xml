@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSGeneralErrorType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSGeneralErrorType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1144"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSGeneralErrorUnknown</Declaration>
+            
+            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            
+            <NodeRef refid="1144"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorRequestTimeTooSkewed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSGeneralErrorRequestTimeTooSkewed</Declaration>
+            
+            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            
+            <NodeRef refid="1144"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorInvalidSignatureException</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSGeneralErrorInvalidSignatureException</Declaration>
+            
+            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            
+            <NodeRef refid="1144"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorSignatureDoesNotMatch</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSGeneralErrorSignatureDoesNotMatch</Declaration>
+            
+            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            
+            <NodeRef refid="1144"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorRequestExpired</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSGeneralErrorRequestExpired</Declaration>
+            
+            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            
+            <NodeRef refid="1144"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorAuthFailure</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSGeneralErrorAuthFailure</Declaration>
+            
+            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            
+            <NodeRef refid="1144"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

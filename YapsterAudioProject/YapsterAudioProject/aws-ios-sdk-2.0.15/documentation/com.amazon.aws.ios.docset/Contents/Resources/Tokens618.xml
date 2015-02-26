@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSElasticLoadBalancing.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+            
+			
+			<NodeRef refid="618"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancing/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSElasticLoadBalancing/defaultElasticLoadBalancing</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultElasticLoadBalancing</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultElasticLoadBalancing</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/initWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">The service configuration object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithConfiguration:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/addTags:</TokenIdentifier>
+			<Abstract type="html">AddTags</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAddTagsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAddTagsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)addTags:(AWSElasticLoadBalancingAddTagsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AddTags service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingAddTagsOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorTooManyTags, AWSElasticLoadBalancingErrorDuplicateTagKeys.</Abstract></ReturnValue>
+			<Anchor>//api/name/addTags:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/applySecurityGroupsToLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">ApplySecurityGroupsToLoadBalancer</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)applySecurityGroupsToLoadBalancer:(AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ApplySecurityGroupsToLoadBalancer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest, AWSElasticLoadBalancingErrorInvalidSecurityGroup.</Abstract></ReturnValue>
+			<Anchor>//api/name/applySecurityGroupsToLoadBalancer:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/attachLoadBalancerToSubnets:</TokenIdentifier>
+			<Abstract type="html">AttachLoadBalancerToSubnets</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)attachLoadBalancerToSubnets:(AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AttachLoadBalancerToSubnets service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest, AWSElasticLoadBalancingErrorSubnetNotFound, AWSElasticLoadBalancingErrorInvalidSubnet.</Abstract></ReturnValue>
+			<Anchor>//api/name/attachLoadBalancerToSubnets:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/configureHealthCheck:</TokenIdentifier>
+			<Abstract type="html">ConfigureHealthCheck</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingConfigureHealthCheckInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingConfigureHealthCheckOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)configureHealthCheck:(AWSElasticLoadBalancingConfigureHealthCheckInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ConfigureHealthCheck service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingConfigureHealthCheckOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/configureHealthCheck:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/createAppCookieStickinessPolicy:</TokenIdentifier>
+			<Abstract type="html">CreateAppCookieStickinessPolicy</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateAppCookieStickinessPolicyInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateAppCookieStickinessPolicyOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createAppCookieStickinessPolicy:(AWSElasticLoadBalancingCreateAppCookieStickinessPolicyInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateAppCookieStickinessPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingCreateAppCookieStickinessPolicyOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorDuplicatePolicyName, AWSElasticLoadBalancingErrorTooManyPolicies, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/createAppCookieStickinessPolicy:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/createLBCookieStickinessPolicy:</TokenIdentifier>
+			<Abstract type="html">CreateLBCookieStickinessPolicy</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createLBCookieStickinessPolicy:(AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateLBCookieStickinessPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingCreateLBCookieStickinessPolicyOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorDuplicatePolicyName, AWSElasticLoadBalancingErrorTooManyPolicies, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/createLBCookieStickinessPolicy:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/createLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">CreateLoadBalancer</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateAccessPointInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateAccessPointOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createLoadBalancer:(AWSElasticLoadBalancingCreateAccessPointInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateLoadBalancer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingCreateAccessPointOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorDuplicateAccessPointName, AWSElasticLoadBalancingErrorTooManyAccessPoints, AWSElasticLoadBalancingErrorCertificateNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest, AWSElasticLoadBalancingErrorSubnetNotFound, AWSElasticLoadBalancingErrorInvalidSubnet, AWSElasticLoadBalancingErrorInvalidSecurityGroup, AWSElasticLoadBalancingErrorInvalidScheme, AWSElasticLoadBalancingErrorTooManyTags, AWSElasticLoadBalancingErrorDuplicateTagKeys.</Abstract></ReturnValue>
+			<Anchor>//api/name/createLoadBalancer:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/createLoadBalancerListeners:</TokenIdentifier>
+			<Abstract type="html">CreateLoadBalancerListeners</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateLoadBalancerListenerInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateLoadBalancerListenerOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createLoadBalancerListeners:(AWSElasticLoadBalancingCreateLoadBalancerListenerInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateLoadBalancerListeners service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingCreateLoadBalancerListenerOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorDuplicateListener, AWSElasticLoadBalancingErrorCertificateNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/createLoadBalancerListeners:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/createLoadBalancerPolicy:</TokenIdentifier>
+			<Abstract type="html">CreateLoadBalancerPolicy</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateLoadBalancerPolicyInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateLoadBalancerPolicyOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createLoadBalancerPolicy:(AWSElasticLoadBalancingCreateLoadBalancerPolicyInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateLoadBalancerPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingCreateLoadBalancerPolicyOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorPolicyTypeNotFound, AWSElasticLoadBalancingErrorDuplicatePolicyName, AWSElasticLoadBalancingErrorTooManyPolicies, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/createLoadBalancerPolicy:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/deleteLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">DeleteLoadBalancer</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeleteAccessPointInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeleteAccessPointOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteLoadBalancer:(AWSElasticLoadBalancingDeleteAccessPointInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteLoadBalancer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDeleteAccessPointOutput.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteLoadBalancer:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/deleteLoadBalancerListeners:</TokenIdentifier>
+			<Abstract type="html">DeleteLoadBalancerListeners</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeleteLoadBalancerListenerOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteLoadBalancerListeners:(AWSElasticLoadBalancingDeleteLoadBalancerListenerInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteLoadBalancerListeners service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDeleteLoadBalancerListenerOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteLoadBalancerListeners:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/deleteLoadBalancerPolicy:</TokenIdentifier>
+			<Abstract type="html">DeleteLoadBalancerPolicy</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeleteLoadBalancerPolicyInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeleteLoadBalancerPolicyOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteLoadBalancerPolicy:(AWSElasticLoadBalancingDeleteLoadBalancerPolicyInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteLoadBalancerPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDeleteLoadBalancerPolicyOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteLoadBalancerPolicy:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/deregisterInstancesFromLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">DeregisterInstancesFromLoadBalancer</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeregisterEndPointsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeregisterEndPointsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deregisterInstancesFromLoadBalancer:(AWSElasticLoadBalancingDeregisterEndPointsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeregisterInstancesFromLoadBalancer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDeregisterEndPointsOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorInvalidEndPoint.</Abstract></ReturnValue>
+			<Anchor>//api/name/deregisterInstancesFromLoadBalancer:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/describeInstanceHealth:</TokenIdentifier>
+			<Abstract type="html">DescribeInstanceHealth</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeEndPointStateInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeEndPointStateOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeInstanceHealth:(AWSElasticLoadBalancingDescribeEndPointStateInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeInstanceHealth service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDescribeEndPointStateOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorInvalidEndPoint.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeInstanceHealth:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/describeLoadBalancerAttributes:</TokenIdentifier>
+			<Abstract type="html">DescribeLoadBalancerAttributes</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerAttributesOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeLoadBalancerAttributes:(AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeLoadBalancerAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDescribeLoadBalancerAttributesOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLoadBalancerAttributes:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/describeLoadBalancerPolicies:</TokenIdentifier>
+			<Abstract type="html">DescribeLoadBalancerPolicies</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeLoadBalancerPolicies:(AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeLoadBalancerPolicies service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDescribeLoadBalancerPoliciesOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorPolicyNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLoadBalancerPolicies:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/describeLoadBalancerPolicyTypes:</TokenIdentifier>
+			<Abstract type="html">DescribeLoadBalancerPolicyTypes</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeLoadBalancerPolicyTypes:(AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeLoadBalancerPolicyTypes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorPolicyTypeNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLoadBalancerPolicyTypes:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/describeLoadBalancers:</TokenIdentifier>
+			<Abstract type="html">DescribeLoadBalancers</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeAccessPointsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeAccessPointsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeLoadBalancers:(AWSElasticLoadBalancingDescribeAccessPointsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeLoadBalancers service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDescribeAccessPointsOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLoadBalancers:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/describeTags:</TokenIdentifier>
+			<Abstract type="html">DescribeTags</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeTagsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeTagsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeTags:(AWSElasticLoadBalancingDescribeTagsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeTags service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDescribeTagsOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeTags:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/detachLoadBalancerFromSubnets:</TokenIdentifier>
+			<Abstract type="html">DetachLoadBalancerFromSubnets</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)detachLoadBalancerFromSubnets:(AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DetachLoadBalancerFromSubnets service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/detachLoadBalancerFromSubnets:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/disableAvailabilityZonesForLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">DisableAvailabilityZonesForLoadBalancer</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRemoveAvailabilityZonesInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRemoveAvailabilityZonesOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)disableAvailabilityZonesForLoadBalancer:(AWSElasticLoadBalancingRemoveAvailabilityZonesInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DisableAvailabilityZonesForLoadBalancer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingRemoveAvailabilityZonesOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/disableAvailabilityZonesForLoadBalancer:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/enableAvailabilityZonesForLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">EnableAvailabilityZonesForLoadBalancer</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAddAvailabilityZonesInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAddAvailabilityZonesOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)enableAvailabilityZonesForLoadBalancer:(AWSElasticLoadBalancingAddAvailabilityZonesInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the EnableAvailabilityZonesForLoadBalancer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingAddAvailabilityZonesOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/enableAvailabilityZonesForLoadBalancer:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/modifyLoadBalancerAttributes:</TokenIdentifier>
+			<Abstract type="html">ModifyLoadBalancerAttributes</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingModifyLoadBalancerAttributesOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)modifyLoadBalancerAttributes:(AWSElasticLoadBalancingModifyLoadBalancerAttributesInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ModifyLoadBalancerAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingModifyLoadBalancerAttributesOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/modifyLoadBalancerAttributes:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/registerInstancesWithLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">RegisterInstancesWithLoadBalancer</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRegisterEndPointsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRegisterEndPointsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)registerInstancesWithLoadBalancer:(AWSElasticLoadBalancingRegisterEndPointsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RegisterInstancesWithLoadBalancer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingRegisterEndPointsOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorInvalidEndPoint.</Abstract></ReturnValue>
+			<Anchor>//api/name/registerInstancesWithLoadBalancer:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/removeTags:</TokenIdentifier>
+			<Abstract type="html">RemoveTags</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRemoveTagsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRemoveTagsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)removeTags:(AWSElasticLoadBalancingRemoveTagsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RemoveTags service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingRemoveTagsOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeTags:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/setLoadBalancerListenerSSLCertificate:</TokenIdentifier>
+			<Abstract type="html">SetLoadBalancerListenerSSLCertificate</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setLoadBalancerListenerSSLCertificate:(AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetLoadBalancerListenerSSLCertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorCertificateNotFound, AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorListenerNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/setLoadBalancerListenerSSLCertificate:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/setLoadBalancerPoliciesForBackendServer:</TokenIdentifier>
+			<Abstract type="html">SetLoadBalancerPoliciesForBackendServer</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setLoadBalancerPoliciesForBackendServer:(AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetLoadBalancerPoliciesForBackendServer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorPolicyNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/setLoadBalancerPoliciesForBackendServer:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancing/setLoadBalancerPoliciesOfListener:</TokenIdentifier>
+			<Abstract type="html">SetLoadBalancerPoliciesOfListener</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancing.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setLoadBalancerPoliciesOfListener:(AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetLoadBalancerPoliciesOfListener service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerOutput. On failed execution, task.error may contain an NSError with AWSElasticLoadBalancingErrorDomain domian and the following error code: AWSElasticLoadBalancingErrorAccessPointNotFound, AWSElasticLoadBalancingErrorPolicyNotFound, AWSElasticLoadBalancingErrorListenerNotFound, AWSElasticLoadBalancingErrorInvalidConfigurationRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/setLoadBalancerPoliciesOfListener:</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

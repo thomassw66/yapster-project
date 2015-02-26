@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingEnabledMetric.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnabledMetric</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The &lt;code&gt;EnabledMetric&lt;/code&gt; data type. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnabledMetric/setGranularity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity of the enabled metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *granularity</Declaration>
+			
+			
+			<Anchor>//api/name/granularity</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnabledMetric/granularity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity of the enabled metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *granularity</Declaration>
+			
+			
+			<Anchor>//api/name/granularity</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnabledMetric/granularity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity of the enabled metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *granularity</Declaration>
+			
+			
+			<Anchor>//api/name/granularity</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnabledMetric/setMetric:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the enabled metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metric</Declaration>
+			
+			
+			<Anchor>//api/name/metric</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnabledMetric/metric</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the enabled metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metric</Declaration>
+			
+			
+			<Anchor>//api/name/metric</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnabledMetric/metric</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the enabled metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metric</Declaration>
+			
+			
+			<Anchor>//api/name/metric</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSServiceType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSServiceType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1190"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceUnknown</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceAppStream</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceAppStream</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceAutoScaling</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceAutoScaling</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceCloudWatch</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceCloudWatch</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceCognitoIdentityBroker</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceCognitoIdentityBroker</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceCognitoService</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceCognitoService</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceDynamoDB</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceDynamoDB</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceEC2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceEC2</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceElasticLoadBalancing</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceElasticLoadBalancing</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceKinesis</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceKinesis</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceS3</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceS3</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceSES</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceSES</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceSimpleDB</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceSimpleDB</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceSNS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceSNS</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceSQS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceSQS</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceSTS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceSTS</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSServiceMobileAnalytics</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSServiceMobileAnalytics</Declaration>
+            
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            
+            <NodeRef refid="1190"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

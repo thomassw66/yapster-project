@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AWSCognitoIdentityProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AWSCognitoIdentityProvider</TokenIdentifier>
+			<Abstract type="html">AWSCognitoIdentityProvider provides a Cognito specific identity provider. Cognito Identity
+providers are associated with an identity pool. If the identity pool supports authenticated
+access, multiple logins may be added to link to the Cognito identity.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1035"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/identityPoolId</TokenIdentifier>
+			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSCognitoIdentityProvider/identityPoolId</TokenIdentifier>
+			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">The identity id as determined by the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/identityId</TokenIdentifier>
+			<Abstract type="html">The identity id as determined by the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSCognitoIdentityProvider/identityId</TokenIdentifier>
+			<Abstract type="html">The identity id as determined by the Amazon Cognito service</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/setLogins:</TokenIdentifier>
+			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
+The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
+OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/logins</TokenIdentifier>
+			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
+The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
+OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSCognitoIdentityProvider/logins</TokenIdentifier>
+			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
+The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
+OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/getIdentityId</TokenIdentifier>
+			<Abstract type="html">Get/retrieve the identity id for this provider. If an identity id is already set on this
+provider, no remote call is made and the identity will be returned as a result of the BFTask
+(the identityId is also available as a property).
+If no identityId is set on this provider, one will be retrieved from the service.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)getIdentityId</Declaration>
+			
+			
+			<Anchor>//api/name/getIdentityId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/isAuthenticated</TokenIdentifier>
+			<Abstract type="html">Is this provider considered &apos;authenticated&apos;. By default, only returns YES if logins is set.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isAuthenticated</Declaration>
+			
+			
+			<Anchor>//api/name/isAuthenticated</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/clear</TokenIdentifier>
+			<Abstract type="html">Clear saved values for identityId, token, and logins.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>- (void)clear</Declaration>
+			
+			
+			<Anchor>//api/name/clear</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/setAccountId:</TokenIdentifier>
+			<Abstract type="html">Specifies the AWS Account Id for the owner of the identity pool.
+No longer required by Amazon Cognito</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accountId</Declaration>
+			
+			
+			<Anchor>//api/name/accountId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/accountId</TokenIdentifier>
+			<Abstract type="html">Specifies the AWS Account Id for the owner of the identity pool.
+No longer required by Amazon Cognito</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accountId</Declaration>
+			
+			
+			<Anchor>//api/name/accountId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSCognitoIdentityProvider/accountId</TokenIdentifier>
+			<Abstract type="html">Specifies the AWS Account Id for the owner of the identity pool.
+No longer required by Amazon Cognito</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accountId</Declaration>
+			
+			
+			<Anchor>//api/name/accountId</Anchor>
+            <NodeRef refid="1035"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

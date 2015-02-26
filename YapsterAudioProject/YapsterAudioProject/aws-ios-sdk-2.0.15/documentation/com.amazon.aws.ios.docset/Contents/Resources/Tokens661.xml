@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="661"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput/setPolicyTypeNames:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyTypeNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeNames</Anchor>
+            <NodeRef refid="661"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput/policyTypeNames</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyTypeNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeNames</Anchor>
+            <NodeRef refid="661"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput/policyTypeNames</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyTypeNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeNames</Anchor>
+            <NodeRef refid="661"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

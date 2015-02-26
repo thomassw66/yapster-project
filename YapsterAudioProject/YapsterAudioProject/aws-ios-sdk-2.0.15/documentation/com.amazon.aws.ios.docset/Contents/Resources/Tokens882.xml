@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSESGetSendQuotaResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendQuotaResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the user&apos;s current activity limits returned from a successful &lt;code&gt;GetSendQuota&lt;/code&gt; request. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="882"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setMax24HourSend:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			
+			
+			<Anchor>//api/name/max24HourSend</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/max24HourSend</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			
+			
+			<Anchor>//api/name/max24HourSend</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/max24HourSend</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			
+			
+			<Anchor>//api/name/max24HourSend</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setMaxSendRate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			
+			
+			<Anchor>//api/name/maxSendRate</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/maxSendRate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			
+			
+			<Anchor>//api/name/maxSendRate</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/maxSendRate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			
+			
+			<Anchor>//api/name/maxSendRate</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setSentLast24Hours:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			
+			
+			<Anchor>//api/name/sentLast24Hours</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/sentLast24Hours</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			
+			
+			<Anchor>//api/name/sentLast24Hours</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/sentLast24Hours</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			
+			
+			<Anchor>//api/name/sentLast24Hours</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

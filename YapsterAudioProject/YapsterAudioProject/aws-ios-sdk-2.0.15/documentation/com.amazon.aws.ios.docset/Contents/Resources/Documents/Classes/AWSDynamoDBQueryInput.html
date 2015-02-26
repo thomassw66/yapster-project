@@ -1,0 +1,1086 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AWSDynamoDBQueryInput Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.15 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AWSDynamoDBQueryInput Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/attributesToGet">&nbsp;&nbsp;&nbsp;&nbsp;attributesToGet</option>
+	
+	<option value="//api/name/conditionalOperator">&nbsp;&nbsp;&nbsp;&nbsp;conditionalOperator</option>
+	
+	<option value="//api/name/consistentRead">&nbsp;&nbsp;&nbsp;&nbsp;consistentRead</option>
+	
+	<option value="//api/name/exclusiveStartKey">&nbsp;&nbsp;&nbsp;&nbsp;exclusiveStartKey</option>
+	
+	<option value="//api/name/expressionAttributeNames">&nbsp;&nbsp;&nbsp;&nbsp;expressionAttributeNames</option>
+	
+	<option value="//api/name/expressionAttributeValues">&nbsp;&nbsp;&nbsp;&nbsp;expressionAttributeValues</option>
+	
+	<option value="//api/name/filterExpression">&nbsp;&nbsp;&nbsp;&nbsp;filterExpression</option>
+	
+	<option value="//api/name/indexName">&nbsp;&nbsp;&nbsp;&nbsp;indexName</option>
+	
+	<option value="//api/name/keyConditions">&nbsp;&nbsp;&nbsp;&nbsp;keyConditions</option>
+	
+	<option value="//api/name/limit">&nbsp;&nbsp;&nbsp;&nbsp;limit</option>
+	
+	<option value="//api/name/projectionExpression">&nbsp;&nbsp;&nbsp;&nbsp;projectionExpression</option>
+	
+	<option value="//api/name/queryFilter">&nbsp;&nbsp;&nbsp;&nbsp;queryFilter</option>
+	
+	<option value="//api/name/returnConsumedCapacity">&nbsp;&nbsp;&nbsp;&nbsp;returnConsumedCapacity</option>
+	
+	<option value="//api/name/scanIndexForward">&nbsp;&nbsp;&nbsp;&nbsp;scanIndexForward</option>
+	
+	<option value="//api/name/select">&nbsp;&nbsp;&nbsp;&nbsp;select</option>
+	
+	<option value="//api/name/tableName">&nbsp;&nbsp;&nbsp;&nbsp;tableName</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributesToGet">attributesToGet</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/conditionalOperator">conditionalOperator</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/consistentRead">consistentRead</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exclusiveStartKey">exclusiveStartKey</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expressionAttributeNames">expressionAttributeNames</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expressionAttributeValues">expressionAttributeValues</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/filterExpression">filterExpression</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/indexName">indexName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/keyConditions">keyConditions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/limit">limit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/projectionExpression">projectionExpression</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queryFilter">queryFilter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/returnConsumedCapacity">returnConsumedCapacity</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanIndexForward">scanIndexForward</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/select">select</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tableName">tableName</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AWSDynamoDBQueryInput Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AWSDynamoDBQueryInput Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">AWSRequest : AWSModel : MTLModel</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AWSDynamoDBModel.h<br />AWSDynamoDBModel.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Represents the input of a <i>Query</i> operation.</p>
+
+
+<p>Required parameters: [TableName, KeyConditions]</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributesToGet">&nbsp;&nbsp;attributesToGet</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/conditionalOperator">&nbsp;&nbsp;conditionalOperator</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/consistentRead">&nbsp;&nbsp;consistentRead</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exclusiveStartKey">&nbsp;&nbsp;exclusiveStartKey</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expressionAttributeNames">&nbsp;&nbsp;expressionAttributeNames</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expressionAttributeValues">&nbsp;&nbsp;expressionAttributeValues</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/filterExpression">&nbsp;&nbsp;filterExpression</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/indexName">&nbsp;&nbsp;indexName</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/keyConditions">&nbsp;&nbsp;keyConditions</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/limit">&nbsp;&nbsp;limit</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/projectionExpression">&nbsp;&nbsp;projectionExpression</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queryFilter">&nbsp;&nbsp;queryFilter</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/returnConsumedCapacity">&nbsp;&nbsp;returnConsumedCapacity</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanIndexForward">&nbsp;&nbsp;scanIndexForward</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/select">&nbsp;&nbsp;select</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tableName">&nbsp;&nbsp;tableName</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/attributesToGet" title="attributesToGet"></a>
+	<h3 class="subsubtitle method-title">attributesToGet</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p><important><p>There is a newer parameter available. Use <i>ProjectionExpression</i> instead. Note that if you use <i>AttributesToGet</i> and <i>ProjectionExpression</i> at the same time, DynamoDB will return a <i>ValidationException</i> exception.</p><p>This parameter allows you to retrieve lists or maps; however, it cannot retrieve individual list or map elements.</p></important><p>The names of one or more attributes to retrieve. If no attribute names are specified, then all attributes will be returned. If any of the requested attributes are not found, they will not appear in the result.</p><p>Note that <i>AttributesToGet</i> has no effect on provisioned throughput consumption. DynamoDB determines capacity units consumed based on item size, not on the amount of data that is returned to an application.</p><p>You cannot use both <i>AttributesToGet</i> and <i>Select</i> together in a <i>Query</i> request, <i>unless</i> the value for <i>Select</i> is <code>SPECIFIC_ATTRIBUTES</code>. (This usage is equivalent to specifying <i>AttributesToGet</i> without any value for <i>Select</i>.)</p><p>If you query a local secondary index and request only attributes that are projected into that index, the operation will read only the index and not the table. If any of the requested attributes are not projected into the local secondary index, DynamoDB will fetch each of these attributes from the parent table. This extra fetching incurs additional throughput cost and latency.</p><p>If you query a global secondary index, you can only request attributes that are projected into the index. Global secondary index queries cannot fetch attributes from the parent table.</p></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSArray *attributesToGet</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/conditionalOperator" title="conditionalOperator"></a>
+	<h3 class="subsubtitle method-title">conditionalOperator</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p><important><p>There is a newer parameter available. Use <i>ConditionExpression</i> instead. Note that if you use <i>ConditionalOperator</i> and <i> ConditionExpression </i> at the same time, DynamoDB will return a <i>ValidationException</i> exception.</p><p>This parameter does not support lists or maps.</p></important><p>A logical operator to apply to the conditions in the <i>QueryFilter</i> map:</p><ul><li><p><code>AND</code> - If all of the conditions evaluate to true, then the entire map evaluates to true.</p></li><li><p><code>OR</code> - If at least one of the conditions evaluate to true, then the entire map evaluates to true.</p></li></ul><p>If you omit <i>ConditionalOperator</i>, then <code>AND</code> is the default.</p><p>The operation will succeed only if the entire map evaluates to true.</p></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AWSDynamoDBConditionalOperator conditionalOperator</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/consistentRead" title="consistentRead"></a>
+	<h3 class="subsubtitle method-title">consistentRead</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A value that if set to <code>true</code>, then the operation uses strongly consistent reads; otherwise, eventually consistent reads are used.</p>
+
+
+<p>Strongly consistent reads are not supported on global secondary indexes. If you query a global secondary index with <i>ConsistentRead</i> set to <code>true</code>, you will receive an error message.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSNumber *consistentRead</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exclusiveStartKey" title="exclusiveStartKey"></a>
+	<h3 class="subsubtitle method-title">exclusiveStartKey</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The primary key of the first item that this operation will evaluate. Use the value that was returned for <i>LastEvaluatedKey</i> in the previous operation.</p>
+
+
+<p>The data type for <i>ExclusiveStartKey</i> must be String, Number or Binary. No set data types are allowed.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/expressionAttributeNames" title="expressionAttributeNames"></a>
+	<h3 class="subsubtitle method-title">expressionAttributeNames</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>One or more substitution tokens for simplifying complex expressions. The following are some use cases for an <i>ExpressionAttributeNames</i> value:</p>
+
+
+<ul><li><p>To shorten an attribute name that is very long or unwieldy in an expression.</p></li><li><p>To create a placeholder for repeating occurrences of an attribute name in an expression.</p></li><li><p>To prevent special characters in an attribute name from being misinterpreted in an expression.</p></li></ul>
+
+
+<p>Use the <b>#</b> character in an expression to dereference an attribute name. For example, consider the following expression:</p>
+
+
+<ul><li><p><code>order.customerInfo.LastName = "Smith" OR order.customerInfo.LastName = "Jones"</code></p></li></ul>
+
+
+<p>Now suppose that you specified the following for <i>ExpressionAttributeNames</i>:</p>
+
+
+<ul><li><p><code>{"n":"order.customerInfo.LastName"}</code></p></li></ul>
+
+
+<p>The expression can now be simplified as follows:</p>
+
+
+<ul><li><p><code>#n = "Smith" OR #n = "Jones"</code></p></li></ul>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDictionary *expressionAttributeNames</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/expressionAttributeValues" title="expressionAttributeValues"></a>
+	<h3 class="subsubtitle method-title">expressionAttributeValues</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>One or more values that can be substituted in an expression.</p>
+
+
+<p>Use the <b>:</b> character in an expression to dereference an attribute value. For example, consider the following expression:</p>
+
+
+<ul><li><p><code>ProductStatus IN ("Available","Backordered","Discontinued")</code></p></li></ul>
+
+
+<p>Now suppose that you specified the following for <i>ExpressionAttributeValues</i>:</p>
+
+
+<ul><li><p><code>{ "a":{"S":"Available"}, "b":{"S":"Backordered"}, "d":{"S":"Discontinued"} }</code></p></li></ul>
+
+
+<p>The expression can now be simplified as follows:</p>
+
+
+<ul><li><p><code>ProductStatus IN (:a,:b,:c)</code></p></li></ul>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDictionary *expressionAttributeValues</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/filterExpression" title="filterExpression"></a>
+	<h3 class="subsubtitle method-title">filterExpression</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A condition that evaluates the query results and returns only the desired values.</p>
+
+
+<p>The condition you specify is applied to the items queried; any items that do not match the expression are not returned.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *filterExpression</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/indexName" title="indexName"></a>
+	<h3 class="subsubtitle method-title">indexName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name of an index to query. This index can be any local secondary index or global secondary index on the table.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *indexName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/keyConditions" title="keyConditions"></a>
+	<h3 class="subsubtitle method-title">keyConditions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The selection criteria for the query. For a query on a table, you can have conditions only on the table primary key attributes. You must specify the hash key attribute name and value as an <code>EQ</code> condition. You can optionally specify a second condition, referring to the range key attribute.</p>
+
+
+<p>For a query on an index, you can have conditions only on the index key attributes. You must specify the index hash attribute name and value as an EQ condition. You can optionally specify a second condition, referring to the index key range attribute.</p>
+
+
+<p>Each <i>KeyConditions</i> element consists of an attribute name to compare, along with the following:</p>
+
+
+<ul><li><p><i>AttributeValueList</i> - One or more values to evaluate against the supplied attribute. The number of values in the list depends on the <i>ComparisonOperator</i> being used.</p><p>For type Number, value comparisons are numeric.</p><p>String value comparisons for greater than, equals, or less than are based on ASCII character code values. For example, <code>a</code> is greater than <code>A</code>, and <code>aa</code> is greater than <code>B</code>. For a list of code values, see <a href="http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters">http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters</a>.</p><p>For Binary, DynamoDB treats each byte of the binary data as unsigned when it compares binary values, for example when evaluating query expressions.</p></li><li><p><i>ComparisonOperator</i> - A comparator for evaluating attributes, for example, equals, greater than, less than, and so on.</p><p>For <i>KeyConditions</i>, only the following comparison operators are supported:</p><p><code>EQ | LE | LT | GE | GT | BEGINS_WITH | BETWEEN</code></p><p>The following are descriptions of these comparison operators.</p><ul><li><p><code>EQ</code> : Equal. </p><p><i>AttributeValueList</i> can contain only one <i>AttributeValue</i> of type String, Number, or Binary (not a set type). If an item contains an <i>AttributeValue</i> element of a different type than the one specified in the request, the value does not match. For example, <code>{"S":"6"}</code> does not equal <code>{"N":"6"}</code>. Also, <code>{"N":"6"}</code> does not equal <code>{"NS":["6", "2", "1"]}</code>.</p><p></p></li><li><p><code>LE</code> : Less than or equal. </p><p><i>AttributeValueList</i> can contain only one <i>AttributeValue</i> element of type String, Number, or Binary (not a set type). If an item contains an <i>AttributeValue</i> element of a different type than the one specified in the request, the value does not match. For example, <code>{"S":"6"}</code> does not equal <code>{"N":"6"}</code>. Also, <code>{"N":"6"}</code> does not compare to <code>{"NS":["6", "2", "1"]}</code>.</p><p/></li><li><p><code>LT</code> : Less than. </p><p><i>AttributeValueList</i> can contain only one <i>AttributeValue</i> of type String, Number, or Binary (not a set type). If an item contains an <i>AttributeValue</i> element of a different type than the one specified in the request, the value does not match. For example, <code>{"S":"6"}</code> does not equal <code>{"N":"6"}</code>. Also, <code>{"N":"6"}</code> does not compare to <code>{"NS":["6", "2", "1"]}</code>.</p><p/></li><li><p><code>GE</code> : Greater than or equal. </p><p><i>AttributeValueList</i> can contain only one <i>AttributeValue</i> element of type String, Number, or Binary (not a set type). If an item contains an <i>AttributeValue</i> element of a different type than the one specified in the request, the value does not match. For example, <code>{"S":"6"}</code> does not equal <code>{"N":"6"}</code>. Also, <code>{"N":"6"}</code> does not compare to <code>{"NS":["6", "2", "1"]}</code>.</p><p/></li><li><p><code>GT</code> : Greater than. </p><p><i>AttributeValueList</i> can contain only one <i>AttributeValue</i> element of type String, Number, or Binary (not a set type). If an item contains an <i>AttributeValue</i> element of a different type than the one specified in the request, the value does not match. For example, <code>{"S":"6"}</code> does not equal <code>{"N":"6"}</code>. Also, <code>{"N":"6"}</code> does not compare to <code>{"NS":["6", "2", "1"]}</code>.</p><p/></li><li><p><code>BEGINS_WITH</code> : Checks for a prefix. </p><p><i>AttributeValueList</i> can contain only one <i>AttributeValue</i> of type String or Binary (not a Number or a set type). The target attribute of the comparison must be of type String or Binary (not a Number or a set type).</p><p/></li><li><p><code>BETWEEN</code> : Greater than or equal to the first value, and less than or equal to the second value. </p><p><i>AttributeValueList</i> must contain two <i>AttributeValue</i> elements of the same type, either String, Number, or Binary (not a set type). A target attribute matches if the target value is greater than, or equal to, the first element and less than, or equal to, the second element. If an item contains an <i>AttributeValue</i> element of a different type than the one specified in the request, the value does not match. For example, <code>{"S":"6"}</code> does not compare to <code>{"N":"6"}</code>. Also, <code>{"N":"6"}</code> does not compare to <code>{"NS":["6", "2", "1"]}</code></p></li></ul></li></ul>
+
+
+<p>For usage examples of <i>AttributeValueList</i> and <i>ComparisonOperator</i>, see <a href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/LegacyConditionalParameters.html">Legacy Conditional Parameters</a> in the <i>Amazon DynamoDB Developer Guide</i>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDictionary *keyConditions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/limit" title="limit"></a>
+	<h3 class="subsubtitle method-title">limit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The maximum number of items to evaluate (not necessarily the number of matching items). If DynamoDB processes the number of items up to the limit while processing the results, it stops the operation and returns the matching values up to that point, and a key in <i>LastEvaluatedKey</i> to apply in a subsequent operation, so that you can pick up where you left off. Also, if the processed data set size exceeds 1 MB before DynamoDB reaches this limit, it stops the operation and returns the matching values up to the limit, and a key in <i>LastEvaluatedKey</i> to apply in a subsequent operation to continue the operation. For more information, see <a href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/QueryAndScan.html" >Query and Scan</a> in the <i>Amazon DynamoDB Developer Guide</i>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSNumber *limit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/projectionExpression" title="projectionExpression"></a>
+	<h3 class="subsubtitle method-title">projectionExpression</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>One or more attributes to retrieve from the table. These attributes can include scalars, sets, or elements of a JSON document. The attributes in the expression must be separated by commas.</p>
+
+
+<p>If no attribute names are specified, then all attributes will be returned. If any of the requested attributes are not found, they will not appear in the result.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *projectionExpression</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queryFilter" title="queryFilter"></a>
+	<h3 class="subsubtitle method-title">queryFilter</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p><important><p>There is a newer parameter available. Use <i>FilterExpression</i> instead. Note that if you use <i>QueryFilter</i> and <i>FilterExpression</i> at the same time, DynamoDB will return a <i>ValidationException</i> exception.</p><p>This parameter does not support lists or maps.</p></important><p>A condition that evaluates the query results and returns only the desired values.</p><p>If you specify more than one condition in the <i>QueryFilter</i> map, then by default all of the conditions must evaluate to true. In other words, the conditions are ANDed together. (You can use the <i>ConditionalOperator</i> parameter to OR the conditions instead. If you do this, then at least one of the conditions must evaluate to true, rather than all of them.)</p><note><p><i>QueryFilter</i> does not allow key attrbutes. You cannot define a filter condition on a hash key or range key.</p></note><p>Each <i>QueryFilter</i> element consists of an attribute name to compare, along with the following:</p><ul><li><p><i>AttributeValueList</i> - One or more values to evaluate against the supplied attribute. The number of values in the list depends on the operator specified in <i>ComparisonOperator</i>.</p><p>For type Number, value comparisons are numeric.</p><p>String value comparisons for greater than, equals, or less than are based on ASCII character code values. For example, <code>a</code> is greater than <code>A</code>, and <code>aa</code> is greater than <code>B</code>. For a list of code values, see <a href="http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters">http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters</a>.</p><p>For type Binary, DynamoDB treats each byte of the binary data as unsigned when it compares binary values, for example when evaluating query expressions.</p><p>For information on specifying data types in JSON, see <a href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DataFormat.html">JSON Data Format</a> in the <i>Amazon DynamoDB Developer Guide</i>.</p></li><li><p><i>ComparisonOperator</i> - A comparator for evaluating attributes. For example, equals, greater than, less than, etc.</p><p>The following comparison operators are available:</p><p><code>EQ | NE | LE | LT | GE | GT | NOT_NULL | NULL | CONTAINS | NOT_CONTAINS | BEGINS_WITH | IN | BETWEEN</code></p><p>For complete descriptions of all comparison operators, see <a href="http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Condition.html">API_Condition.html</a>.</p></li></ul></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDictionary *queryFilter</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/returnConsumedCapacity" title="returnConsumedCapacity"></a>
+	<h3 class="subsubtitle method-title">returnConsumedCapacity</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A value that if set to <code>TOTAL</code>, the response includes <i>ConsumedCapacity</i> data for tables and indexes. If set to <code>INDEXES</code>, the response includes <i>ConsumedCapacity</i> for indexes. If set to <code>NONE</code> (the default), <i>ConsumedCapacity</i> is not included in the response.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanIndexForward" title="scanIndexForward"></a>
+	<h3 class="subsubtitle method-title">scanIndexForward</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A value that specifies ascending (true) or descending (false) traversal of the index. DynamoDB returns results reflecting the requested order determined by the range key. If the data type is Number, the results are returned in numeric order. For type String, the results are returned in order of ASCII character code values. For type Binary, DynamoDB treats each byte of the binary data as unsigned when it compares binary values.</p>
+
+
+<p>If <i>ScanIndexForward</i> is not specified, the results are returned in ascending order.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSNumber *scanIndexForward</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/select" title="select"></a>
+	<h3 class="subsubtitle method-title">select</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The attributes to be returned in the result. You can retrieve all item attributes, specific item attributes, the count of matching items, or in the case of an index, some or all of the attributes projected into the index.</p>
+
+
+<ul><li><p><code>ALL_ATTRIBUTES</code> - Returns all of the item attributes from the specified table or index. If you query a local secondary index, then for each matching item in the index DynamoDB will fetch the entire item from the parent table. If the index is configured to project all item attributes, then all of the data can be obtained from the local secondary index, and no fetching is required.</p></li><li><p><code>ALL_PROJECTED_ATTRIBUTES</code> - Allowed only when querying an index. Retrieves all attributes that have been projected into the index. If the index is configured to project all attributes, this return value is equivalent to specifying <code>ALL_ATTRIBUTES</code>.</p></li><li><p><code>COUNT</code> - Returns the number of matching items, rather than the matching items themselves.</p></li><li><p><code>SPECIFIC_ATTRIBUTES</code> - Returns only the attributes listed in <i>AttributesToGet</i>. This return value is equivalent to specifying <i>AttributesToGet</i> without specifying any value for <i>Select</i>.</p><p>If you query a local secondary index and request only attributes that are projected into that index, the operation will read only the index and not the table. If any of the requested attributes are not projected into the local secondary index, DynamoDB will fetch each of these attributes from the parent table. This extra fetching incurs additional throughput cost and latency.</p><p>If you query a global secondary index, you can only request attributes that are projected into the index. Global secondary index queries cannot fetch attributes from the parent table.</p></li></ul>
+
+
+<p>If neither <i>Select</i> nor <i>AttributesToGet</i> are specified, DynamoDB defaults to <code>ALL_ATTRIBUTES</code> when accessing a table, and <code>ALL_PROJECTED_ATTRIBUTES</code> when accessing an index. You cannot use both <i>Select</i> and <i>AttributesToGet</i> together in a single request, unless the value for <i>Select</i> is <code>SPECIFIC_ATTRIBUTES</code>. (This usage is equivalent to specifying <i>AttributesToGet</i> without any value for <i>Select</i>.)</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AWSDynamoDBSelect select</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tableName" title="tableName"></a>
+	<h3 class="subsubtitle method-title">tableName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name of the table containing the requested items. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *tableName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSDynamoDBModel.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-01-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

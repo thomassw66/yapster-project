@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingPutScalingPolicyType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingPutScalingPolicyType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/setAdjustmentType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies whether the &lt;code&gt;ScalingAdjustment&lt;/code&gt; is an absolute number or a percentage of the current capacity. Valid values are &lt;code&gt;ChangeInCapacity&lt;/code&gt;, &lt;code&gt;ExactCapacity&lt;/code&gt;, and &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;For more information about the adjustment types supported by Auto Scaling, see Scale Based on Demand.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *adjustmentType</Declaration>
+			
+			
+			<Anchor>//api/name/adjustmentType</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/adjustmentType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies whether the &lt;code&gt;ScalingAdjustment&lt;/code&gt; is an absolute number or a percentage of the current capacity. Valid values are &lt;code&gt;ChangeInCapacity&lt;/code&gt;, &lt;code&gt;ExactCapacity&lt;/code&gt;, and &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;For more information about the adjustment types supported by Auto Scaling, see Scale Based on Demand.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *adjustmentType</Declaration>
+			
+			
+			<Anchor>//api/name/adjustmentType</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingPutScalingPolicyType/adjustmentType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies whether the &lt;code&gt;ScalingAdjustment&lt;/code&gt; is an absolute number or a percentage of the current capacity. Valid values are &lt;code&gt;ChangeInCapacity&lt;/code&gt;, &lt;code&gt;ExactCapacity&lt;/code&gt;, and &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;For more information about the adjustment types supported by Auto Scaling, see Scale Based on Demand.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *adjustmentType</Declaration>
+			
+			
+			<Anchor>//api/name/adjustmentType</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or ARN of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or ARN of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingPutScalingPolicyType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or ARN of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/setCooldown:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The amount of time, in seconds, after a scaling activity completes and before the next scaling activity can start. &lt;/p&gt;&lt;p&gt;For more information, see Cooldown Period&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *cooldown</Declaration>
+			
+			
+			<Anchor>//api/name/cooldown</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/cooldown</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The amount of time, in seconds, after a scaling activity completes and before the next scaling activity can start. &lt;/p&gt;&lt;p&gt;For more information, see Cooldown Period&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *cooldown</Declaration>
+			
+			
+			<Anchor>//api/name/cooldown</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingPutScalingPolicyType/cooldown</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The amount of time, in seconds, after a scaling activity completes and before the next scaling activity can start. &lt;/p&gt;&lt;p&gt;For more information, see Cooldown Period&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *cooldown</Declaration>
+			
+			
+			<Anchor>//api/name/cooldown</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/setMinAdjustmentStep:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Used with &lt;code&gt;AdjustmentType&lt;/code&gt; with the value &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;, the scaling policy changes the &lt;code&gt;DesiredCapacity&lt;/code&gt; of the Auto Scaling group by at least the number of instances specified in the value. &lt;/p&gt;&lt;p&gt; You will get a &lt;code&gt;ValidationError&lt;/code&gt; if you use &lt;code&gt;MinAdjustmentStep&lt;/code&gt; on a policy with an &lt;code&gt;AdjustmentType&lt;/code&gt; other than &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minAdjustmentStep</Declaration>
+			
+			
+			<Anchor>//api/name/minAdjustmentStep</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/minAdjustmentStep</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Used with &lt;code&gt;AdjustmentType&lt;/code&gt; with the value &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;, the scaling policy changes the &lt;code&gt;DesiredCapacity&lt;/code&gt; of the Auto Scaling group by at least the number of instances specified in the value. &lt;/p&gt;&lt;p&gt; You will get a &lt;code&gt;ValidationError&lt;/code&gt; if you use &lt;code&gt;MinAdjustmentStep&lt;/code&gt; on a policy with an &lt;code&gt;AdjustmentType&lt;/code&gt; other than &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minAdjustmentStep</Declaration>
+			
+			
+			<Anchor>//api/name/minAdjustmentStep</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingPutScalingPolicyType/minAdjustmentStep</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Used with &lt;code&gt;AdjustmentType&lt;/code&gt; with the value &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;, the scaling policy changes the &lt;code&gt;DesiredCapacity&lt;/code&gt; of the Auto Scaling group by at least the number of instances specified in the value. &lt;/p&gt;&lt;p&gt; You will get a &lt;code&gt;ValidationError&lt;/code&gt; if you use &lt;code&gt;MinAdjustmentStep&lt;/code&gt; on a policy with an &lt;code&gt;AdjustmentType&lt;/code&gt; other than &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minAdjustmentStep</Declaration>
+			
+			
+			<Anchor>//api/name/minAdjustmentStep</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/setPolicyName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the policy you want to create or update.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/policyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the policy you want to create or update.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingPutScalingPolicyType/policyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the policy you want to create or update.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/setScalingAdjustment:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of instances by which to scale. &lt;code&gt;AdjustmentType&lt;/code&gt; determines the interpretation of this number (e.g., as an absolute number or as a percentage of the existing Auto Scaling group size). A positive increment adds to the current capacity and a negative value removes from the current capacity. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scalingAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/scalingAdjustment</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingPutScalingPolicyType/scalingAdjustment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of instances by which to scale. &lt;code&gt;AdjustmentType&lt;/code&gt; determines the interpretation of this number (e.g., as an absolute number or as a percentage of the existing Auto Scaling group size). A positive increment adds to the current capacity and a negative value removes from the current capacity. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scalingAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/scalingAdjustment</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingPutScalingPolicyType/scalingAdjustment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of instances by which to scale. &lt;code&gt;AdjustmentType&lt;/code&gt; determines the interpretation of this number (e.g., as an absolute number or as a percentage of the existing Auto Scaling group size). A positive increment adds to the current capacity and a negative value removes from the current capacity. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scalingAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/scalingAdjustment</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSTS.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSTS</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;AWS Security Token Service&lt;/fullname&gt;&lt;p&gt;The AWS Security Token Service (STS) is a web service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users). This guide provides descriptions of the STS API. For more detailed information about using this service, go to AWS CloudTrail User Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+            
+			
+			<NodeRef refid="992"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTS/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSTS/defaultSTS</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultSTS</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultSTS</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/initWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">The service configuration object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithConfiguration:</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/assumeRole:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) that you can use to access AWS resources that you might not normally have access to. Typically, you use &lt;code&gt;AssumeRole&lt;/code&gt; for cross-account access or federation. &lt;/p&gt;&lt;p&gt;&lt;b&gt;Important:&lt;/b&gt; You cannot call &lt;code&gt;AssumeRole&lt;/code&gt; by using AWS account credentials; access will be denied. You must use IAM user credentials or temporary security credentials to call &lt;code&gt;AssumeRole&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;For cross-account access, imagine that you own multiple accounts and need to access resources in each account. You could create long-term credentials in each account to access those resources. However, managing all those credentials and remembering which one can access which account can be time consuming. Instead, you can create one set of long-term credentials in one account and then use temporary security credentials to access all the other accounts by assuming roles in those accounts. For more information about roles, see Scenarios for Granting Temporary Access in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;&lt;p&gt;The temporary security credentials are valid for the duration that you specified when calling &lt;code&gt;AssumeRole&lt;/code&gt;, which can be from 900 seconds (15 minutes) to 3600 seconds (1 hour). The default is 1 hour. &lt;/p&gt;&lt;p&gt;Optionally, you can pass an IAM access policy to this operation. If you choose not to pass a policy, the temporary security credentials that are returned by the operation have the permissions that are defined in the access policy of the role that is being assumed. If you pass a policy to this operation, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Configuring MFA-Protected API Access in the &lt;i&gt;Using IAM&lt;/i&gt; guide. &lt;/p&gt;&lt;p&gt;To use MFA with &lt;code&gt;AssumeRole&lt;/code&gt;, you pass values for the &lt;code&gt;SerialNumber&lt;/code&gt; and &lt;code&gt;TokenCode&lt;/code&gt; parameters. The &lt;code&gt;SerialNumber&lt;/code&gt; value identifies the user&apos;s hardware or virtual MFA device. The &lt;code&gt;TokenCode&lt;/code&gt; is the time-based one-time password (TOTP) that the MFA devices produces. &lt;/p&gt;&lt;member name=&quot;RoleArn&quot; target=&quot;arnType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;RoleSessionName&quot; target=&quot;userNameType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;Policy&quot; target=&quot;sessionPolicyDocumentType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;DurationSeconds&quot; target=&quot;roleDurationSecondsType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;ExternalId&quot; target=&quot;externalIdType&quot;&gt;&lt;/member&gt;</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSAssumeRoleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSAssumeRoleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)assumeRole:(AWSSTSAssumeRoleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AssumeRole service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSTSAssumeRoleResponse. On failed execution, task.error may contain an NSError with AWSSTSErrorDomain domian and the following error code: AWSSTSErrorMalformedPolicyDocument, AWSSTSErrorPackedPolicyTooLarge.</Abstract></ReturnValue>
+			<Anchor>//api/name/assumeRole:</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/assumeRoleWithSAML:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a set of temporary security credentials for users who have been authenticated via a SAML authentication response. This operation provides a mechanism for tying an enterprise identity store or directory to role-based AWS access without user-specific credentials or configuration. &lt;/p&gt;&lt;p&gt;The temporary security credentials returned by this operation consist of an access key ID, a secret access key, and a security token. Applications can use these temporary security credentials to sign calls to AWS services. The credentials are valid for the duration that you specified when calling &lt;code&gt;AssumeRoleWithSAML&lt;/code&gt;, which can be up to 3600 seconds (1 hour) or until the time specified in the SAML authentication response&apos;s &lt;code&gt;NotOnOrAfter&lt;/code&gt; value, whichever is shorter.&lt;/p&gt;&lt;note&gt;The maximum duration for a session is 1 hour, and the minimum duration is 15 minutes, even if values outside this range are specified. &lt;/note&gt;&lt;p&gt;Optionally, you can pass an IAM access policy to this operation. If you choose not to pass a policy, the temporary security credentials that are returned by the operation have the permissions that are defined in the access policy of the role that is being assumed. If you pass a policy to this operation, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Creating a Role for SAML-Based Federation in &lt;i&gt;Using IAM&lt;/i&gt;. &lt;/li&gt;&lt;/ul&gt;&lt;member name=&quot;RoleArn&quot; target=&quot;arnType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;SAMLAssertion&quot; target=&quot;SAMLAssertionType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;Policy&quot; target=&quot;sessionPolicyDocumentType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;DurationSeconds&quot; target=&quot;roleDurationSecondsType&quot;&gt;&lt;/member&gt;</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSAssumeRoleWithSAMLRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSAssumeRoleWithSAMLResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)assumeRoleWithSAML:(AWSSTSAssumeRoleWithSAMLRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AssumeRoleWithSAML service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSTSAssumeRoleWithSAMLResponse. On failed execution, task.error may contain an NSError with AWSSTSErrorDomain domian and the following error code: AWSSTSErrorMalformedPolicyDocument, AWSSTSErrorPackedPolicyTooLarge, AWSSTSErrorIDPRejectedClaim, AWSSTSErrorInvalidIdentityToken, AWSSTSErrorExpiredToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/assumeRoleWithSAML:</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/assumeRoleWithWebIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a set of temporary security credentials for users who have been authenticated in a mobile or web application with a web identity provider, such as Login with Amazon, Amazon Cognito, Facebook, or Google. &lt;/p&gt;&lt;note&gt;&lt;p&gt;For mobile applications, we recommend that you use Amazon Cognito. You can Amazon Cognito with the Amazon Cognito Overview in the &lt;i&gt;AWS SDK for iOS Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Calling &lt;code&gt;AssumeRoleWithWebIdentity&lt;/code&gt; does not require the use of AWS security credentials. Therefore, you can distribute an application (for example, on mobile devices) that requests temporary security credentials without including long-term AWS credentials in the application, and without deploying server-based proxy services that use long-term AWS credentials. Instead, the identity of the caller is validated by using a token from the web identity provider. &lt;/p&gt;&lt;p&gt;The temporary security credentials returned by this API consist of an access key ID, a secret access key, and a security token. Applications can use these temporary security credentials to sign calls to AWS service APIs. The credentials are valid for the duration that you specified when calling &lt;code&gt;AssumeRoleWithWebIdentity&lt;/code&gt;, which can be from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the temporary security credentials are valid for 1 hour. &lt;/p&gt;&lt;p&gt;Optionally, you can pass an IAM access policy to this operation. If you choose not to pass a policy, the temporary security credentials that are returned by the operation have the permissions that are defined in the access policy of the role that is being assumed. If you pass a policy to this operation, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see AWS SDK for Android. These toolkits contain sample apps that show how to invoke the identity providers, and then how to use the information from these providers to get and use temporary security credentials. &lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://aws.amazon.com/articles/4617974389850313&quot; target=&quot;_blank&quot;&gt;Web Identity Federation with Mobile Applications&lt;/a&gt;. This article discusses web identity federation and shows an example of how to use web identity federation to get access to content in Amazon S3. &lt;/li&gt;&lt;/ul&gt;&lt;member name=&quot;RoleArn&quot; target=&quot;arnType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;RoleSessionName&quot; target=&quot;userNameType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;WebIdentityToken&quot; target=&quot;clientTokenType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;ProviderId&quot; target=&quot;urlType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;Policy&quot; target=&quot;sessionPolicyDocumentType&quot;&gt;&lt;/member&gt;&lt;member name=&quot;DurationSeconds&quot; target=&quot;roleDurationSecondsType&quot;&gt;&lt;/member&gt;</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSAssumeRoleWithWebIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSAssumeRoleWithWebIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)assumeRoleWithWebIdentity:(AWSSTSAssumeRoleWithWebIdentityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AssumeRoleWithWebIdentity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSTSAssumeRoleWithWebIdentityResponse. On failed execution, task.error may contain an NSError with AWSSTSErrorDomain domian and the following error code: AWSSTSErrorMalformedPolicyDocument, AWSSTSErrorPackedPolicyTooLarge, AWSSTSErrorIDPRejectedClaim, AWSSTSErrorIDPCommunicationError, AWSSTSErrorInvalidIdentityToken, AWSSTSErrorExpiredToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/assumeRoleWithWebIdentity:</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/decodeAuthorizationMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Decodes additional information about the authorization status of a request from an encoded message returned in response to an AWS request. &lt;/p&gt;&lt;p&gt;For example, if a user is not authorized to perform an action that he or she has requested, the request returns a &lt;code&gt;Client.UnauthorizedOperation&lt;/code&gt; response (an HTTP 403 response). Some AWS actions additionally return an encoded message that can provide details about this authorization failure. &lt;/p&gt;&lt;note&gt; Only certain AWS actions return an encoded authorization message. The documentation for an individual action indicates whether that action returns an encoded message in addition to returning an HTTP code. &lt;/note&gt;&lt;p&gt;The message is encoded because the details of the authorization status can constitute privileged information that the user who requested the action should not see. To decode an authorization status message, a user must be granted permissions via an IAM policy to request the &lt;code&gt;DecodeAuthorizationMessage&lt;/code&gt; (&lt;code&gt;sts:DecodeAuthorizationMessage&lt;/code&gt;) action. &lt;/p&gt;&lt;p&gt;The decoded message includes the following type of information: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Whether the request was denied due to an explicit deny or due to the absence of an explicit allow. For more information, see Determining Whether a Request is Allowed or Denied in &lt;i&gt;Using IAM&lt;/i&gt;. &lt;/li&gt;&lt;li&gt;The principal who made the request.&lt;/li&gt;&lt;li&gt;The requested action.&lt;/li&gt;&lt;li&gt;The requested resource.&lt;/li&gt;&lt;li&gt;The values of condition keys in the context of the user&apos;s request.&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSDecodeAuthorizationMessageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSDecodeAuthorizationMessageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)decodeAuthorizationMessage:(AWSSTSDecodeAuthorizationMessageRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DecodeAuthorizationMessage service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSTSDecodeAuthorizationMessageResponse. On failed execution, task.error may contain an NSError with AWSSTSErrorDomain domian and the following error code: AWSSTSErrorInvalidAuthorizationMessage.</Abstract></ReturnValue>
+			<Anchor>//api/name/decodeAuthorizationMessage:</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/getFederationToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) for a federated user. A typical use is in a proxy application that gets temporary security credentials on behalf of distributed applications inside a corporate network. Because you must call the &lt;code&gt;GetFederationToken&lt;/code&gt; action using the long-term security credentials of an IAM user, this call is appropriate in contexts where those credentials can be safely stored, usually in a server-based application.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Do not use this call in mobile applications or client-based web applications that directly get temporary security credentials. For those types of applications, use &lt;code&gt;AssumeRoleWithWebIdentity&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;GetFederationToken&lt;/code&gt; action must be called by using the long-term AWS security credentials of an IAM user. You can also call &lt;code&gt;GetFederationToken&lt;/code&gt; using the security credentials of an AWS account (root), but this is not recommended. Instead, we recommend that you create an IAM user for the purpose of the proxy application and then attach a policy to the IAM user that limits federated users to only the actions and resources they need access to. For more information, see IAM Best Practices in &lt;i&gt;Using IAM&lt;/i&gt;. &lt;/p&gt;&lt;p&gt;The temporary security credentials that are obtained by using the long-term credentials of an IAM user are valid for the specified duration, between 900 seconds (15 minutes) and 129600 seconds (36 hours). Temporary credentials that are obtained by using AWS account (root) credentials have a maximum duration of 3600 seconds (1 hour)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Permissions&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The permissions for the temporary security credentials returned by &lt;code&gt;GetFederationToken&lt;/code&gt; are determined by a combination of the following: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;The policy or policies that are attached to the IAM user whose credentials are used to call &lt;code&gt;GetFederationToken&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;The policy that is passed as a parameter in the call.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The passed policy is attached to the temporary security credentials that result from the &lt;code&gt;GetFederationToken&lt;/code&gt; API call--that is, to the &lt;i&gt;federated user&lt;/i&gt;. When the federated user makes an AWS request, AWS evaluates the policy attached to the federated user in combination with the policy or policies attached to the IAM user whose credentials were used to call &lt;code&gt;GetFederationToken&lt;/code&gt;. AWS allows the federated user&apos;s request only when both the federated user &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the IAM user are explicitly allowed to perform the requested action. The passed policy cannot grant more permissions than those that are defined in the IAM user policy.&lt;/p&gt;&lt;p&gt;A typical use case is that the permissions of the IAM user whose credentials are used to call &lt;code&gt;GetFederationToken&lt;/code&gt; are designed to allow access to all the actions and resources that any federated user will need. Then, for individual users, you pass a policy to the operation that scopes down the permissions to a level that&apos;s appropriate to that individual user, using a policy that allows only a subset of permissions that are granted to the IAM user. &lt;/p&gt;&lt;p&gt;If you do not pass a policy, the resulting temporary security credentials have no effective permissions. The only exception is when the temporary security credentials are used to access a resource that has a resource-based policy that specifically allows the federated user to access the resource. &lt;/p&gt;&lt;p&gt;For more information about how permissions work, see Creating Temporary Credentials to Enable Access for Federated Users in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSGetFederationTokenRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSGetFederationTokenResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getFederationToken:(AWSSTSGetFederationTokenRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetFederationToken service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSTSGetFederationTokenResponse. On failed execution, task.error may contain an NSError with AWSSTSErrorDomain domian and the following error code: AWSSTSErrorMalformedPolicyDocument, AWSSTSErrorPackedPolicyTooLarge.</Abstract></ReturnValue>
+			<Anchor>//api/name/getFederationToken:</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTS/getSessionToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a set of temporary credentials for an AWS account or IAM user. The credentials consist of an access key ID, a secret access key, and a security token. Typically, you use &lt;code&gt;GetSessionToken&lt;/code&gt; if you want to use MFA to protect programmatic calls to specific AWS APIs like Amazon EC2 &lt;code&gt;StopInstances&lt;/code&gt;. MFA-enabled IAM users would need to call &lt;code&gt;GetSessionToken&lt;/code&gt; and submit an MFA code that is associated with their MFA device. Using the temporary security credentials that are returned from the call, IAM users can then make programmatic calls to APIs that require MFA authentication. &lt;/p&gt;&lt;p&gt;The &lt;code&gt;GetSessionToken&lt;/code&gt; action must be called by using the long-term AWS security credentials of the AWS account or an IAM user. Credentials that are created by IAM users are valid for the duration that you specify, between 900 seconds (15 minutes) and 129600 seconds (36 hours); credentials that are created by using account credentials have a maximum duration of 3600 seconds (1 hour). &lt;/p&gt;&lt;note&gt;&lt;p&gt;We recommend that you do not call &lt;code&gt;GetSessionToken&lt;/code&gt; with root account credentials. Instead, follow our Creating Temporary Credentials to Enable Access for IAM Users in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTS.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSGetSessionTokenRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSTSGetSessionTokenResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getSessionToken:(AWSSTSGetSessionTokenRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetSessionToken service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSTSGetSessionTokenResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSessionToken:</Anchor>
+            <NodeRef refid="992"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

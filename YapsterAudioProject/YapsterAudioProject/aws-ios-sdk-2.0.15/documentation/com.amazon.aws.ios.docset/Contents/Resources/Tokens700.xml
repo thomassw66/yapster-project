@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSKinesis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesis</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;Amazon Kinesis Service API Reference&lt;/fullname&gt;&lt;p&gt;Amazon Kinesis is a managed service that scales elastically for real time processing of streaming big data.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="700"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesis/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSKinesis/defaultKinesis</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultKinesis</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultKinesis</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/initWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">The service configuration object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithConfiguration:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/addTagsToStream:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Adds or updates tags for the specified Amazon Kinesis stream. Each stream can have up to 10 tags. &lt;/p&gt;&lt;p&gt;If tags have already been assigned to the stream, &lt;code&gt;AddTagsToStream&lt;/code&gt; overwrites any existing tags that correspond to the specified tag keys.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisAddTagsToStreamInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)addTagsToStream:(AWSKinesisAddTagsToStreamInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AddTagsToStream service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorResourceInUse, AWSKinesisErrorInvalidArgument, AWSKinesisErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/addTagsToStream:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/createStream:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a Amazon Kinesis stream. A stream captures and transports data records that are continuously emitted from different data sources or &lt;i&gt;producers&lt;/i&gt;. Scale-out within an Amazon Kinesis stream is explicitly supported by means of shards, which are uniquely identified groups of data records in an Amazon Kinesis stream.&lt;/p&gt;&lt;p&gt;You specify and control the number of shards that a stream is composed of. Each open shard can support up to 5 read transactions per second, up to a maximum total of 2 MB of data read per second. Each shard can support up to 1000 records written per second, up to a maximum total of 1 MB data written per second. You can add shards to a stream if the amount of data input increases and you can remove shards if the amount of data input decreases.&lt;/p&gt;&lt;p&gt;The stream name identifies the stream. The name is scoped to the AWS account used by the application. It is also scoped by region. That is, two streams in two different accounts can have the same name, and two streams in the same account, but in two different regions, can have the same name. &lt;/p&gt;&lt;p&gt;&lt;code&gt;CreateStream&lt;/code&gt; is an asynchronous operation. Upon receiving a &lt;code&gt;CreateStream&lt;/code&gt; request, Amazon Kinesis immediately returns and sets the stream status to &lt;code&gt;CREATING&lt;/code&gt;. After the stream is created, Amazon Kinesis sets the stream status to &lt;code&gt;ACTIVE&lt;/code&gt;. You should perform read and write operations only on an &lt;code&gt;ACTIVE&lt;/code&gt; stream. &lt;/p&gt;&lt;p&gt;You receive a &lt;code&gt;LimitExceededException&lt;/code&gt; when making a &lt;code&gt;CreateStream&lt;/code&gt; request if you try to do one of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Have more than five streams in the &lt;code&gt;CREATING&lt;/code&gt; state at any point in time.&lt;/li&gt;&lt;li&gt;Create more shards than are authorized for your account.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The default limit for an AWS account is 10 shards per stream. If you need to create a stream with more than 10 shards, contact AWS Support to increase the limit on your account.&lt;/p&gt;&lt;p&gt;You can use &lt;code&gt;DescribeStream&lt;/code&gt; to check the stream status, which is returned in &lt;code&gt;StreamStatus&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;&lt;code&gt;CreateStream&lt;/code&gt; has a limit of 5 transactions per second per account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisCreateStreamInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createStream:(AWSKinesisCreateStreamInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateStream service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceInUse, AWSKinesisErrorLimitExceeded, AWSKinesisErrorInvalidArgument.</Abstract></ReturnValue>
+			<Anchor>//api/name/createStream:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/deleteStream:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes a stream and all its shards and data. You must shut down any applications that are operating on the stream before you delete the stream. If an application attempts to operate on a deleted stream, it will receive the exception &lt;code&gt;ResourceNotFoundException&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;If the stream is in the &lt;code&gt;ACTIVE&lt;/code&gt; state, you can delete it. After a &lt;code&gt;DeleteStream&lt;/code&gt; request, the specified stream is in the &lt;code&gt;DELETING&lt;/code&gt; state until Amazon Kinesis completes the deletion.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Amazon Kinesis might continue to accept data read and write operations, such as &lt;a&gt;PutRecord&lt;/a&gt;, &lt;a&gt;PutRecords&lt;/a&gt;, and &lt;a&gt;GetRecords&lt;/a&gt;, on a stream in the &lt;code&gt;DELETING&lt;/code&gt; state until the stream deletion is complete.&lt;/p&gt;&lt;p&gt;When you delete a stream, any shards in that stream are also deleted, and any tags are dissociated from the stream.&lt;/p&gt;&lt;p&gt;You can use the &lt;a&gt;DescribeStream&lt;/a&gt; operation to check the state of the stream, which is returned in &lt;code&gt;StreamStatus&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;&lt;code&gt;DeleteStream&lt;/code&gt; has a limit of 5 transactions per second per account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisDeleteStreamInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteStream:(AWSKinesisDeleteStreamInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteStream service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteStream:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/describeStream:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the specified stream.&lt;/p&gt;&lt;p&gt;The information about the stream includes its current status, its Amazon Resource Name (ARN), and an array of shard objects. For each shard object, there is information about the hash key and sequence number ranges that the shard spans, and the IDs of any earlier shards that played in a role in creating the shard. A sequence number is the identifier associated with every record ingested in the Amazon Kinesis stream. The sequence number is assigned when a record is put into the stream.&lt;/p&gt;&lt;p&gt;You can limit the number of returned shards using the &lt;code&gt;Limit&lt;/code&gt; parameter. The number of shards in a stream may be too large to return from a single call to &lt;code&gt;DescribeStream&lt;/code&gt;. You can detect this by using the &lt;code&gt;HasMoreShards&lt;/code&gt; flag in the returned output. &lt;code&gt;HasMoreShards&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt; when there is more data available. &lt;/p&gt;&lt;p&gt;&lt;code&gt;DescribeStream&lt;/code&gt; is a paginated operation. If there are more shards available, you can request them using the shard ID of the last shard returned. Specify this ID in the &lt;code&gt;ExclusiveStartShardId&lt;/code&gt; parameter in a subsequent request to &lt;code&gt;DescribeStream&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;&lt;code&gt;DescribeStream&lt;/code&gt; has a limit of 10 transactions per second per account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisDescribeStreamInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisDescribeStreamOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeStream:(AWSKinesisDescribeStreamInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeStream service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSKinesisDescribeStreamOutput. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeStream:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/getRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets data records from a shard.&lt;/p&gt;&lt;p&gt;Specify a shard iterator using the &lt;code&gt;ShardIterator&lt;/code&gt; parameter. The shard iterator specifies the position in the shard from which you want to start reading data records sequentially. If there are no records available in the portion of the shard that the iterator points to, &lt;code&gt;GetRecords&lt;/code&gt; returns an empty list. Note that it might take multiple calls to get to a portion of the shard that contains records.&lt;/p&gt;&lt;p&gt;You can scale by provisioning multiple shards. Your application should have one thread per shard, each reading continuously from its stream. To read from a stream continually, call &lt;code&gt;GetRecords&lt;/code&gt; in a loop. Use &lt;a&gt;GetShardIterator&lt;/a&gt; to get the shard iterator to specify in the first &lt;code&gt;GetRecords&lt;/code&gt; call. &lt;code&gt;GetRecords&lt;/code&gt; returns a new shard iterator in &lt;code&gt;NextShardIterator&lt;/code&gt;. Specify the shard iterator returned in &lt;code&gt;NextShardIterator&lt;/code&gt; in subsequent calls to &lt;code&gt;GetRecords&lt;/code&gt;. Note that if the shard has been closed, the shard iterator can&apos;t return more data and &lt;code&gt;GetRecords&lt;/code&gt; returns &lt;code&gt;null&lt;/code&gt; in &lt;code&gt;NextShardIterator&lt;/code&gt;. You can terminate the loop when the shard is closed, or when the shard iterator reaches the record with the sequence number or other attribute that marks it as the last record to process.&lt;/p&gt;&lt;p&gt;Each data record can be up to 50 KB in size, and each shard can read up to 2 MB per second. You can ensure that your calls don&apos;t exceed the maximum supported size or throughput by using the &lt;code&gt;Limit&lt;/code&gt; parameter to specify the maximum number of records that &lt;code&gt;GetRecords&lt;/code&gt; can return. Consider your average record size when determining this limit. For example, if your average record size is 40 KB, you can limit the data returned to about 1 MB per call by specifying 25 as the limit.&lt;/p&gt;&lt;p&gt;The size of the data returned by &lt;code&gt;GetRecords&lt;/code&gt; will vary depending on the utilization of the shard. The maximum size of data that &lt;code&gt;GetRecords&lt;/code&gt; can return is 10 MB. If a call returns 10 MB of data, subsequent calls made within the next 5 seconds throw &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt;. If there is insufficient provisioned throughput on the shard, subsequent calls made within the next 1 second throw &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt;. Note that &lt;code&gt;GetRecords&lt;/code&gt; won&apos;t return any data when it throws an exception. For this reason, we recommend that you wait one second between calls to &lt;code&gt;GetRecords&lt;/code&gt;; however, it&apos;s possible that the application will get exceptions for longer than 1 second.&lt;/p&gt;&lt;p&gt;To detect whether the application is falling behind in processing, add a timestamp to your records and note how long it takes to process them. You can also monitor how much data is in a stream using the CloudWatch metrics for write operations (&lt;code&gt;PutRecord&lt;/code&gt; and &lt;code&gt;PutRecords&lt;/code&gt;). For more information, see Monitoring Amazon Kinesis with Amazon CloudWatch in the &lt;i&gt;Amazon Kinesis Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisGetRecordsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisGetRecordsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getRecords:(AWSKinesisGetRecordsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetRecords service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSKinesisGetRecordsOutput. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorInvalidArgument, AWSKinesisErrorProvisionedThroughputExceeded, AWSKinesisErrorExpiredIterator.</Abstract></ReturnValue>
+			<Anchor>//api/name/getRecords:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/getShardIterator:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets a shard iterator. A shard iterator expires five minutes after it is returned to the requester.&lt;/p&gt;&lt;p&gt;A shard iterator specifies the position in the shard from which to start reading data records sequentially. A shard iterator specifies this position using the sequence number of a data record in a shard. A sequence number is the identifier associated with every record ingested in the Amazon Kinesis stream. The sequence number is assigned when a record is put into the stream. &lt;/p&gt;&lt;p&gt;You must specify the shard iterator type. For example, you can set the &lt;code&gt;ShardIteratorType&lt;/code&gt; parameter to read exactly from the position denoted by a specific sequence number by using the &lt;code&gt;ATSEQUENCENUMBER&lt;/code&gt; shard iterator type, or right after the sequence number by using the &lt;code&gt;AFTERSEQUENCENUMBER&lt;/code&gt; shard iterator type, using sequence numbers returned by earlier calls to &lt;a&gt;PutRecord&lt;/a&gt;, &lt;a&gt;PutRecords&lt;/a&gt;, &lt;a&gt;GetRecords&lt;/a&gt;, or &lt;a&gt;DescribeStream&lt;/a&gt;. You can specify the shard iterator type &lt;code&gt;TRIM_HORIZON&lt;/code&gt; in the request to cause &lt;code&gt;ShardIterator&lt;/code&gt; to point to the last untrimmed record in the shard in the system, which is the oldest data record in the shard. Or you can point to just after the most recent record in the shard, by using the shard iterator type &lt;code&gt;LATEST&lt;/code&gt;, so that you always read the most recent data in the shard. &lt;/p&gt;&lt;p&gt;When you repeatedly read from an Amazon Kinesis stream use a &lt;a&gt;GetShardIterator&lt;/a&gt; request to get the first shard iterator to to use in your first &lt;code&gt;GetRecords&lt;/code&gt; request and then use the shard iterator returned by the &lt;code&gt;GetRecords&lt;/code&gt; request in &lt;code&gt;NextShardIterator&lt;/code&gt; for subsequent reads. A new shard iterator is returned by every &lt;code&gt;GetRecords&lt;/code&gt; request in &lt;code&gt;NextShardIterator&lt;/code&gt;, which you use in the &lt;code&gt;ShardIterator&lt;/code&gt; parameter of the next &lt;code&gt;GetRecords&lt;/code&gt; request. &lt;/p&gt;&lt;p&gt;If a &lt;code&gt;GetShardIterator&lt;/code&gt; request is made too often, you receive a &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt;. For more information about throughput limits, see &lt;a&gt;GetRecords&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;If the shard is closed, the iterator can&apos;t return more data, and &lt;code&gt;GetShardIterator&lt;/code&gt; returns &lt;code&gt;null&lt;/code&gt; for its &lt;code&gt;ShardIterator&lt;/code&gt;. A shard can be closed using &lt;a&gt;SplitShard&lt;/a&gt; or &lt;a&gt;MergeShards&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;code&gt;GetShardIterator&lt;/code&gt; has a limit of 5 transactions per second per account per open shard.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisGetShardIteratorInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisGetShardIteratorOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getShardIterator:(AWSKinesisGetShardIteratorInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetShardIterator service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSKinesisGetShardIteratorOutput. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorInvalidArgument, AWSKinesisErrorProvisionedThroughputExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/getShardIterator:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/listStreams:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Lists your streams.&lt;/p&gt;&lt;p&gt; The number of streams may be too large to return from a single call to &lt;code&gt;ListStreams&lt;/code&gt;. You can limit the number of returned streams using the &lt;code&gt;Limit&lt;/code&gt; parameter. If you do not specify a value for the &lt;code&gt;Limit&lt;/code&gt; parameter, Amazon Kinesis uses the default limit, which is currently 10.&lt;/p&gt;&lt;p&gt; You can detect if there are more streams available to list by using the &lt;code&gt;HasMoreStreams&lt;/code&gt; flag from the returned output. If there are more streams available, you can request more streams by using the name of the last stream returned by the &lt;code&gt;ListStreams&lt;/code&gt; request in the &lt;code&gt;ExclusiveStartStreamName&lt;/code&gt; parameter in a subsequent request to &lt;code&gt;ListStreams&lt;/code&gt;. The group of stream names returned by the subsequent request is then added to the list. You can continue this process until all the stream names have been collected in the list. &lt;/p&gt;&lt;p&gt;&lt;code&gt;ListStreams&lt;/code&gt; has a limit of 5 transactions per second per account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListStreamsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListStreamsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listStreams:(AWSKinesisListStreamsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListStreams service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSKinesisListStreamsOutput. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/listStreams:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/listTagsForStream:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the tags for the specified Amazon Kinesis stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListTagsForStreamInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListTagsForStreamOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listTagsForStream:(AWSKinesisListTagsForStreamInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListTagsForStream service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSKinesisListTagsForStreamOutput. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorInvalidArgument, AWSKinesisErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/listTagsForStream:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/mergeShards:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Merges two adjacent shards in a stream and combines them into a single shard to reduce the stream&apos;s capacity to ingest and transport data. Two shards are considered adjacent if the union of the hash key ranges for the two shards form a contiguous set with no gaps. For example, if you have two shards, one with a hash key range of 276...381 and the other with a hash key range of 382...454, then you could merge these two shards into a single shard that would have a hash key range of 276...454. After the merge, the single child shard receives data for all hash key values covered by the two parent shards.&lt;/p&gt;&lt;p&gt;&lt;code&gt;MergeShards&lt;/code&gt; is called when there is a need to reduce the overall capacity of a stream because of excess capacity that is not being used. You must specify the shard to be merged and the adjacent shard for a stream. For more information about merging shards, see Merge Two Shards in the &lt;i&gt;Amazon Kinesis Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;If the stream is in the &lt;code&gt;ACTIVE&lt;/code&gt; state, you can call &lt;code&gt;MergeShards&lt;/code&gt;. If a stream is in the &lt;code&gt;CREATING&lt;/code&gt;, &lt;code&gt;UPDATING&lt;/code&gt;, or &lt;code&gt;DELETING&lt;/code&gt; state, &lt;code&gt;MergeShards&lt;/code&gt; returns a &lt;code&gt;ResourceInUseException&lt;/code&gt;. If the specified stream does not exist, &lt;code&gt;MergeShards&lt;/code&gt; returns a &lt;code&gt;ResourceNotFoundException&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;You can use &lt;a&gt;DescribeStream&lt;/a&gt; to check the state of the stream, which is returned in &lt;code&gt;StreamStatus&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;&lt;code&gt;MergeShards&lt;/code&gt; is an asynchronous operation. Upon receiving a &lt;code&gt;MergeShards&lt;/code&gt; request, Amazon Kinesis immediately returns a response and sets the &lt;code&gt;StreamStatus&lt;/code&gt; to &lt;code&gt;UPDATING&lt;/code&gt;. After the operation is completed, Amazon Kinesis sets the &lt;code&gt;StreamStatus&lt;/code&gt; to &lt;code&gt;ACTIVE&lt;/code&gt;. Read and write operations continue to work while the stream is in the &lt;code&gt;UPDATING&lt;/code&gt; state. &lt;/p&gt;&lt;p&gt;You use &lt;a&gt;DescribeStream&lt;/a&gt; to determine the shard IDs that are specified in the &lt;code&gt;MergeShards&lt;/code&gt; request. &lt;/p&gt;&lt;p&gt;If you try to operate on too many streams in parallel using &lt;a&gt;CreateStream&lt;/a&gt;, &lt;a&gt;DeleteStream&lt;/a&gt;, &lt;code&gt;MergeShards&lt;/code&gt; or &lt;a&gt;SplitShard&lt;/a&gt;, you will receive a &lt;code&gt;LimitExceededException&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;&lt;code&gt;MergeShards&lt;/code&gt; has limit of 5 transactions per second per account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisMergeShardsInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)mergeShards:(AWSKinesisMergeShardsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the MergeShards service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorResourceInUse, AWSKinesisErrorInvalidArgument, AWSKinesisErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/mergeShards:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/putRecord:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Puts (writes) a single data record from a producer into an Amazon Kinesis stream. Call &lt;code&gt;PutRecord&lt;/code&gt; to send data from the producer into the Amazon Kinesis stream for real-time ingestion and subsequent processing, one record at a time. Each shard can support up to 1000 records written per second, up to a maximum total of 1 MB data written per second.&lt;/p&gt;&lt;p&gt;You must specify the name of the stream that captures, stores, and transports the data; a partition key; and the data blob itself.&lt;/p&gt;&lt;p&gt;The data blob can be any type of data; for example, a segment from a log file, geographic/location data, website clickstream data, and so on.&lt;/p&gt;&lt;p&gt;The partition key is used by Amazon Kinesis to distribute data across shards. Amazon Kinesis segregates the data records that belong to a data stream into multiple shards, using the partition key associated with each data record to determine which shard a given data record belongs to. &lt;/p&gt;&lt;p&gt;Partition keys are Unicode strings, with a maximum length limit of 256 bytes. An MD5 hash function is used to map partition keys to 128-bit integer values and to map associated data records to shards using the hash key ranges of the shards. You can override hashing the partition key to determine the shard by explicitly specifying a hash value using the &lt;code&gt;ExplicitHashKey&lt;/code&gt; parameter. For more information, see Sequence Number in the &lt;i&gt;Amazon Kinesis Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;If a &lt;code&gt;PutRecord&lt;/code&gt; request cannot be processed because of insufficient provisioned throughput on the shard involved in the request, &lt;code&gt;PutRecord&lt;/code&gt; throws &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;Data records are accessible for only 24 hours from the time that they are added to an Amazon Kinesis stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)putRecord:(AWSKinesisPutRecordInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutRecord service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSKinesisPutRecordOutput. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorInvalidArgument, AWSKinesisErrorProvisionedThroughputExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/putRecord:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/putRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Puts (writes) multiple data records from a producer into an Amazon Kinesis stream in a single call (also referred to as a &lt;code&gt;PutRecords&lt;/code&gt; request). Use this operation to send data from a data producer into the Amazon Kinesis stream for real-time ingestion and processing. Each shard can support up to 1000 records written per second, up to a maximum total of 1 MB data written per second.&lt;/p&gt;&lt;p&gt;You must specify the name of the stream that captures, stores, and transports the data; and an array of request &lt;code&gt;Records&lt;/code&gt;, with each record in the array requiring a partition key and data blob. &lt;/p&gt;&lt;p&gt;The data blob can be any type of data; for example, a segment from a log file, geographic/location data, website clickstream data, and so on.&lt;/p&gt;&lt;p&gt;The partition key is used by Amazon Kinesis as input to a hash function that maps the partition key and associated data to a specific shard. An MD5 hash function is used to map partition keys to 128-bit integer values and to map associated data records to shards. As a result of this hashing mechanism, all data records with the same partition key map to the same shard within the stream. For more information, see Adding Multiple Records with PutRecords in the &lt;i&gt;Amazon Kinesis Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;PutRecords&lt;/code&gt; response includes an array of response &lt;code&gt;Records&lt;/code&gt;. Each record in the response array directly correlates with a record in the request array using natural ordering, from the top to the bottom of the request and response. The response &lt;code&gt;Records&lt;/code&gt; array always includes the same number of records as the request array.&lt;/p&gt;&lt;p&gt;The response &lt;code&gt;Records&lt;/code&gt; array includes both successfully and unsuccessfully processed records. Amazon Kinesis attempts to process all records in each &lt;code&gt;PutRecords&lt;/code&gt; request. A single record failure does not stop the processing of subsequent records.&lt;/p&gt;&lt;p&gt;A successfully-processed record includes &lt;code&gt;ShardId&lt;/code&gt; and &lt;code&gt;SequenceNumber&lt;/code&gt; values. The &lt;code&gt;ShardId&lt;/code&gt; parameter identifies the shard in the stream where the record is stored. The &lt;code&gt;SequenceNumber&lt;/code&gt; parameter is an identifier assigned to the put record, unique to all records in the stream.&lt;/p&gt;&lt;p&gt;An unsuccessfully-processed record includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; values. &lt;code&gt;ErrorCode&lt;/code&gt; reflects the type of error and can be one of the following values: &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt; or &lt;code&gt;InternalFailure&lt;/code&gt;. &lt;code&gt;ErrorMessage&lt;/code&gt; provides more detailed information about the &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt; exception including the account ID, stream name, and shard ID of the record that was throttled.&lt;/p&gt;&lt;p&gt;Data records are accessible for only 24 hours from the time that they are added to an Amazon Kinesis stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)putRecords:(AWSKinesisPutRecordsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutRecords service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSKinesisPutRecordsOutput. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorInvalidArgument, AWSKinesisErrorProvisionedThroughputExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/putRecords:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/removeTagsFromStream:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes tags from the specified Amazon Kinesis stream.&lt;/p&gt;&lt;p&gt;If you specify a tag that does not exist, it is ignored.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisRemoveTagsFromStreamInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)removeTagsFromStream:(AWSKinesisRemoveTagsFromStreamInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RemoveTagsFromStream service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorResourceInUse, AWSKinesisErrorInvalidArgument, AWSKinesisErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeTagsFromStream:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesis/splitShard:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Splits a shard into two new shards in the stream, to increase the stream&apos;s capacity to ingest and transport data. &lt;code&gt;SplitShard&lt;/code&gt; is called when there is a need to increase the overall capacity of stream because of an expected increase in the volume of data records being ingested. &lt;/p&gt;&lt;p&gt;You can also use &lt;code&gt;SplitShard&lt;/code&gt; when a shard appears to be approaching its maximum utilization, for example, when the set of producers sending data into the specific shard are suddenly sending more than previously anticipated. You can also call &lt;code&gt;SplitShard&lt;/code&gt; to increase stream capacity, so that more Amazon Kinesis applications can simultaneously read data from the stream for real-time processing. &lt;/p&gt;&lt;p&gt;You must specify the shard to be split and the new hash key, which is the position in the shard where the shard gets split in two. In many cases, the new hash key might simply be the average of the beginning and ending hash key, but it can be any hash key value in the range being mapped into the shard. For more information about splitting shards, see Split a Shard in the &lt;i&gt;Amazon Kinesis Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;You can use &lt;a&gt;DescribeStream&lt;/a&gt; to determine the shard ID and hash key values for the &lt;code&gt;ShardToSplit&lt;/code&gt; and &lt;code&gt;NewStartingHashKey&lt;/code&gt; parameters that are specified in the &lt;code&gt;SplitShard&lt;/code&gt; request.&lt;/p&gt;&lt;p&gt;&lt;code&gt;SplitShard&lt;/code&gt; is an asynchronous operation. Upon receiving a &lt;code&gt;SplitShard&lt;/code&gt; request, Amazon Kinesis immediately returns a response and sets the stream status to &lt;code&gt;UPDATING&lt;/code&gt;. After the operation is completed, Amazon Kinesis sets the stream status to &lt;code&gt;ACTIVE&lt;/code&gt;. Read and write operations continue to work while the stream is in the &lt;code&gt;UPDATING&lt;/code&gt; state. &lt;/p&gt;&lt;p&gt;You can use &lt;code&gt;DescribeStream&lt;/code&gt; to check the status of the stream, which is returned in &lt;code&gt;StreamStatus&lt;/code&gt;. If the stream is in the &lt;code&gt;ACTIVE&lt;/code&gt; state, you can call &lt;code&gt;SplitShard&lt;/code&gt;. If a stream is in &lt;code&gt;CREATING&lt;/code&gt; or &lt;code&gt;UPDATING&lt;/code&gt; or &lt;code&gt;DELETING&lt;/code&gt; states, &lt;code&gt;DescribeStream&lt;/code&gt; returns a &lt;code&gt;ResourceInUseException&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;If the specified stream does not exist, &lt;code&gt;DescribeStream&lt;/code&gt; returns a &lt;code&gt;ResourceNotFoundException&lt;/code&gt;. If you try to create more shards than are authorized for your account, you receive a &lt;code&gt;LimitExceededException&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;The default limit for an AWS account is 10 shards per stream. If you need to create a stream with more than 10 shards, contact AWS Support to increase the limit on your account.&lt;/p&gt;&lt;p&gt;If you try to operate on too many streams in parallel using &lt;a&gt;CreateStream&lt;/a&gt;, &lt;a&gt;DeleteStream&lt;/a&gt;, &lt;a&gt;MergeShards&lt;/a&gt; or &lt;a&gt;SplitShard&lt;/a&gt;, you receive a &lt;code&gt;LimitExceededException&lt;/code&gt;. &lt;/p&gt;&lt;p&gt;&lt;code&gt;SplitShard&lt;/code&gt; has limit of 5 transactions per second per account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisSplitShardInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)splitShard:(AWSKinesisSplitShardInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SplitShard service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSKinesisErrorDomain domian and the following error code: AWSKinesisErrorResourceNotFound, AWSKinesisErrorResourceInUse, AWSKinesisErrorInvalidArgument, AWSKinesisErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/splitShard:</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

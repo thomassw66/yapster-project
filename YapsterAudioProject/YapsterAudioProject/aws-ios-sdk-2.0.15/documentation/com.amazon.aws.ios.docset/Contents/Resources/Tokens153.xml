@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoSync.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSync</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;Amazon Cognito Sync&lt;/fullname&gt;&lt;p&gt;Amazon Cognito Sync provides an AWS service and client library that enable cross-device syncing of application-related user data. High-level client libraries are available for both iOS and Android. You can use these libraries to persist data locally so that it&apos;s available even if the device is offline. Developer credentials don&apos;t need to be stored on the mobile device to access the service. You can use Amazon Cognito to obtain a normalized user ID and credentials. User data is persisted in a dataset that can store up to 1 MB of key-value pairs, and you can have up to 20 datasets per user identity.&lt;/p&gt;&lt;p&gt;With Amazon Cognito Sync, the data stored for each identity is accessible only to credentials assigned to that identity. In order to use the Cognito Sync service, you need to make API calls using credentials retrieved with Amazon Cognito Identity service.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+            
+			
+			<NodeRef refid="153"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/deleteDataset:</TokenIdentifier>
+			<Abstract type="html">Deletes the specific dataset. The dataset will be deleted permanently, and the action can&apos;t be undone. Datasets that this dataset was merged with will no longer report the merge. Any consequent operation on this dataset will result in a ResourceNotFoundException.</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDeleteDatasetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDeleteDatasetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteDataset:(AWSCognitoSyncDeleteDatasetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteDataset service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncDeleteDatasetResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteDataset:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/describeDataset:</TokenIdentifier>
+			<Abstract type="html">Gets metadata about a dataset by identity and dataset name. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeDatasetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeDatasetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeDataset:(AWSCognitoSyncDescribeDatasetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeDataset service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncDescribeDatasetResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeDataset:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/describeIdentityPoolUsage:</TokenIdentifier>
+			<Abstract type="html">Gets usage details (for example, data storage) about a particular identity pool.</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeIdentityPoolUsageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeIdentityPoolUsageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeIdentityPoolUsage:(AWSCognitoSyncDescribeIdentityPoolUsageRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeIdentityPoolUsage service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncDescribeIdentityPoolUsageResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeIdentityPoolUsage:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/describeIdentityUsage:</TokenIdentifier>
+			<Abstract type="html">Gets usage information for an identity, including number of datasets and data usage.</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeIdentityUsageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeIdentityUsageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeIdentityUsage:(AWSCognitoSyncDescribeIdentityUsageRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeIdentityUsage service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncDescribeIdentityUsageResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeIdentityUsage:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/getIdentityPoolConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets the configuration settings of an identity pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncGetIdentityPoolConfigurationRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncGetIdentityPoolConfigurationResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getIdentityPoolConfiguration:(AWSCognitoSyncGetIdentityPoolConfigurationRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityPoolConfiguration service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncGetIdentityPoolConfigurationResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityPoolConfiguration:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/listDatasets:</TokenIdentifier>
+			<Abstract type="html">Lists datasets for an identity. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListDatasetsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListDatasetsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listDatasets:(AWSCognitoSyncListDatasetsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListDatasets service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncListDatasetsResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/listDatasets:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/listIdentityPoolUsage:</TokenIdentifier>
+			<Abstract type="html">Gets a list of identity pools registered with Cognito.</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListIdentityPoolUsageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListIdentityPoolUsageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listIdentityPoolUsage:(AWSCognitoSyncListIdentityPoolUsageRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListIdentityPoolUsage service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncListIdentityPoolUsageResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/listIdentityPoolUsage:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/listRecords:</TokenIdentifier>
+			<Abstract type="html">Gets paginated records, optionally changed after a particular sync count for a dataset and identity. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListRecordsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListRecordsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listRecords:(AWSCognitoSyncListRecordsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListRecords service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncListRecordsResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorTooManyRequests, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/listRecords:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/registerDevice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Registers a device to receive push sync notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncRegisterDeviceRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncRegisterDeviceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)registerDevice:(AWSCognitoSyncRegisterDeviceRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RegisterDevice service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncRegisterDeviceResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError, AWSCognitoSyncErrorInvalidConfiguration.</Abstract></ReturnValue>
+			<Anchor>//api/name/registerDevice:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/setIdentityPoolConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the necessary configuration for push sync.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncSetIdentityPoolConfigurationRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncSetIdentityPoolConfigurationResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setIdentityPoolConfiguration:(AWSCognitoSyncSetIdentityPoolConfigurationRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityPoolConfiguration service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncSetIdentityPoolConfigurationResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityPoolConfiguration:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/subscribeToDataset:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Subscribes to receive notifications when a dataset is modified by another device.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncSubscribeToDatasetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncSubscribeToDatasetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)subscribeToDataset:(AWSCognitoSyncSubscribeToDatasetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SubscribeToDataset service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncSubscribeToDatasetResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError, AWSCognitoSyncErrorInvalidConfiguration.</Abstract></ReturnValue>
+			<Anchor>//api/name/subscribeToDataset:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/unsubscribeFromDataset:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unsubscribe from receiving notifications when a dataset is modified by another device.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncUnsubscribeFromDatasetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncUnsubscribeFromDatasetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)unsubscribeFromDataset:(AWSCognitoSyncUnsubscribeFromDatasetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UnsubscribeFromDataset service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncUnsubscribeFromDatasetResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError, AWSCognitoSyncErrorInvalidConfiguration.</Abstract></ReturnValue>
+			<Anchor>//api/name/unsubscribeFromDataset:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSync/updateRecords:</TokenIdentifier>
+			<Abstract type="html">Posts updates to records and add and delete records for a dataset and user. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</Abstract>
+			<DeclaredIn>AWSCognitoSync.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncUpdateRecordsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncUpdateRecordsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)updateRecords:(AWSCognitoSyncUpdateRecordsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateRecords service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncUpdateRecordsResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorLimitExceeded, AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorResourceConflict, AWSCognitoSyncErrorTooManyRequests, AWSCognitoSyncErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateRecords:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

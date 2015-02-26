@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSS3DeleteObjectsOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectsOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="767"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/setDeleted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
+			
+			
+			<Anchor>//api/name/deleted</Anchor>
+            <NodeRef refid="767"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
+			
+			
+			<Anchor>//api/name/deleted</Anchor>
+            <NodeRef refid="767"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsOutput/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
+			
+			
+			<Anchor>//api/name/deleted</Anchor>
+            <NodeRef refid="767"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/setErrors:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
+            <NodeRef refid="767"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/errors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
+            <NodeRef refid="767"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsOutput/errors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
+            <NodeRef refid="767"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

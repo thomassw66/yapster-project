@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="628"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput/setSubnets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+            <NodeRef refid="628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput/subnets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+            <NodeRef refid="628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput/subnets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+            <NodeRef refid="628"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

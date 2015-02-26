@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSKinesisGetShardIteratorInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisGetShardIteratorInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;GetShardIterator&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [StreamName, ShardId, ShardIteratorType]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="708"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/setShardId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID of the shard to get the iterator for.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
+			
+			
+			<Anchor>//api/name/shardId</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/shardId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID of the shard to get the iterator for.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
+			
+			
+			<Anchor>//api/name/shardId</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetShardIteratorInput/shardId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID of the shard to get the iterator for.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
+			
+			
+			<Anchor>//api/name/shardId</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/setShardIteratorType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines how the shard iterator is used to start reading data records from the shard.&lt;/p&gt;&lt;p&gt;The following are the valid shard iterator types:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ATSEQUENCENUMBER - Start reading exactly from the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;AFTERSEQUENCENUMBER - Start reading right after the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;TRIM_HORIZON - Start reading at the last untrimmed record in the shard in the system, which is the oldest data record in the shard.&lt;/li&gt;&lt;li&gt;LATEST - Start reading just after the most recent record in the shard, so that you always read the most recent data in the shard.&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSKinesisShardIteratorType shardIteratorType</Declaration>
+			
+			
+			<Anchor>//api/name/shardIteratorType</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/shardIteratorType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines how the shard iterator is used to start reading data records from the shard.&lt;/p&gt;&lt;p&gt;The following are the valid shard iterator types:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ATSEQUENCENUMBER - Start reading exactly from the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;AFTERSEQUENCENUMBER - Start reading right after the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;TRIM_HORIZON - Start reading at the last untrimmed record in the shard in the system, which is the oldest data record in the shard.&lt;/li&gt;&lt;li&gt;LATEST - Start reading just after the most recent record in the shard, so that you always read the most recent data in the shard.&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSKinesisShardIteratorType shardIteratorType</Declaration>
+			
+			
+			<Anchor>//api/name/shardIteratorType</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetShardIteratorInput/shardIteratorType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines how the shard iterator is used to start reading data records from the shard.&lt;/p&gt;&lt;p&gt;The following are the valid shard iterator types:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ATSEQUENCENUMBER - Start reading exactly from the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;AFTERSEQUENCENUMBER - Start reading right after the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;TRIM_HORIZON - Start reading at the last untrimmed record in the shard in the system, which is the oldest data record in the shard.&lt;/li&gt;&lt;li&gt;LATEST - Start reading just after the most recent record in the shard, so that you always read the most recent data in the shard.&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSKinesisShardIteratorType shardIteratorType</Declaration>
+			
+			
+			<Anchor>//api/name/shardIteratorType</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/setStartingSequenceNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number of the data record in the shard from which to start reading from.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/startingSequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number of the data record in the shard from which to start reading from.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetShardIteratorInput/startingSequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number of the data record in the shard from which to start reading from.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
+			
+			
+			<Anchor>//api/name/streamName</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
+			
+			
+			<Anchor>//api/name/streamName</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetShardIteratorInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
+			
+			
+			<Anchor>//api/name/streamName</Anchor>
+            <NodeRef refid="708"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

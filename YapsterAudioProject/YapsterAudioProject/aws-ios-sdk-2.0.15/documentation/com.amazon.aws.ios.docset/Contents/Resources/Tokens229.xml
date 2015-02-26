@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSDynamoDBQueryExpression.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBQueryExpression</TokenIdentifier>
+			<Abstract type="html">A query expression.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+            
+			
+			<NodeRef refid="229"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setScanIndexForward:</TokenIdentifier>
+			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper scans the index forward. When set to @NO, it scans the other direction.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scanIndexForward</Declaration>
+			
+			
+			<Anchor>//api/name/scanIndexForward</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/scanIndexForward</TokenIdentifier>
+			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper scans the index forward. When set to @NO, it scans the other direction.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scanIndexForward</Declaration>
+			
+			
+			<Anchor>//api/name/scanIndexForward</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/scanIndexForward</TokenIdentifier>
+			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper scans the index forward. When set to @NO, it scans the other direction.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scanIndexForward</Declaration>
+			
+			
+			<Anchor>//api/name/scanIndexForward</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setHashKeyValues:</TokenIdentifier>
+			<Abstract type="html">The value of the hash key.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id hashKeyValues</Declaration>
+			
+			
+			<Anchor>//api/name/hashKeyValues</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/hashKeyValues</TokenIdentifier>
+			<Abstract type="html">The value of the hash key.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id hashKeyValues</Declaration>
+			
+			
+			<Anchor>//api/name/hashKeyValues</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/hashKeyValues</TokenIdentifier>
+			<Abstract type="html">The value of the hash key.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id hashKeyValues</Declaration>
+			
+			
+			<Anchor>//api/name/hashKeyValues</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setRangeKeyConditions:</TokenIdentifier>
+			<Abstract type="html">The range key conditions.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *rangeKeyConditions</Declaration>
+			
+			
+			<Anchor>//api/name/rangeKeyConditions</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/rangeKeyConditions</TokenIdentifier>
+			<Abstract type="html">The range key conditions.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *rangeKeyConditions</Declaration>
+			
+			
+			<Anchor>//api/name/rangeKeyConditions</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/rangeKeyConditions</TokenIdentifier>
+			<Abstract type="html">The range key conditions.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *rangeKeyConditions</Declaration>
+			
+			
+			<Anchor>//api/name/rangeKeyConditions</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setExclusiveStartKey:</TokenIdentifier>
+			<Abstract type="html">The exclusive start key.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveStartKey</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/exclusiveStartKey</TokenIdentifier>
+			<Abstract type="html">The exclusive start key.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveStartKey</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/exclusiveStartKey</TokenIdentifier>
+			<Abstract type="html">The exclusive start key.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveStartKey</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setLimit:</TokenIdentifier>
+			<Abstract type="html">The limit.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/limit</TokenIdentifier>
+			<Abstract type="html">The limit.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/limit</TokenIdentifier>
+			<Abstract type="html">The limit.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setIndexName:</TokenIdentifier>
+			<Abstract type="html">The index name.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			
+			
+			<Anchor>//api/name/indexName</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/indexName</TokenIdentifier>
+			<Abstract type="html">The index name.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			
+			
+			<Anchor>//api/name/indexName</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/indexName</TokenIdentifier>
+			<Abstract type="html">The index name.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			
+			
+			<Anchor>//api/name/indexName</Anchor>
+            <NodeRef refid="229"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

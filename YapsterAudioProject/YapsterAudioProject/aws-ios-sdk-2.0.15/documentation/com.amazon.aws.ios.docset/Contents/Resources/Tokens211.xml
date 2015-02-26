@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSDynamoDBGlobalSecondaryIndexDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBGlobalSecondaryIndexDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the properties of a global secondary index.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="211"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/setIndexName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			
+			
+			<Anchor>//api/name/indexName</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			
+			
+			<Anchor>//api/name/indexName</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndexDescription/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			
+			
+			<Anchor>//api/name/indexName</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/setIndexSizeBytes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The total size of the specified index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *indexSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/indexSizeBytes</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/indexSizeBytes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The total size of the specified index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *indexSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/indexSizeBytes</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndexDescription/indexSizeBytes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The total size of the specified index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *indexSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/indexSizeBytes</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/setIndexStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the global secondary index:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CREATING&lt;/i&gt; - The index is being created, as the result of a &lt;i&gt;CreateTable&lt;/i&gt; or &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;UPDATING&lt;/i&gt; - The index is being updated, as the result of a &lt;i&gt;CreateTable&lt;/i&gt; or &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DELETING&lt;/i&gt; - The index is being deleted, as the result of a &lt;i&gt;DeleteTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ACTIVE&lt;/i&gt; - The index is ready for use.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBIndexStatus indexStatus</Declaration>
+			
+			
+			<Anchor>//api/name/indexStatus</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/indexStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the global secondary index:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CREATING&lt;/i&gt; - The index is being created, as the result of a &lt;i&gt;CreateTable&lt;/i&gt; or &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;UPDATING&lt;/i&gt; - The index is being updated, as the result of a &lt;i&gt;CreateTable&lt;/i&gt; or &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DELETING&lt;/i&gt; - The index is being deleted, as the result of a &lt;i&gt;DeleteTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ACTIVE&lt;/i&gt; - The index is ready for use.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBIndexStatus indexStatus</Declaration>
+			
+			
+			<Anchor>//api/name/indexStatus</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndexDescription/indexStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the global secondary index:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CREATING&lt;/i&gt; - The index is being created, as the result of a &lt;i&gt;CreateTable&lt;/i&gt; or &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;UPDATING&lt;/i&gt; - The index is being updated, as the result of a &lt;i&gt;CreateTable&lt;/i&gt; or &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DELETING&lt;/i&gt; - The index is being deleted, as the result of a &lt;i&gt;DeleteTable&lt;/i&gt; operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ACTIVE&lt;/i&gt; - The index is ready for use.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBIndexStatus indexStatus</Declaration>
+			
+			
+			<Anchor>//api/name/indexStatus</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/setItemCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of items in the specified index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/itemCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of items in the specified index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndexDescription/itemCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of items in the specified index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/setKeySchema:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for the global secondary index, consisting of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/keySchema</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for the global secondary index, consisting of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndexDescription/keySchema</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for the global secondary index, consisting of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/setProjection:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/projection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndexDescription/projection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/setProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for the table, consisting of read and write capacity units, along with data about increases and decreases.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughputDescription *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndexDescription/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for the table, consisting of read and write capacity units, along with data about increases and decreases.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughputDescription *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndexDescription/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for the table, consisting of read and write capacity units, along with data about increases and decreases.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughputDescription *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSTSAssumeRoleRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSTSAssumeRoleRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="993"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/setDurationSeconds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, of the role session. The value can range from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the value is set to 3600 seconds. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, of the role session. The value can range from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the value is set to 3600 seconds. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, of the role session. The value can range from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the value is set to 3600 seconds. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/setExternalId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier that is used by third parties to assume a role in their customers&apos; accounts. For each role that the third party can assume, they should instruct their customers to create a role with the external ID that the third party generated. Each time the third party assumes the role, they must pass the customer&apos;s external ID. The external ID is useful in order to help third parties bind a role to the customer who created it. For more information about the external ID, see About the External ID in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *externalId</Declaration>
+			
+			
+			<Anchor>//api/name/externalId</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/externalId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier that is used by third parties to assume a role in their customers&apos; accounts. For each role that the third party can assume, they should instruct their customers to create a role with the external ID that the third party generated. Each time the third party assumes the role, they must pass the customer&apos;s external ID. The external ID is useful in order to help third parties bind a role to the customer who created it. For more information about the external ID, see About the External ID in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *externalId</Declaration>
+			
+			
+			<Anchor>//api/name/externalId</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleRequest/externalId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier that is used by third parties to assume a role in their customers&apos; accounts. For each role that the third party can assume, they should instruct their customers to create a role with the external ID that the third party generated. Each time the third party assumes the role, they must pass the customer&apos;s external ID. The external ID is useful in order to help third parties bind a role to the customer who created it. For more information about the external ID, see About the External ID in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *externalId</Declaration>
+			
+			
+			<Anchor>//api/name/externalId</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/setPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format.&lt;/p&gt;&lt;p&gt;The policy parameter is optional. If you pass a policy, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRole in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/policy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format.&lt;/p&gt;&lt;p&gt;The policy parameter is optional. If you pass a policy, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRole in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleRequest/policy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format.&lt;/p&gt;&lt;p&gt;The policy parameter is optional. If you pass a policy, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRole in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/setRoleArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the role that the caller is assuming.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
+			
+			
+			<Anchor>//api/name/roleArn</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/roleArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the role that the caller is assuming.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
+			
+			
+			<Anchor>//api/name/roleArn</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleRequest/roleArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the role that the caller is assuming.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
+			
+			
+			<Anchor>//api/name/roleArn</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/setRoleSessionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for the assumed role session. The session name is included as part of the &lt;code&gt;AssumedRoleUser&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleSessionName</Declaration>
+			
+			
+			<Anchor>//api/name/roleSessionName</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/roleSessionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for the assumed role session. The session name is included as part of the &lt;code&gt;AssumedRoleUser&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleSessionName</Declaration>
+			
+			
+			<Anchor>//api/name/roleSessionName</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleRequest/roleSessionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for the assumed role session. The session name is included as part of the &lt;code&gt;AssumedRoleUser&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleSessionName</Declaration>
+			
+			
+			<Anchor>//api/name/roleSessionName</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/setSerialNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The identification number of the MFA device that is associated with the user who is making the &lt;code&gt;AssumeRole&lt;/code&gt; call. Specify this value if the trust policy of the role being assumed includes a condition that requires MFA authentication. The value is either the serial number for a hardware device (such as &lt;code&gt;GAHT12345678&lt;/code&gt;) or an Amazon Resource Name (ARN) for a virtual device (such as &lt;code&gt;arn:aws:iam::123456789012:mfa/user&lt;/code&gt;). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *serialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/serialNumber</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/serialNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The identification number of the MFA device that is associated with the user who is making the &lt;code&gt;AssumeRole&lt;/code&gt; call. Specify this value if the trust policy of the role being assumed includes a condition that requires MFA authentication. The value is either the serial number for a hardware device (such as &lt;code&gt;GAHT12345678&lt;/code&gt;) or an Amazon Resource Name (ARN) for a virtual device (such as &lt;code&gt;arn:aws:iam::123456789012:mfa/user&lt;/code&gt;). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *serialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/serialNumber</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleRequest/serialNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The identification number of the MFA device that is associated with the user who is making the &lt;code&gt;AssumeRole&lt;/code&gt; call. Specify this value if the trust policy of the role being assumed includes a condition that requires MFA authentication. The value is either the serial number for a hardware device (such as &lt;code&gt;GAHT12345678&lt;/code&gt;) or an Amazon Resource Name (ARN) for a virtual device (such as &lt;code&gt;arn:aws:iam::123456789012:mfa/user&lt;/code&gt;). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *serialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/serialNumber</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/setTokenCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value provided by the MFA device, if the trust policy of the role being assumed requires MFA (that is, if the policy includes a condition that tests for MFA). If the role being assumed requires MFA and if the &lt;code&gt;TokenCode&lt;/code&gt; value is missing or expired, the &lt;code&gt;AssumeRole&lt;/code&gt; call returns an &quot;access denied&quot; error. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *tokenCode</Declaration>
+			
+			
+			<Anchor>//api/name/tokenCode</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleRequest/tokenCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value provided by the MFA device, if the trust policy of the role being assumed requires MFA (that is, if the policy includes a condition that tests for MFA). If the role being assumed requires MFA and if the &lt;code&gt;TokenCode&lt;/code&gt; value is missing or expired, the &lt;code&gt;AssumeRole&lt;/code&gt; call returns an &quot;access denied&quot; error. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *tokenCode</Declaration>
+			
+			
+			<Anchor>//api/name/tokenCode</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleRequest/tokenCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value provided by the MFA device, if the trust policy of the role being assumed requires MFA (that is, if the policy includes a condition that tests for MFA). If the role being assumed requires MFA and if the &lt;code&gt;TokenCode&lt;/code&gt; value is missing or expired, the &lt;code&gt;AssumeRole&lt;/code&gt; call returns an &quot;access denied&quot; error. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *tokenCode</Declaration>
+			
+			
+			<Anchor>//api/name/tokenCode</Anchor>
+            <NodeRef refid="993"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

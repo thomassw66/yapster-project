@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeInstanceStatusRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeInstanceStatusRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="372"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeInstanceStatusRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.code&lt;/code&gt; - The code identifying the type of event (&lt;code&gt;instance-reboot&lt;/code&gt; | &lt;code&gt;system-reboot&lt;/code&gt; | &lt;code&gt;system-maintenance&lt;/code&gt; | &lt;code&gt;instance-retirement&lt;/code&gt; | &lt;code&gt;instance-stop&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.description&lt;/code&gt; - A description of the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-after&lt;/code&gt; - The latest end time for the scheduled event, for example: &lt;code&gt;2010-09-15T17:15:20.000Z&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-before&lt;/code&gt; - The earliest start time for the scheduled event, for example: &lt;code&gt;2010-09-15T17:15:20.000Z&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-state-code&lt;/code&gt; - A code representing the state of the instance, as a 16-bit unsigned integer. The high byte is an opaque internal value and should be ignored. The low byte is set based on the state represented. The valid values are 0 (pending), 16 (running), 32 (shutting-down), 48 (terminated), 64 (stopping), and 80 (stopped).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-state-name&lt;/code&gt; - The state of the instance (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;running&lt;/code&gt; | &lt;code&gt;shutting-down&lt;/code&gt; | &lt;code&gt;terminated&lt;/code&gt; | &lt;code&gt;stopping&lt;/code&gt; | &lt;code&gt;stopped&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-status.reachability&lt;/code&gt; - Filters on instance status where the name is &lt;code&gt;reachability&lt;/code&gt; (&lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-status.status&lt;/code&gt; - The status of the instance (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt; | &lt;code&gt;not-applicable&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;system-status.reachability&lt;/code&gt; - Filters on system status where the name is &lt;code&gt;reachability&lt;/code&gt; (&lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;system-status.status&lt;/code&gt; - The system status of the instance (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt; | &lt;code&gt;not-applicable&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.code&lt;/code&gt; - The code identifying the type of event (&lt;code&gt;instance-reboot&lt;/code&gt; | &lt;code&gt;system-reboot&lt;/code&gt; | &lt;code&gt;system-maintenance&lt;/code&gt; | &lt;code&gt;instance-retirement&lt;/code&gt; | &lt;code&gt;instance-stop&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.description&lt;/code&gt; - A description of the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-after&lt;/code&gt; - The latest end time for the scheduled event, for example: &lt;code&gt;2010-09-15T17:15:20.000Z&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-before&lt;/code&gt; - The earliest start time for the scheduled event, for example: &lt;code&gt;2010-09-15T17:15:20.000Z&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-state-code&lt;/code&gt; - A code representing the state of the instance, as a 16-bit unsigned integer. The high byte is an opaque internal value and should be ignored. The low byte is set based on the state represented. The valid values are 0 (pending), 16 (running), 32 (shutting-down), 48 (terminated), 64 (stopping), and 80 (stopped).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-state-name&lt;/code&gt; - The state of the instance (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;running&lt;/code&gt; | &lt;code&gt;shutting-down&lt;/code&gt; | &lt;code&gt;terminated&lt;/code&gt; | &lt;code&gt;stopping&lt;/code&gt; | &lt;code&gt;stopped&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-status.reachability&lt;/code&gt; - Filters on instance status where the name is &lt;code&gt;reachability&lt;/code&gt; (&lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-status.status&lt;/code&gt; - The status of the instance (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt; | &lt;code&gt;not-applicable&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;system-status.reachability&lt;/code&gt; - Filters on system status where the name is &lt;code&gt;reachability&lt;/code&gt; (&lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;system-status.status&lt;/code&gt; - The system status of the instance (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt; | &lt;code&gt;not-applicable&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeInstanceStatusRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.code&lt;/code&gt; - The code identifying the type of event (&lt;code&gt;instance-reboot&lt;/code&gt; | &lt;code&gt;system-reboot&lt;/code&gt; | &lt;code&gt;system-maintenance&lt;/code&gt; | &lt;code&gt;instance-retirement&lt;/code&gt; | &lt;code&gt;instance-stop&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.description&lt;/code&gt; - A description of the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-after&lt;/code&gt; - The latest end time for the scheduled event, for example: &lt;code&gt;2010-09-15T17:15:20.000Z&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-before&lt;/code&gt; - The earliest start time for the scheduled event, for example: &lt;code&gt;2010-09-15T17:15:20.000Z&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-state-code&lt;/code&gt; - A code representing the state of the instance, as a 16-bit unsigned integer. The high byte is an opaque internal value and should be ignored. The low byte is set based on the state represented. The valid values are 0 (pending), 16 (running), 32 (shutting-down), 48 (terminated), 64 (stopping), and 80 (stopped).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-state-name&lt;/code&gt; - The state of the instance (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;running&lt;/code&gt; | &lt;code&gt;shutting-down&lt;/code&gt; | &lt;code&gt;terminated&lt;/code&gt; | &lt;code&gt;stopping&lt;/code&gt; | &lt;code&gt;stopped&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-status.reachability&lt;/code&gt; - Filters on instance status where the name is &lt;code&gt;reachability&lt;/code&gt; (&lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-status.status&lt;/code&gt; - The status of the instance (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt; | &lt;code&gt;not-applicable&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;system-status.reachability&lt;/code&gt; - Filters on system status where the name is &lt;code&gt;reachability&lt;/code&gt; (&lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;system-status.status&lt;/code&gt; - The system status of the instance (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;initializing&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt; | &lt;code&gt;not-applicable&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/setIncludeAllInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;When &lt;code&gt;true&lt;/code&gt;, includes the health status for all instances. When &lt;code&gt;false&lt;/code&gt;, includes the health status for running instances only.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *includeAllInstances</Declaration>
+			
+			
+			<Anchor>//api/name/includeAllInstances</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/includeAllInstances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;When &lt;code&gt;true&lt;/code&gt;, includes the health status for all instances. When &lt;code&gt;false&lt;/code&gt;, includes the health status for running instances only.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *includeAllInstances</Declaration>
+			
+			
+			<Anchor>//api/name/includeAllInstances</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeInstanceStatusRequest/includeAllInstances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;When &lt;code&gt;true&lt;/code&gt;, includes the health status for all instances. When &lt;code&gt;false&lt;/code&gt;, includes the health status for running instances only.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *includeAllInstances</Declaration>
+			
+			
+			<Anchor>//api/name/includeAllInstances</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/setInstanceIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your instances.&lt;/p&gt;&lt;p&gt;Constraints: Maximum 100 explicitly specified instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your instances.&lt;/p&gt;&lt;p&gt;Constraints: Maximum 100 explicitly specified instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeInstanceStatusRequest/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your instances.&lt;/p&gt;&lt;p&gt;Constraints: Maximum 100 explicitly specified instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of paginated instance items per response. The call also returns a token that you can specify in a subsequent call to get the next set of results. If the value is greater than 1000, we return only 1000 items.&lt;/p&gt;&lt;p&gt;Default: 1000&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of paginated instance items per response. The call also returns a token that you can specify in a subsequent call to get the next set of results. If the value is greater than 1000, we return only 1000 items.&lt;/p&gt;&lt;p&gt;Default: 1000&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeInstanceStatusRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of paginated instance items per response. The call also returns a token that you can specify in a subsequent call to get the next set of results. If the value is greater than 1000, we return only 1000 items.&lt;/p&gt;&lt;p&gt;Default: 1000&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The next paginated set of results to return. (You received this token from a prior call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The next paginated set of results to return. (You received this token from a prior call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeInstanceStatusRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The next paginated set of results to return. (You received this token from a prior call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

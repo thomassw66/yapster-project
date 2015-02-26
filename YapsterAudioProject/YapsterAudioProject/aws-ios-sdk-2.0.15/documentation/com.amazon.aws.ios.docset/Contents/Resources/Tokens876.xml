@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSESGetIdentityDkimAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given a list of verified identities, describes their DKIM attributes. The DKIM attributes of an email address identity includes whether DKIM signing is individually enabled or disabled for that address. The DKIM attributes of a domain name identity includes whether DKIM signing is enabled, as well as the DNS records (tokens) that must remain published in the domain name&apos;s DNS.&lt;/p&gt;
+Required parameters: [Identities]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="876"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityDkimAttributesRequest/setIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more verified identities - email addresses, domains, or both.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			
+			
+			<Anchor>//api/name/identities</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityDkimAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more verified identities - email addresses, domains, or both.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			
+			
+			<Anchor>//api/name/identities</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityDkimAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more verified identities - email addresses, domains, or both.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			
+			
+			<Anchor>//api/name/identities</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

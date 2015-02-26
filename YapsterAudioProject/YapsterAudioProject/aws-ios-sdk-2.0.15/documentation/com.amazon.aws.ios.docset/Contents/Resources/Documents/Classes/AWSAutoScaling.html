@@ -1,0 +1,3790 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AWSAutoScaling Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.15 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AWSAutoScaling Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/configuration">&nbsp;&nbsp;&nbsp;&nbsp;configuration</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/defaultAutoScaling">&nbsp;&nbsp;&nbsp;&nbsp;+ defaultAutoScaling</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/attachInstances:">&nbsp;&nbsp;&nbsp;&nbsp;- attachInstances:</option>
+	
+	<option value="//api/name/completeLifecycleAction:">&nbsp;&nbsp;&nbsp;&nbsp;- completeLifecycleAction:</option>
+	
+	<option value="//api/name/createAutoScalingGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- createAutoScalingGroup:</option>
+	
+	<option value="//api/name/createLaunchConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- createLaunchConfiguration:</option>
+	
+	<option value="//api/name/createOrUpdateTags:">&nbsp;&nbsp;&nbsp;&nbsp;- createOrUpdateTags:</option>
+	
+	<option value="//api/name/deleteAutoScalingGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteAutoScalingGroup:</option>
+	
+	<option value="//api/name/deleteLaunchConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLaunchConfiguration:</option>
+	
+	<option value="//api/name/deleteLifecycleHook:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLifecycleHook:</option>
+	
+	<option value="//api/name/deleteNotificationConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteNotificationConfiguration:</option>
+	
+	<option value="//api/name/deletePolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- deletePolicy:</option>
+	
+	<option value="//api/name/deleteScheduledAction:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteScheduledAction:</option>
+	
+	<option value="//api/name/deleteTags:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteTags:</option>
+	
+	<option value="//api/name/describeAccountLimits:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAccountLimits:</option>
+	
+	<option value="//api/name/describeAdjustmentTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAdjustmentTypes:</option>
+	
+	<option value="//api/name/describeAutoScalingGroups:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAutoScalingGroups:</option>
+	
+	<option value="//api/name/describeAutoScalingInstances:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAutoScalingInstances:</option>
+	
+	<option value="//api/name/describeAutoScalingNotificationTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAutoScalingNotificationTypes:</option>
+	
+	<option value="//api/name/describeLaunchConfigurations:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLaunchConfigurations:</option>
+	
+	<option value="//api/name/describeLifecycleHookTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLifecycleHookTypes:</option>
+	
+	<option value="//api/name/describeLifecycleHooks:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLifecycleHooks:</option>
+	
+	<option value="//api/name/describeMetricCollectionTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeMetricCollectionTypes:</option>
+	
+	<option value="//api/name/describeNotificationConfigurations:">&nbsp;&nbsp;&nbsp;&nbsp;- describeNotificationConfigurations:</option>
+	
+	<option value="//api/name/describePolicies:">&nbsp;&nbsp;&nbsp;&nbsp;- describePolicies:</option>
+	
+	<option value="//api/name/describeScalingActivities:">&nbsp;&nbsp;&nbsp;&nbsp;- describeScalingActivities:</option>
+	
+	<option value="//api/name/describeScalingProcessTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeScalingProcessTypes:</option>
+	
+	<option value="//api/name/describeScheduledActions:">&nbsp;&nbsp;&nbsp;&nbsp;- describeScheduledActions:</option>
+	
+	<option value="//api/name/describeTags:">&nbsp;&nbsp;&nbsp;&nbsp;- describeTags:</option>
+	
+	<option value="//api/name/describeTerminationPolicyTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeTerminationPolicyTypes:</option>
+	
+	<option value="//api/name/detachInstances:">&nbsp;&nbsp;&nbsp;&nbsp;- detachInstances:</option>
+	
+	<option value="//api/name/disableMetricsCollection:">&nbsp;&nbsp;&nbsp;&nbsp;- disableMetricsCollection:</option>
+	
+	<option value="//api/name/enableMetricsCollection:">&nbsp;&nbsp;&nbsp;&nbsp;- enableMetricsCollection:</option>
+	
+	<option value="//api/name/enterStandby:">&nbsp;&nbsp;&nbsp;&nbsp;- enterStandby:</option>
+	
+	<option value="//api/name/executePolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- executePolicy:</option>
+	
+	<option value="//api/name/exitStandby:">&nbsp;&nbsp;&nbsp;&nbsp;- exitStandby:</option>
+	
+	<option value="//api/name/initWithConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithConfiguration:</option>
+	
+	<option value="//api/name/putLifecycleHook:">&nbsp;&nbsp;&nbsp;&nbsp;- putLifecycleHook:</option>
+	
+	<option value="//api/name/putNotificationConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- putNotificationConfiguration:</option>
+	
+	<option value="//api/name/putScalingPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- putScalingPolicy:</option>
+	
+	<option value="//api/name/putScheduledUpdateGroupAction:">&nbsp;&nbsp;&nbsp;&nbsp;- putScheduledUpdateGroupAction:</option>
+	
+	<option value="//api/name/recordLifecycleActionHeartbeat:">&nbsp;&nbsp;&nbsp;&nbsp;- recordLifecycleActionHeartbeat:</option>
+	
+	<option value="//api/name/resumeProcesses:">&nbsp;&nbsp;&nbsp;&nbsp;- resumeProcesses:</option>
+	
+	<option value="//api/name/setDesiredCapacity:">&nbsp;&nbsp;&nbsp;&nbsp;- setDesiredCapacity:</option>
+	
+	<option value="//api/name/setInstanceHealth:">&nbsp;&nbsp;&nbsp;&nbsp;- setInstanceHealth:</option>
+	
+	<option value="//api/name/suspendProcesses:">&nbsp;&nbsp;&nbsp;&nbsp;- suspendProcesses:</option>
+	
+	<option value="//api/name/terminateInstanceInAutoScalingGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- terminateInstanceInAutoScalingGroup:</option>
+	
+	<option value="//api/name/updateAutoScalingGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- updateAutoScalingGroup:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/configuration">configuration</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultAutoScaling">defaultAutoScaling</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attachInstances:">attachInstances:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/completeLifecycleAction:">completeLifecycleAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createAutoScalingGroup:">createAutoScalingGroup:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLaunchConfiguration:">createLaunchConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createOrUpdateTags:">createOrUpdateTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteAutoScalingGroup:">deleteAutoScalingGroup:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLaunchConfiguration:">deleteLaunchConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLifecycleHook:">deleteLifecycleHook:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteNotificationConfiguration:">deleteNotificationConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deletePolicy:">deletePolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteScheduledAction:">deleteScheduledAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteTags:">deleteTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAccountLimits:">describeAccountLimits:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAdjustmentTypes:">describeAdjustmentTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAutoScalingGroups:">describeAutoScalingGroups:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAutoScalingInstances:">describeAutoScalingInstances:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAutoScalingNotificationTypes:">describeAutoScalingNotificationTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLaunchConfigurations:">describeLaunchConfigurations:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLifecycleHookTypes:">describeLifecycleHookTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLifecycleHooks:">describeLifecycleHooks:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeMetricCollectionTypes:">describeMetricCollectionTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeNotificationConfigurations:">describeNotificationConfigurations:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describePolicies:">describePolicies:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeScalingActivities:">describeScalingActivities:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeScalingProcessTypes:">describeScalingProcessTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeScheduledActions:">describeScheduledActions:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeTags:">describeTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeTerminationPolicyTypes:">describeTerminationPolicyTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/detachInstances:">detachInstances:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/disableMetricsCollection:">disableMetricsCollection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableMetricsCollection:">enableMetricsCollection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enterStandby:">enterStandby:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/executePolicy:">executePolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exitStandby:">exitStandby:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithConfiguration:">initWithConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putLifecycleHook:">putLifecycleHook:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putNotificationConfiguration:">putNotificationConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putScalingPolicy:">putScalingPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putScheduledUpdateGroupAction:">putScheduledUpdateGroupAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recordLifecycleActionHeartbeat:">recordLifecycleActionHeartbeat:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resumeProcesses:">resumeProcesses:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDesiredCapacity:">setDesiredCapacity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setInstanceHealth:">setInstanceHealth:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/suspendProcesses:">suspendProcesses:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/terminateInstanceInAutoScalingGroup:">terminateInstanceInAutoScalingGroup:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateAutoScalingGroup:">updateAutoScalingGroup:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AWSAutoScaling Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AWSAutoScaling Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">AWSService : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AWSAutoScaling.h<br />AWSAutoScaling.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><fullname>Auto Scaling</fullname><p> Auto Scaling is a web service designed to automatically launch or terminate Amazon Elastic Compute Cloud (Amazon EC2) instances based on user-defined policies, schedules, and health checks. This service is used in conjunction with Amazon CloudWatch and Elastic Load Balancing services. </p><p>Auto Scaling provides APIs that you can call by submitting a Query Request. Query requests are HTTP or HTTPS requests that use the HTTP verbs GET or POST and a Query parameter named <i>Action</i> or <i>Operation</i> that specifies the API you are calling. Action is used throughout this documentation, although Operation is also supported for backward compatibility with other Amazon Web Services (AWS) Query APIs. </p><p>Calling the API using a Query request is the most direct way to access the web service, but requires that your application handle low-level details such as generating the hash to sign the request and error handling. The benefit of calling the service using a Query request is that you are assured of having access to the complete functionality of the API. For information about signing a a query request, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/api_requests.html">Use Query Requests to Call Auto Scaling APIs</a></p><p> This guide provides detailed information about Auto Scaling actions, data types, parameters, and errors. For detailed information about Auto Scaling features and their associated API actions, go to the <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/">Auto Scaling Developer Guide</a>. </p><p>This reference is based on the current WSDL, which is available at:</p><p><a href="http://autoscaling.amazonaws.com/doc/2011-01-01/AutoScaling.wsdl">http://autoscaling.amazonaws.com/doc/2011-01-01/AutoScaling.wsdl</a></p><p><b>Endpoints</b></p><p>The examples in this guide assume that your instances are launched in the US East (Northern Virginia) region and use us-east-1 as the endpoint.</p><p>You can set up your Auto Scaling infrastructure in other AWS regions. For information about this product&rsquo;s regions and endpoints, see <a href="http://docs.aws.amazon.com/general/latest/gr/index.html?rande.html">Regions and Endpoints</a> in the Amazon Web Services General Reference. </p></p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/configuration">&nbsp;&nbsp;configuration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultAutoScaling">+&nbsp;defaultAutoScaling</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithConfiguration:">&ndash;&nbsp;initWithConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attachInstances:">&ndash;&nbsp;attachInstances:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/completeLifecycleAction:">&ndash;&nbsp;completeLifecycleAction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createAutoScalingGroup:">&ndash;&nbsp;createAutoScalingGroup:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLaunchConfiguration:">&ndash;&nbsp;createLaunchConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createOrUpdateTags:">&ndash;&nbsp;createOrUpdateTags:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteAutoScalingGroup:">&ndash;&nbsp;deleteAutoScalingGroup:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLaunchConfiguration:">&ndash;&nbsp;deleteLaunchConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLifecycleHook:">&ndash;&nbsp;deleteLifecycleHook:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteNotificationConfiguration:">&ndash;&nbsp;deleteNotificationConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deletePolicy:">&ndash;&nbsp;deletePolicy:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteScheduledAction:">&ndash;&nbsp;deleteScheduledAction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteTags:">&ndash;&nbsp;deleteTags:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAccountLimits:">&ndash;&nbsp;describeAccountLimits:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAdjustmentTypes:">&ndash;&nbsp;describeAdjustmentTypes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAutoScalingGroups:">&ndash;&nbsp;describeAutoScalingGroups:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAutoScalingInstances:">&ndash;&nbsp;describeAutoScalingInstances:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAutoScalingNotificationTypes:">&ndash;&nbsp;describeAutoScalingNotificationTypes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLaunchConfigurations:">&ndash;&nbsp;describeLaunchConfigurations:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLifecycleHookTypes:">&ndash;&nbsp;describeLifecycleHookTypes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLifecycleHooks:">&ndash;&nbsp;describeLifecycleHooks:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeMetricCollectionTypes:">&ndash;&nbsp;describeMetricCollectionTypes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeNotificationConfigurations:">&ndash;&nbsp;describeNotificationConfigurations:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describePolicies:">&ndash;&nbsp;describePolicies:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeScalingActivities:">&ndash;&nbsp;describeScalingActivities:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeScalingProcessTypes:">&ndash;&nbsp;describeScalingProcessTypes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeScheduledActions:">&ndash;&nbsp;describeScheduledActions:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeTags:">&ndash;&nbsp;describeTags:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeTerminationPolicyTypes:">&ndash;&nbsp;describeTerminationPolicyTypes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/detachInstances:">&ndash;&nbsp;detachInstances:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/disableMetricsCollection:">&ndash;&nbsp;disableMetricsCollection:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enableMetricsCollection:">&ndash;&nbsp;enableMetricsCollection:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enterStandby:">&ndash;&nbsp;enterStandby:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/executePolicy:">&ndash;&nbsp;executePolicy:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exitStandby:">&ndash;&nbsp;exitStandby:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putLifecycleHook:">&ndash;&nbsp;putLifecycleHook:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putNotificationConfiguration:">&ndash;&nbsp;putNotificationConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putScalingPolicy:">&ndash;&nbsp;putScalingPolicy:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putScheduledUpdateGroupAction:">&ndash;&nbsp;putScheduledUpdateGroupAction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/recordLifecycleActionHeartbeat:">&ndash;&nbsp;recordLifecycleActionHeartbeat:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resumeProcesses:">&ndash;&nbsp;resumeProcesses:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDesiredCapacity:">&ndash;&nbsp;setDesiredCapacity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setInstanceHealth:">&ndash;&nbsp;setInstanceHealth:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/suspendProcesses:">&ndash;&nbsp;suspendProcesses:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/terminateInstanceInAutoScalingGroup:">&ndash;&nbsp;terminateInstanceInAutoScalingGroup:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateAutoScalingGroup:">&ndash;&nbsp;updateAutoScalingGroup:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/configuration" title="configuration"></a>
+	<h3 class="subsubtitle method-title">configuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The service configuration used to instantiate this service client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultAutoScaling" title="defaultAutoScaling"></a>
+	<h3 class="subsubtitle method-title">defaultAutoScaling</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with <code>defaultServiceConfiguration</code> from <code>[AWSServiceManager defaultServiceManager]</code>. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)defaultAutoScaling</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The default service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/attachInstances:" title="attachInstances:"></a>
+	<h3 class="subsubtitle method-title">attachInstances:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Attaches one or more Amazon EC2 instances to an existing Auto Scaling group. After the instance(s) is attached, it becomes a part of the Auto Scaling group. </p>
+
+
+<p>For more information, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/attach-instance-asg.html">Attach Amazon EC2 Instances to Your Existing Auto Scaling Group</a> in the <i>Auto Scaling Developer Guide</i>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)attachInstances:(AWSAutoScalingAttachInstancesQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the AttachInstances service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingAttachInstancesQuery.html">AWSAutoScalingAttachInstancesQuery</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/completeLifecycleAction:" title="completeLifecycleAction:"></a>
+	<h3 class="subsubtitle method-title">completeLifecycleAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Completes the lifecycle action for the associated token initiated under the given lifecycle hook with the specified result. </p>
+
+
+<p> This operation is a part of the basic sequence for adding a lifecycle hook to an Auto Scaling group: </p>
+
+
+<ol><li> Create a notification target. A target can be either an Amazon SQS queue or an Amazon SNS topic. </li><li> Create an IAM role. This role allows Auto Scaling to publish lifecycle notifications to the designated SQS queue or SNS topic. </li><li> Create the lifecycle hook. You can create a hook that acts when instances launch or when instances terminate. </li><li> If necessary, record the lifecycle action heartbeat to keep the instance in a pending state. </li><li><b>Complete the lifecycle action.</b></li></ol>
+
+
+<p>To learn more, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingPendingState.html">Auto Scaling Pending State</a> and <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingTerminatingState.html">Auto Scaling Terminating State</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)completeLifecycleAction:(AWSAutoScalingCompleteLifecycleActionType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CompleteLifecycleAction service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingCompleteLifecycleActionAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingCompleteLifecycleActionType.html">AWSAutoScalingCompleteLifecycleActionType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingCompleteLifecycleActionAnswer.html">AWSAutoScalingCompleteLifecycleActionAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createAutoScalingGroup:" title="createAutoScalingGroup:"></a>
+	<h3 class="subsubtitle method-title">createAutoScalingGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Creates a new Auto Scaling group with the specified name and other attributes. When the creation request is completed, the Auto Scaling group is ready to be used in other calls. </p>
+
+
+<p><note> The Auto Scaling group name must be unique within the scope of your AWS account. </note></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createAutoScalingGroup:(AWSAutoScalingCreateAutoScalingGroupType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateAutoScalingGroup service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorAlreadyExists</code>, <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingCreateAutoScalingGroupType.html">AWSAutoScalingCreateAutoScalingGroupType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLaunchConfiguration:" title="createLaunchConfiguration:"></a>
+	<h3 class="subsubtitle method-title">createLaunchConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Creates a new launch configuration. The launch configuration name must be unique within the scope of the client's AWS account. The maximum limit of launch configurations, which by default is 100, must not yet have been met; otherwise, the call will fail. When created, the new launch configuration is available for immediate use. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createLaunchConfiguration:(AWSAutoScalingCreateLaunchConfigurationType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateLaunchConfiguration service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorAlreadyExists</code>, <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingCreateLaunchConfigurationType.html">AWSAutoScalingCreateLaunchConfigurationType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createOrUpdateTags:" title="createOrUpdateTags:"></a>
+	<h3 class="subsubtitle method-title">createOrUpdateTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Creates new tags or updates existing tags for an Auto Scaling group. </p>
+
+
+<p><note> A tag&rsquo;s definition is composed of a resource ID, resource type, key and value, and the propagate flag. Value and the propagate flag are optional parameters. See the Request Parameters for more information. </note><p>For information on creating tags for your Auto Scaling group, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASTagging.html">Tag Your Auto Scaling Groups and Amazon EC2 Instances</a>.</p></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createOrUpdateTags:(AWSAutoScalingCreateOrUpdateTagsType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateOrUpdateTags service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorLimitExceeded</code>, <code>AWSAutoScalingErrorAlreadyExists</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingCreateOrUpdateTagsType.html">AWSAutoScalingCreateOrUpdateTagsType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteAutoScalingGroup:" title="deleteAutoScalingGroup:"></a>
+	<h3 class="subsubtitle method-title">deleteAutoScalingGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Deletes the specified Auto Scaling group if the group has no instances and no scaling activities in progress. </p>
+
+
+<p><note> To remove all instances before calling <a>DeleteAutoScalingGroup</a>, you can call <a>UpdateAutoScalingGroup</a> to set the minimum and maximum size of the AutoScalingGroup to zero. </note></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteAutoScalingGroup:(AWSAutoScalingDeleteAutoScalingGroupType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteAutoScalingGroup service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>, <code>AWSAutoScalingErrorResourceInUse</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDeleteAutoScalingGroupType.html">AWSAutoScalingDeleteAutoScalingGroupType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLaunchConfiguration:" title="deleteLaunchConfiguration:"></a>
+	<h3 class="subsubtitle method-title">deleteLaunchConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Deletes the specified <a>LaunchConfiguration</a>. </p>
+
+
+<p> The specified launch configuration must not be attached to an Auto Scaling group. When this call completes, the launch configuration is no longer available for use. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteLaunchConfiguration:(AWSAutoScalingLaunchConfigurationNameType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteLaunchConfiguration service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorResourceInUse</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingLaunchConfigurationNameType.html">AWSAutoScalingLaunchConfigurationNameType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLifecycleHook:" title="deleteLifecycleHook:"></a>
+	<h3 class="subsubtitle method-title">deleteLifecycleHook:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes the specified lifecycle hook. If there are any outstanding lifecycle actions, they are completed first (ABANDON for launching instances, CONTINUE for terminating instances).</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteLifecycleHook:(AWSAutoScalingDeleteLifecycleHookType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteLifecycleHook service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDeleteLifecycleHookAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDeleteLifecycleHookType.html">AWSAutoScalingDeleteLifecycleHookType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDeleteLifecycleHookAnswer.html">AWSAutoScalingDeleteLifecycleHookAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteNotificationConfiguration:" title="deleteNotificationConfiguration:"></a>
+	<h3 class="subsubtitle method-title">deleteNotificationConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes notifications created by <a>PutNotificationConfiguration</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteNotificationConfiguration:(AWSAutoScalingDeleteNotificationConfigurationType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteNotificationConfiguration service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDeleteNotificationConfigurationType.html">AWSAutoScalingDeleteNotificationConfigurationType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deletePolicy:" title="deletePolicy:"></a>
+	<h3 class="subsubtitle method-title">deletePolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes a policy created by <a>PutScalingPolicy</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deletePolicy:(AWSAutoScalingDeletePolicyType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeletePolicy service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDeletePolicyType.html">AWSAutoScalingDeletePolicyType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteScheduledAction:" title="deleteScheduledAction:"></a>
+	<h3 class="subsubtitle method-title">deleteScheduledAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes a scheduled action previously created using the <a>PutScheduledUpdateGroupAction</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteScheduledAction:(AWSAutoScalingDeleteScheduledActionType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteScheduledAction service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDeleteScheduledActionType.html">AWSAutoScalingDeleteScheduledActionType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteTags:" title="deleteTags:"></a>
+	<h3 class="subsubtitle method-title">deleteTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified tags or a set of tags from a set of resources.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteTags:(AWSAutoScalingDeleteTagsType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteTags service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDeleteTagsType.html">AWSAutoScalingDeleteTagsType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAccountLimits:" title="describeAccountLimits:"></a>
+	<h3 class="subsubtitle method-title">describeAccountLimits:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns the limits for the Auto Scaling resources currently allowed for your AWS account. </p>
+
+
+<p>Your AWS account comes with default limits on resources for Auto Scaling. There is a default limit of <code>20</code> Auto Scaling groups and <code>100</code> launch configurations per region.</p>
+
+
+<p>If you reach the limits for the number of Auto Scaling groups or the launch configurations, you can go to the <a href="https://aws.amazon.com/support/">Support Center</a> and place a request to raise the limits.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeAccountLimits:(AWSRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeAccountLimits service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeAccountLimitsAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeAccountLimitsAnswer.html">AWSAutoScalingDescribeAccountLimitsAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAdjustmentTypes:" title="describeAdjustmentTypes:"></a>
+	<h3 class="subsubtitle method-title">describeAdjustmentTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns policy adjustment types for use in the <a>PutScalingPolicy</a> action. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeAdjustmentTypes:(AWSRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeAdjustmentTypes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeAdjustmentTypesAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeAdjustmentTypesAnswer.html">AWSAutoScalingDescribeAdjustmentTypesAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAutoScalingGroups:" title="describeAutoScalingGroups:"></a>
+	<h3 class="subsubtitle method-title">describeAutoScalingGroups:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns a full description of each Auto Scaling group in the given list. This includes all Amazon EC2 instances that are members of the group. If a list of names is not provided, the service returns the full details of all Auto Scaling groups. </p>
+
+
+<p> This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call this action again with the returned token as the <code>NextToken</code> parameter. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeAutoScalingGroups:(AWSAutoScalingAutoScalingGroupNamesType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeAutoScalingGroups service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingAutoScalingGroupsType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingAutoScalingGroupNamesType.html">AWSAutoScalingAutoScalingGroupNamesType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingAutoScalingGroupsType.html">AWSAutoScalingAutoScalingGroupsType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAutoScalingInstances:" title="describeAutoScalingInstances:"></a>
+	<h3 class="subsubtitle method-title">describeAutoScalingInstances:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns a description of each Auto Scaling instance in the <code>InstanceIds</code> list. If a list is not provided, the service returns the full details of all instances up to a maximum of 50. By default, the service returns a list of 20 items. </p>
+
+
+<p> This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call this action again with the returned token as the <code>NextToken</code> parameter. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeAutoScalingInstances:(AWSAutoScalingDescribeAutoScalingInstancesType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeAutoScalingInstances service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingAutoScalingInstancesType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeAutoScalingInstancesType.html">AWSAutoScalingDescribeAutoScalingInstancesType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingAutoScalingInstancesType.html">AWSAutoScalingAutoScalingInstancesType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAutoScalingNotificationTypes:" title="describeAutoScalingNotificationTypes:"></a>
+	<h3 class="subsubtitle method-title">describeAutoScalingNotificationTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns a list of all notification types that are supported by Auto Scaling. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeAutoScalingNotificationTypes:(AWSRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeAutoScalingNotificationTypes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer.html">AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLaunchConfigurations:" title="describeLaunchConfigurations:"></a>
+	<h3 class="subsubtitle method-title">describeLaunchConfigurations:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns a full description of the launch configurations, or the specified launch configurations, if they exist. </p>
+
+
+<p> If no name is specified, then the full details of all launch configurations are returned. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeLaunchConfigurations:(AWSAutoScalingLaunchConfigurationNamesType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeLaunchConfigurations service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingLaunchConfigurationsType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingLaunchConfigurationNamesType.html">AWSAutoScalingLaunchConfigurationNamesType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingLaunchConfigurationsType.html">AWSAutoScalingLaunchConfigurationsType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLifecycleHookTypes:" title="describeLifecycleHookTypes:"></a>
+	<h3 class="subsubtitle method-title">describeLifecycleHookTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Describes the available types of lifecycle hooks.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeLifecycleHookTypes:(AWSRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeLifecycleHookTypes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeLifecycleHookTypesAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeLifecycleHookTypesAnswer.html">AWSAutoScalingDescribeLifecycleHookTypesAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLifecycleHooks:" title="describeLifecycleHooks:"></a>
+	<h3 class="subsubtitle method-title">describeLifecycleHooks:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Describes the lifecycle hooks that currently belong to the specified Auto Scaling group. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeLifecycleHooks:(AWSAutoScalingDescribeLifecycleHooksType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeLifecycleHooks service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeLifecycleHooksAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeLifecycleHooksType.html">AWSAutoScalingDescribeLifecycleHooksType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeLifecycleHooksAnswer.html">AWSAutoScalingDescribeLifecycleHooksAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeMetricCollectionTypes:" title="describeMetricCollectionTypes:"></a>
+	<h3 class="subsubtitle method-title">describeMetricCollectionTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns a list of metrics and a corresponding list of granularities for each metric. </p>
+
+
+<p><note><p>The <code>GroupStandbyInstances</code> metric is not returned by default. You must explicitly request it when calling <a>EnableMetricsCollection</a>.</p></note></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeMetricCollectionTypes:(AWSRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeMetricCollectionTypes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeMetricCollectionTypesAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeMetricCollectionTypesAnswer.html">AWSAutoScalingDescribeMetricCollectionTypesAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeNotificationConfigurations:" title="describeNotificationConfigurations:"></a>
+	<h3 class="subsubtitle method-title">describeNotificationConfigurations:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns a list of notification actions associated with Auto Scaling groups for specified events. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeNotificationConfigurations:(AWSAutoScalingDescribeNotificationConfigurationsType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeNotificationConfigurations service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeNotificationConfigurationsAnswer</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeNotificationConfigurationsType.html">AWSAutoScalingDescribeNotificationConfigurationsType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeNotificationConfigurationsAnswer.html">AWSAutoScalingDescribeNotificationConfigurationsAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describePolicies:" title="describePolicies:"></a>
+	<h3 class="subsubtitle method-title">describePolicies:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns descriptions of what each policy does. This action supports pagination. If the response includes a token, there are more records available. To get the additional records, repeat the request with the response token as the <code>NextToken</code> parameter. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describePolicies:(AWSAutoScalingDescribePoliciesType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribePolicies service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingPoliciesType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribePoliciesType.html">AWSAutoScalingDescribePoliciesType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingPoliciesType.html">AWSAutoScalingPoliciesType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeScalingActivities:" title="describeScalingActivities:"></a>
+	<h3 class="subsubtitle method-title">describeScalingActivities:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns the scaling activities for the specified Auto Scaling group. </p>
+
+
+<p> If the specified <code>ActivityIds</code> list is empty, all the activities from the past six weeks are returned. Activities are sorted by the start time. Activities still in progress appear first on the list. </p>
+
+
+<p> This action supports pagination. If the response includes a token, there are more records available. To get the additional records, repeat the request with the response token as the <code>NextToken</code> parameter. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeScalingActivities:(AWSAutoScalingDescribeScalingActivitiesType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeScalingActivities service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingActivitiesType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeScalingActivitiesType.html">AWSAutoScalingDescribeScalingActivitiesType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingActivitiesType.html">AWSAutoScalingActivitiesType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeScalingProcessTypes:" title="describeScalingProcessTypes:"></a>
+	<h3 class="subsubtitle method-title">describeScalingProcessTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns scaling process types for use in the <a>ResumeProcesses</a> and <a>SuspendProcesses</a> actions.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeScalingProcessTypes:(AWSRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeScalingProcessTypes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingProcessesType</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingProcessesType.html">AWSAutoScalingProcessesType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeScheduledActions:" title="describeScheduledActions:"></a>
+	<h3 class="subsubtitle method-title">describeScheduledActions:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Lists all the actions scheduled for your Auto Scaling group that haven't been executed. To see a list of actions already executed, see the activity record returned in <a>DescribeScalingActivities</a>. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeScheduledActions:(AWSAutoScalingDescribeScheduledActionsType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeScheduledActions service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingScheduledActionsType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeScheduledActionsType.html">AWSAutoScalingDescribeScheduledActionsType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingScheduledActionsType.html">AWSAutoScalingScheduledActionsType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeTags:" title="describeTags:"></a>
+	<h3 class="subsubtitle method-title">describeTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Lists the Auto Scaling group tags. </p>
+
+
+<p> You can use filters to limit results when describing tags. For example, you can query for tags of a particular Auto Scaling group. You can specify multiple values for a filter. A tag must match at least one of the specified values for it to be included in the results. </p>
+
+
+<p> You can also specify multiple filters. The result includes information for a particular tag only if it matches all your filters. If there's no match, no special message is returned. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeTags:(AWSAutoScalingDescribeTagsType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeTags service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingTagsType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeTagsType.html">AWSAutoScalingDescribeTagsType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingTagsType.html">AWSAutoScalingTagsType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeTerminationPolicyTypes:" title="describeTerminationPolicyTypes:"></a>
+	<h3 class="subsubtitle method-title">describeTerminationPolicyTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Returns a list of all termination policies supported by Auto Scaling. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeTerminationPolicyTypes:(AWSRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeTerminationPolicyTypes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeTerminationPolicyTypesAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDescribeTerminationPolicyTypesAnswer.html">AWSAutoScalingDescribeTerminationPolicyTypesAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/detachInstances:" title="detachInstances:"></a>
+	<h3 class="subsubtitle method-title">detachInstances:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Using <code>DetachInstances</code>, you can remove an instance from an Auto Scaling group. After the instances are detached, you can manage them independently from the rest of the Auto Scaling group.</p>
+
+
+<p>To learn more about detaching instances, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/detach-instance-asg.html">Detach Amazon EC2 Instances From Your Auto Scaling Group</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)detachInstances:(AWSAutoScalingDetachInstancesQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DetachInstances service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDetachInstancesAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDetachInstancesQuery.html">AWSAutoScalingDetachInstancesQuery</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDetachInstancesAnswer.html">AWSAutoScalingDetachInstancesAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/disableMetricsCollection:" title="disableMetricsCollection:"></a>
+	<h3 class="subsubtitle method-title">disableMetricsCollection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Disables monitoring of group metrics for the Auto Scaling group specified in <code>AutoScalingGroupName</code>. You can specify the list of affected metrics with the <code>Metrics</code> parameter. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)disableMetricsCollection:(AWSAutoScalingDisableMetricsCollectionQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DisableMetricsCollection service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingDisableMetricsCollectionQuery.html">AWSAutoScalingDisableMetricsCollectionQuery</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enableMetricsCollection:" title="enableMetricsCollection:"></a>
+	<h3 class="subsubtitle method-title">enableMetricsCollection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Enables monitoring of group metrics for the Auto Scaling group specified in <code>AutoScalingGroupName</code>. You can specify the list of enabled metrics with the <code>Metrics</code> parameter. </p>
+
+
+<p> Auto Scaling metrics collection can be turned on only if the <code>InstanceMonitoring</code> flag, in the Auto Scaling group's launch configuration, is set to <code>True</code>. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)enableMetricsCollection:(AWSAutoScalingEnableMetricsCollectionQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the EnableMetricsCollection service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingEnableMetricsCollectionQuery.html">AWSAutoScalingEnableMetricsCollectionQuery</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enterStandby:" title="enterStandby:"></a>
+	<h3 class="subsubtitle method-title">enterStandby:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Move instances in an Auto Scaling group into a Standby mode. </p>
+
+
+<p>To learn more about how to put instances into a Standby mode, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingInServiceState.html">Auto Scaling InService State</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)enterStandby:(AWSAutoScalingEnterStandbyQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the EnterStandby service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingEnterStandbyAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingEnterStandbyQuery.html">AWSAutoScalingEnterStandbyQuery</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingEnterStandbyAnswer.html">AWSAutoScalingEnterStandbyAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/executePolicy:" title="executePolicy:"></a>
+	<h3 class="subsubtitle method-title">executePolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Executes the specified policy. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)executePolicy:(AWSAutoScalingExecutePolicyType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ExecutePolicy service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingExecutePolicyType.html">AWSAutoScalingExecutePolicyType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exitStandby:" title="exitStandby:"></a>
+	<h3 class="subsubtitle method-title">exitStandby:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Move an instance out of Standby mode. </p>
+
+
+<p>To learn more about how to put instances that are in a Standby mode back into service, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingInServiceState.html">Auto Scaling InService State</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)exitStandby:(AWSAutoScalingExitStandbyQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ExitStandby service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingExitStandbyAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingExitStandbyQuery.html">AWSAutoScalingExitStandbyQuery</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingExitStandbyAnswer.html">AWSAutoScalingExitStandbyAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithConfiguration:" title="initWithConfiguration:"></a>
+	<h3 class="subsubtitle method-title">initWithConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Instantiates the service client with the given service configuration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)<em>configuration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>configuration</em></dt>
+			<dd><p>The service configuration object.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of the service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div><div class="warning"><p><strong>Warning:</strong> Unlike the singleton method, you are responsible for maintaining a strong reference to this object. If the service client is released before completing a service request, the request may fail with unspecified errors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putLifecycleHook:" title="putLifecycleHook:"></a>
+	<h3 class="subsubtitle method-title">putLifecycleHook:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates or updates a lifecycle hook for an Auto Scaling Group.</p>
+
+
+<p>A lifecycle hook tells Auto Scaling that you want to perform an action on an instance that is not actively in service; for example, either when the instance launches or before the instance terminates.</p>
+
+
+<p> This operation is a part of the basic sequence for adding a lifecycle hook to an Auto Scaling group: </p>
+
+
+<ol><li> Create a notification target. A target can be either an Amazon SQS queue or an Amazon SNS topic. </li><li> Create an IAM role. This role allows Auto Scaling to publish lifecycle notifications to the designated SQS queue or SNS topic. </li><li><b>Create the lifecycle hook. You can create a hook that acts when instances launch or when instances terminate.</b></li><li> If necessary, record the lifecycle action heartbeat to keep the instance in a pending state. </li><li> Complete the lifecycle action. </li></ol>
+
+
+<p>To learn more, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingPendingState.html">Auto Scaling Pending State</a> and <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingTerminatingState.html">Auto Scaling Terminating State</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)putLifecycleHook:(AWSAutoScalingPutLifecycleHookType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the PutLifecycleHook service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingPutLifecycleHookAnswer</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingPutLifecycleHookType.html">AWSAutoScalingPutLifecycleHookType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingPutLifecycleHookAnswer.html">AWSAutoScalingPutLifecycleHookAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putNotificationConfiguration:" title="putNotificationConfiguration:"></a>
+	<h3 class="subsubtitle method-title">putNotificationConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Configures an Auto Scaling group to send notifications when specified events take place. Subscribers to this topic can have messages for events delivered to an endpoint such as a web server or email address. </p>
+
+
+<p>For more information see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASGettingNotifications.html">Get Email Notifications When Your Auto Scaling Group Changes</a></p>
+
+
+<p>A new <code>PutNotificationConfiguration</code> overwrites an existing configuration. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)putNotificationConfiguration:(AWSAutoScalingPutNotificationConfigurationType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the PutNotificationConfiguration service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingPutNotificationConfigurationType.html">AWSAutoScalingPutNotificationConfigurationType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putScalingPolicy:" title="putScalingPolicy:"></a>
+	<h3 class="subsubtitle method-title">putScalingPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Creates or updates a policy for an Auto Scaling group. To update an existing policy, use the existing policy name and set the parameter(s) you want to change. Any existing parameter not changed in an update to an existing policy is not changed in this update request. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)putScalingPolicy:(AWSAutoScalingPutScalingPolicyType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the PutScalingPolicy service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingPolicyARNType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingPutScalingPolicyType.html">AWSAutoScalingPutScalingPolicyType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingPolicyARNType.html">AWSAutoScalingPolicyARNType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putScheduledUpdateGroupAction:" title="putScheduledUpdateGroupAction:"></a>
+	<h3 class="subsubtitle method-title">putScheduledUpdateGroupAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Creates or updates a scheduled scaling action for an Auto Scaling group. When updating a scheduled scaling action, if you leave a parameter unspecified, the corresponding value remains unchanged in the affected Auto Scaling group. </p>
+
+
+<p>For information on creating or updating a scheduled action for your Auto Scaling group, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/schedule_time.html">Scale Based on a Schedule</a>.</p>
+
+
+<p><note><p>Auto Scaling supports the date and time expressed in &ldquo;YYYY-MM-DDThh:mm:ssZ&rdquo; format in UTC/GMT only.</p></note></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)putScheduledUpdateGroupAction:(AWSAutoScalingPutScheduledUpdateGroupActionType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the PutScheduledUpdateGroupAction service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorAlreadyExists</code>, <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingPutScheduledUpdateGroupActionType.html">AWSAutoScalingPutScheduledUpdateGroupActionType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/recordLifecycleActionHeartbeat:" title="recordLifecycleActionHeartbeat:"></a>
+	<h3 class="subsubtitle method-title">recordLifecycleActionHeartbeat:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Records a heartbeat for the lifecycle action associated with a specific token. This extends the timeout by the length of time defined by the <code>HeartbeatTimeout</code> parameter of the <a>PutLifecycleHook</a> operation. </p>
+
+
+<p> This operation is a part of the basic sequence for adding a lifecycle hook to an Auto Scaling group: </p>
+
+
+<ol><li> Create a notification target. A target can be either an Amazon SQS queue or an Amazon SNS topic. </li><li> Create an IAM role. This role allows Auto Scaling to publish lifecycle notifications to the designated SQS queue or SNS topic. </li><li> Create the lifecycle hook. You can create a hook that acts when instances launch or when instances terminate. </li><li><b>If necessary, record the lifecycle action heartbeat to keep the instance in a pending state.</b></li><li> Complete the lifecycle action. </li></ol>
+
+
+<p>To learn more, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingPendingState.html">Auto Scaling Pending State</a> and <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingTerminatingState.html">Auto Scaling Terminating State</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)recordLifecycleActionHeartbeat:(AWSAutoScalingRecordLifecycleActionHeartbeatType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the RecordLifecycleActionHeartbeat service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingRecordLifecycleActionHeartbeatAnswer</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingRecordLifecycleActionHeartbeatType.html">AWSAutoScalingRecordLifecycleActionHeartbeatType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingRecordLifecycleActionHeartbeatAnswer.html">AWSAutoScalingRecordLifecycleActionHeartbeatAnswer</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resumeProcesses:" title="resumeProcesses:"></a>
+	<h3 class="subsubtitle method-title">resumeProcesses:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Resumes all suspended Auto Scaling processes for an Auto Scaling group. For information on suspending and resuming Auto Scaling process, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/US_SuspendResume.html">Suspend and Resume Auto Scaling Process</a>. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)resumeProcesses:(AWSAutoScalingScalingProcessQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ResumeProcesses service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingScalingProcessQuery.html">AWSAutoScalingScalingProcessQuery</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDesiredCapacity:" title="setDesiredCapacity:"></a>
+	<h3 class="subsubtitle method-title">setDesiredCapacity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Sets the desired size of the specified <a>AutoScalingGroup</a>. </p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)setDesiredCapacity:(AWSAutoScalingSetDesiredCapacityType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SetDesiredCapacity service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingSetDesiredCapacityType.html">AWSAutoScalingSetDesiredCapacityType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setInstanceHealth:" title="setInstanceHealth:"></a>
+	<h3 class="subsubtitle method-title">setInstanceHealth:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Sets the health status of a specified instance that belongs to any of your Auto Scaling groups. </p>
+
+
+<p>For more information, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-configure-healthcheck.html">Configure Health Checks for Your Auto Scaling group</a>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)setInstanceHealth:(AWSAutoScalingSetInstanceHealthQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SetInstanceHealth service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingSetInstanceHealthQuery.html">AWSAutoScalingSetInstanceHealthQuery</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/suspendProcesses:" title="suspendProcesses:"></a>
+	<h3 class="subsubtitle method-title">suspendProcesses:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Suspends Auto Scaling processes for an Auto Scaling group. To suspend specific process types, specify them by name with the <code>ScalingProcesses.member.N</code> parameter. To suspend all process types, omit the <code>ScalingProcesses.member.N</code> parameter. </p>
+
+
+<p><important><p> Suspending either of the two primary process types, <code>Launch</code> or <code>Terminate</code>, can prevent other process types from functioning properly. </p></important><p> To resume processes that have been suspended, use <a>ResumeProcesses</a> For more information on suspending and resuming Auto Scaling process, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/US_SuspendResume.html">Suspend and Resume Auto Scaling Process</a>. </p></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)suspendProcesses:(AWSAutoScalingScalingProcessQuery *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SuspendProcesses service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingScalingProcessQuery.html">AWSAutoScalingScalingProcessQuery</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/terminateInstanceInAutoScalingGroup:" title="terminateInstanceInAutoScalingGroup:"></a>
+	<h3 class="subsubtitle method-title">terminateInstanceInAutoScalingGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Terminates the specified instance. Optionally, the desired group size can be adjusted. </p>
+
+
+<p><note> This call simply registers a termination request. The termination of the instance cannot happen immediately. </note></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)terminateInstanceInAutoScalingGroup:(AWSAutoScalingTerminateInstanceInAutoScalingGroupType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the TerminateInstanceInAutoScalingGroup service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingActivityType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingTerminateInstanceInAutoScalingGroupType.html">AWSAutoScalingTerminateInstanceInAutoScalingGroupType</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingActivityType.html">AWSAutoScalingActivityType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateAutoScalingGroup:" title="updateAutoScalingGroup:"></a>
+	<h3 class="subsubtitle method-title">updateAutoScalingGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p> Updates the configuration for the specified <a>AutoScalingGroup</a>. </p>
+
+
+<p><note><p> To update an Auto Scaling group with a launch configuration that has the <code>InstanceMonitoring</code> flag set to <code>False</code>, you must first ensure that collection of group metrics is disabled. Otherwise, calls to <a>UpdateAutoScalingGroup</a> will fail. If you have previously enabled group metrics collection, you can disable collection of all group metrics by calling <a>DisableMetricsCollection</a>. </p></note><p> The new settings are registered upon the completion of this call. Any launch configuration settings take effect on any triggers after this call returns. Scaling activities that are currently in progress aren&rsquo;t affected. </p><note><ul><li><p>If a new value is specified for <i>MinSize</i> without specifying the value for <i>DesiredCapacity</i>, and if the new <i>MinSize</i> is larger than the current size of the Auto Scaling Group, there will be an implicit call to <a>SetDesiredCapacity</a> to set the group to the new <i>MinSize</i>. </p></li><li><p>If a new value is specified for <i>MaxSize</i> without specifying the value for <i>DesiredCapacity</i>, and the new <i>MaxSize</i> is smaller than the current size of the Auto Scaling Group, there will be an implicit call to <a>SetDesiredCapacity</a> to set the group to the new <i>MaxSize</i>. </p></li><li><p>All other optional parameters are left unchanged if not passed in the request.</p></li></ul></note></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)updateAutoScalingGroup:(AWSAutoScalingUpdateAutoScalingGroupType *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the UpdateAutoScalingGroup service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSAutoScalingUpdateAutoScalingGroupType.html">AWSAutoScalingUpdateAutoScalingGroupType</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-01-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

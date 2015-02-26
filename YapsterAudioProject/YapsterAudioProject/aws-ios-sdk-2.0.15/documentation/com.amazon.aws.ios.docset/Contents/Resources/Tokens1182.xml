@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSSESErrorType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSSESErrorType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1182"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorUnknown</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1182"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorIncompleteSignature</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorIncompleteSignature</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1182"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorInvalidClientTokenId</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorInvalidClientTokenId</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1182"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorMissingAuthenticationToken</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorMissingAuthenticationToken</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1182"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorMessageRejected</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorMessageRejected</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1182"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

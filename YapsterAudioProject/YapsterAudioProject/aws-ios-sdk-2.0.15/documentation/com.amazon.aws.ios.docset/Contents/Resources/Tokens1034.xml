@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+AWS.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(AWS)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCategory.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1034"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/aws_isDNSBucketName:</TokenIdentifier>
+			<Abstract type="html">If it&apos;s not a readonly property
+Ref. https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtPropertyIntrospection.html#//apple_ref/doc/uid/TP40008048-CH101-SW1
+             </Abstract>
+			<DeclaredIn>AWSCategory.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)aws_isDNSBucketName:(NSString *)theBucketName</Declaration>
+			
+			
+			<Anchor>//api/name/aws_isDNSBucketName:</Anchor>
+            <NodeRef refid="1034"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

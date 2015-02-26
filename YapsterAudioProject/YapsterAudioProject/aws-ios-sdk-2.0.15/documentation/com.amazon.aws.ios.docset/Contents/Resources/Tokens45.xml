@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingDisableMetricsCollectionQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDisableMetricsCollectionQuery</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDisableMetricsCollectionQuery/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or ARN of the Auto Scaling Group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDisableMetricsCollectionQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or ARN of the Auto Scaling Group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDisableMetricsCollectionQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or ARN of the Auto Scaling Group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDisableMetricsCollectionQuery/setMetrics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of metrics to disable. If no metrics are specified, all metrics are disabled. The following metrics are supported: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GroupMinSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupMaxSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupDesiredCapacity&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupInServiceInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupPendingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupStandbyInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTerminatingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTotalInstances&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDisableMetricsCollectionQuery/metrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of metrics to disable. If no metrics are specified, all metrics are disabled. The following metrics are supported: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GroupMinSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupMaxSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupDesiredCapacity&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupInServiceInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupPendingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupStandbyInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTerminatingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTotalInstances&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDisableMetricsCollectionQuery/metrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of metrics to disable. If no metrics are specified, all metrics are disabled. The following metrics are supported: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GroupMinSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupMaxSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupDesiredCapacity&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupInServiceInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupPendingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupStandbyInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTerminatingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTotalInstances&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

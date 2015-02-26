@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingInstance.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingInstance</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The &lt;code&gt;Instance&lt;/code&gt; data type. &lt;/p&gt;
+Required parameters: [InstanceId, AvailabilityZone, LifecycleState, HealthStatus, LaunchConfigurationName]</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Availability Zones associated with this instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Availability Zones associated with this instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingInstance/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Availability Zones associated with this instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/setHealthStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The instance&apos;s health status. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			
+			
+			<Anchor>//api/name/healthStatus</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/healthStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The instance&apos;s health status. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			
+			
+			<Anchor>//api/name/healthStatus</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingInstance/healthStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The instance&apos;s health status. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			
+			
+			<Anchor>//api/name/healthStatus</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies the ID of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies the ID of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingInstance/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies the ID of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/setLaunchConfigurationName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The launch configuration associated with this instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/launchConfigurationName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The launch configuration associated with this instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingInstance/launchConfigurationName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The launch configuration associated with this instance. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/setLifecycleState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Contains a description of the current &lt;i&gt;lifecycle&lt;/i&gt; state. &lt;/p&gt;&lt;note&gt;&lt;p&gt;The &lt;code&gt;Quarantined&lt;/code&gt; lifecycle state is currently not used.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSAutoScalingLifecycleState lifecycleState</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleState</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingInstance/lifecycleState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Contains a description of the current &lt;i&gt;lifecycle&lt;/i&gt; state. &lt;/p&gt;&lt;note&gt;&lt;p&gt;The &lt;code&gt;Quarantined&lt;/code&gt; lifecycle state is currently not used.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSAutoScalingLifecycleState lifecycleState</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleState</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingInstance/lifecycleState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Contains a description of the current &lt;i&gt;lifecycle&lt;/i&gt; state. &lt;/p&gt;&lt;note&gt;&lt;p&gt;The &lt;code&gt;Quarantined&lt;/code&gt; lifecycle state is currently not used.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSAutoScalingLifecycleState lifecycleState</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleState</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

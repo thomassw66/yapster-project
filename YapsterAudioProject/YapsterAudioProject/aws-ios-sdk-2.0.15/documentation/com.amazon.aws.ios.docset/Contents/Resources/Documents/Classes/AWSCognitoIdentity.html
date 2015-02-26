@@ -1,0 +1,1691 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AWSCognitoIdentity Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.15 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AWSCognitoIdentity Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/configuration">&nbsp;&nbsp;&nbsp;&nbsp;configuration</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/defaultCognitoIdentity">&nbsp;&nbsp;&nbsp;&nbsp;+ defaultCognitoIdentity</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/createIdentityPool:">&nbsp;&nbsp;&nbsp;&nbsp;- createIdentityPool:</option>
+	
+	<option value="//api/name/deleteIdentityPool:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteIdentityPool:</option>
+	
+	<option value="//api/name/describeIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- describeIdentity:</option>
+	
+	<option value="//api/name/describeIdentityPool:">&nbsp;&nbsp;&nbsp;&nbsp;- describeIdentityPool:</option>
+	
+	<option value="//api/name/getCredentialsForIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- getCredentialsForIdentity:</option>
+	
+	<option value="//api/name/getId:">&nbsp;&nbsp;&nbsp;&nbsp;- getId:</option>
+	
+	<option value="//api/name/getIdentityPoolRoles:">&nbsp;&nbsp;&nbsp;&nbsp;- getIdentityPoolRoles:</option>
+	
+	<option value="//api/name/getOpenIdToken:">&nbsp;&nbsp;&nbsp;&nbsp;- getOpenIdToken:</option>
+	
+	<option value="//api/name/getOpenIdTokenForDeveloperIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- getOpenIdTokenForDeveloperIdentity:</option>
+	
+	<option value="//api/name/initWithConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithConfiguration:</option>
+	
+	<option value="//api/name/listIdentities:">&nbsp;&nbsp;&nbsp;&nbsp;- listIdentities:</option>
+	
+	<option value="//api/name/listIdentityPools:">&nbsp;&nbsp;&nbsp;&nbsp;- listIdentityPools:</option>
+	
+	<option value="//api/name/lookupDeveloperIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- lookupDeveloperIdentity:</option>
+	
+	<option value="//api/name/mergeDeveloperIdentities:">&nbsp;&nbsp;&nbsp;&nbsp;- mergeDeveloperIdentities:</option>
+	
+	<option value="//api/name/setIdentityPoolRoles:">&nbsp;&nbsp;&nbsp;&nbsp;- setIdentityPoolRoles:</option>
+	
+	<option value="//api/name/unlinkDeveloperIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- unlinkDeveloperIdentity:</option>
+	
+	<option value="//api/name/unlinkIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- unlinkIdentity:</option>
+	
+	<option value="//api/name/updateIdentityPool:">&nbsp;&nbsp;&nbsp;&nbsp;- updateIdentityPool:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/configuration">configuration</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultCognitoIdentity">defaultCognitoIdentity</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createIdentityPool:">createIdentityPool:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteIdentityPool:">deleteIdentityPool:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeIdentity:">describeIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeIdentityPool:">describeIdentityPool:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getCredentialsForIdentity:">getCredentialsForIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getId:">getId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getIdentityPoolRoles:">getIdentityPoolRoles:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getOpenIdToken:">getOpenIdToken:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getOpenIdTokenForDeveloperIdentity:">getOpenIdTokenForDeveloperIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithConfiguration:">initWithConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listIdentities:">listIdentities:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listIdentityPools:">listIdentityPools:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lookupDeveloperIdentity:">lookupDeveloperIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mergeDeveloperIdentities:">mergeDeveloperIdentities:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setIdentityPoolRoles:">setIdentityPoolRoles:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unlinkDeveloperIdentity:">unlinkDeveloperIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unlinkIdentity:">unlinkIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateIdentityPool:">updateIdentityPool:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AWSCognitoIdentity Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AWSCognitoIdentity Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">AWSService : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AWSCognitoIdentity.h<br />AWSCognitoIdentity.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><fullname>Amazon Cognito</fullname><p>Amazon Cognito is a web service that delivers scoped temporary credentials to mobile devices and other untrusted environments. Amazon Cognito uniquely identifies a device and supplies the user with a consistent identity over the lifetime of an application.</p><p>Using Amazon Cognito, you can enable authentication with one or more third-party identity providers (Facebook, Google, or Login with Amazon), and you can also choose to support unauthenticated access from your app. Cognito delivers a unique identifier for each user and acts as an OpenID token provider trusted by AWS Security Token Service (STS) to access temporary, limited-privilege AWS credentials.</p><p>To provide end-user credentials, first make an unsigned call to <a>GetId</a>. If the end user is authenticated with one of the supported identity providers, set the <code>Logins</code> map with the identity provider token. <code>GetId</code> returns a unique identifier for the user.</p><p>Next, make an unsigned call to <a>GetOpenIdToken</a>, which returns the OpenID token necessary to call STS and retrieve AWS credentials. This call expects the same <code>Logins</code> map as the <code>GetId</code> call, as well as the <code>IdentityID</code> originally returned by <code>GetId</code>. The token returned by <code>GetOpenIdToken</code> can be passed to the STS operation <a href="http://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoleWithWebIdentity.html">AssumeRoleWithWebIdentity</a> to retrieve AWS credentials.</p><p>If you want to use Amazon Cognito in an Android or iOS application, you will probably want to make API calls via the AWS Mobile SDK. To learn more, see the <a href="http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/cognito-auth.html">Developer Guide for Android</a> and the <a href="http://docs.aws.amazon.com/mobile/sdkforios/developerguide/cognito-auth.html">Developer Guide for iOS</a>.</p></p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/configuration">&nbsp;&nbsp;configuration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultCognitoIdentity">+&nbsp;defaultCognitoIdentity</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithConfiguration:">&ndash;&nbsp;initWithConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createIdentityPool:">&ndash;&nbsp;createIdentityPool:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteIdentityPool:">&ndash;&nbsp;deleteIdentityPool:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeIdentity:">&ndash;&nbsp;describeIdentity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeIdentityPool:">&ndash;&nbsp;describeIdentityPool:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getCredentialsForIdentity:">&ndash;&nbsp;getCredentialsForIdentity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getId:">&ndash;&nbsp;getId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getIdentityPoolRoles:">&ndash;&nbsp;getIdentityPoolRoles:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getOpenIdToken:">&ndash;&nbsp;getOpenIdToken:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getOpenIdTokenForDeveloperIdentity:">&ndash;&nbsp;getOpenIdTokenForDeveloperIdentity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listIdentities:">&ndash;&nbsp;listIdentities:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listIdentityPools:">&ndash;&nbsp;listIdentityPools:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lookupDeveloperIdentity:">&ndash;&nbsp;lookupDeveloperIdentity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mergeDeveloperIdentities:">&ndash;&nbsp;mergeDeveloperIdentities:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setIdentityPoolRoles:">&ndash;&nbsp;setIdentityPoolRoles:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unlinkDeveloperIdentity:">&ndash;&nbsp;unlinkDeveloperIdentity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unlinkIdentity:">&ndash;&nbsp;unlinkIdentity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateIdentityPool:">&ndash;&nbsp;updateIdentityPool:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/configuration" title="configuration"></a>
+	<h3 class="subsubtitle method-title">configuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The service configuration used to instantiate this service client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultCognitoIdentity" title="defaultCognitoIdentity"></a>
+	<h3 class="subsubtitle method-title">defaultCognitoIdentity</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with <code>defaultServiceConfiguration</code> from <code>[AWSServiceManager defaultServiceManager]</code>. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)defaultCognitoIdentity</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The default service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/createIdentityPool:" title="createIdentityPool:"></a>
+	<h3 class="subsubtitle method-title">createIdentityPool:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a new identity pool. The identity pool is a store of user identity information that is specific to your AWS account. The limit on identity pools is 60 per account.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createIdentityPool:(AWSCognitoIdentityCreateIdentityPoolInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateIdentityPool service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityIdentityPool</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>, <code>AWSCognitoIdentityErrorLimitExceeded</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityCreateIdentityPoolInput.html">AWSCognitoIdentityCreateIdentityPoolInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityIdentityPool.html">AWSCognitoIdentityIdentityPool</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteIdentityPool:" title="deleteIdentityPool:"></a>
+	<h3 class="subsubtitle method-title">deleteIdentityPool:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes a user pool. Once a pool is deleted, users will not be able to authenticate with the pool.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteIdentityPool:(AWSCognitoIdentityDeleteIdentityPoolInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteIdentityPool service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityDeleteIdentityPoolInput.html">AWSCognitoIdentityDeleteIdentityPoolInput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeIdentity:" title="describeIdentity:"></a>
+	<h3 class="subsubtitle method-title">describeIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DescribeIdentity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeIdentity:(AWSCognitoIdentityDescribeIdentityInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeIdentity service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityIdentityDescription</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityDescribeIdentityInput.html">AWSCognitoIdentityDescribeIdentityInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityIdentityDescription.html">AWSCognitoIdentityIdentityDescription</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeIdentityPool:" title="describeIdentityPool:"></a>
+	<h3 class="subsubtitle method-title">describeIdentityPool:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets details about a particular identity pool, including the pool name, ID description, creation date, and current number of users.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeIdentityPool:(AWSCognitoIdentityDescribeIdentityPoolInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeIdentityPool service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityIdentityPool</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityDescribeIdentityPoolInput.html">AWSCognitoIdentityDescribeIdentityPoolInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityIdentityPool.html">AWSCognitoIdentityIdentityPool</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getCredentialsForIdentity:" title="getCredentialsForIdentity:"></a>
+	<h3 class="subsubtitle method-title">getCredentialsForIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>GetCredentialsForIdentity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)getCredentialsForIdentity:(AWSCognitoIdentityGetCredentialsForIdentityInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the GetCredentialsForIdentity service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityGetCredentialsForIdentityResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInvalidIdentityPoolConfiguration</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetCredentialsForIdentityInput.html">AWSCognitoIdentityGetCredentialsForIdentityInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetCredentialsForIdentityResponse.html">AWSCognitoIdentityGetCredentialsForIdentityResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getId:" title="getId:"></a>
+	<h3 class="subsubtitle method-title">getId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicit linked account.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)getId:(AWSCognitoIdentityGetIdInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the GetId service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityGetIdResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>, <code>AWSCognitoIdentityErrorLimitExceeded</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetIdInput.html">AWSCognitoIdentityGetIdInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetIdResponse.html">AWSCognitoIdentityGetIdResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getIdentityPoolRoles:" title="getIdentityPoolRoles:"></a>
+	<h3 class="subsubtitle method-title">getIdentityPoolRoles:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>GetIdentityPoolRoles</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)getIdentityPoolRoles:(AWSCognitoIdentityGetIdentityPoolRolesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the GetIdentityPoolRoles service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityGetIdentityPoolRolesResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetIdentityPoolRolesInput.html">AWSCognitoIdentityGetIdentityPoolRolesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetIdentityPoolRolesResponse.html">AWSCognitoIdentityGetIdentityPoolRolesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getOpenIdToken:" title="getOpenIdToken:"></a>
+	<h3 class="subsubtitle method-title">getOpenIdToken:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned by <a>GetId</a>. You can optionally add additional logins for the identity. Supplying multiple logins creates an implicit link.</p>
+
+
+<p>The OpenId token is valid for 15 minutes.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)getOpenIdToken:(AWSCognitoIdentityGetOpenIdTokenInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the GetOpenIdToken service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityGetOpenIdTokenResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetOpenIdTokenInput.html">AWSCognitoIdentityGetOpenIdTokenInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetOpenIdTokenResponse.html">AWSCognitoIdentityGetOpenIdTokenResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getOpenIdTokenForDeveloperIdentity:" title="getOpenIdTokenForDeveloperIdentity:"></a>
+	<h3 class="subsubtitle method-title">getOpenIdTokenForDeveloperIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Registers (or retrieves) a Cognito <code>IdentityId</code> and an OpenID Connect token for a user authenticated by your backend authentication process. Supplying multiple logins will create an implicit linked account. You can only specify one developer provider as part of the <code>Logins</code> map, which is linked to the identity pool. The developer provider is the "domain" by which Cognito will refer to your users.</p>
+
+
+<p>You can use <code>GetOpenIdTokenForDeveloperIdentity</code> to create a new identity and to link new logins (that is, user credentials issued by a public provider or developer provider) to an existing identity. When you want to create a new identity, the <code>IdentityId</code> should be null. When you want to associate a new login with an existing authenticated/unauthenticated identity, you can do so by providing the existing <code>IdentityId</code>. This API will create the identity in the specified <code>IdentityPoolId</code>.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)getOpenIdTokenForDeveloperIdentity:(AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the GetOpenIdTokenForDeveloperIdentity service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>, <code>AWSCognitoIdentityErrorDeveloperUserAlreadyRegistered</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityInput.html">AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse.html">AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithConfiguration:" title="initWithConfiguration:"></a>
+	<h3 class="subsubtitle method-title">initWithConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Instantiates the service client with the given service configuration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)<em>configuration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>configuration</em></dt>
+			<dd><p>The service configuration object.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of the service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div><div class="warning"><p><strong>Warning:</strong> Unlike the singleton method, you are responsible for maintaining a strong reference to this object. If the service client is released before completing a service request, the request may fail with unspecified errors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listIdentities:" title="listIdentities:"></a>
+	<h3 class="subsubtitle method-title">listIdentities:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Lists the identities in a pool.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)listIdentities:(AWSCognitoIdentityListIdentitiesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ListIdentities service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityListIdentitiesResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityListIdentitiesInput.html">AWSCognitoIdentityListIdentitiesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityListIdentitiesResponse.html">AWSCognitoIdentityListIdentitiesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listIdentityPools:" title="listIdentityPools:"></a>
+	<h3 class="subsubtitle method-title">listIdentityPools:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Lists all of the Cognito identity pools registered for your account.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)listIdentityPools:(AWSCognitoIdentityListIdentityPoolsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ListIdentityPools service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityListIdentityPoolsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityListIdentityPoolsInput.html">AWSCognitoIdentityListIdentityPoolsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityListIdentityPoolsResponse.html">AWSCognitoIdentityListIdentityPoolsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lookupDeveloperIdentity:" title="lookupDeveloperIdentity:"></a>
+	<h3 class="subsubtitle method-title">lookupDeveloperIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieves the <code>IdentityID</code> associated with a <code>DeveloperUserIdentifier</code> or the list of <code>DeveloperUserIdentifier</code>s associated with an <code>IdentityId</code> for an existing identity. Either <code>IdentityID</code> or <code>DeveloperUserIdentifier</code> must not be null. If you supply only one of these values, the other value will be searched in the database and returned as a part of the response. If you supply both, <code>DeveloperUserIdentifier</code> will be matched against <code>IdentityID</code>. If the values are verified against the database, the response returns both values and is the same as the request. Otherwise a <code>ResourceConflictException</code> is thrown.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)lookupDeveloperIdentity:(AWSCognitoIdentityLookupDeveloperIdentityInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the LookupDeveloperIdentity service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityLookupDeveloperIdentityResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityLookupDeveloperIdentityInput.html">AWSCognitoIdentityLookupDeveloperIdentityInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityLookupDeveloperIdentityResponse.html">AWSCognitoIdentityLookupDeveloperIdentityResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mergeDeveloperIdentities:" title="mergeDeveloperIdentities:"></a>
+	<h3 class="subsubtitle method-title">mergeDeveloperIdentities:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Merges two users having different <code>IdentityId</code>s, existing in the same identity pool, and identified by the same developer provider. You can use this action to request that discrete users be merged and identified as a single user in the Cognito environment. Cognito associates the given source user (<code>SourceUserIdentifier</code>) with the <code>IdentityId</code> of the <code>DestinationUserIdentifier</code>. Only developer-authenticated users can be merged. If the users to be merged are associated with the same public provider, but as two different users, an exception will be thrown.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)mergeDeveloperIdentities:(AWSCognitoIdentityMergeDeveloperIdentitiesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the MergeDeveloperIdentities service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityMergeDeveloperIdentitiesResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityMergeDeveloperIdentitiesInput.html">AWSCognitoIdentityMergeDeveloperIdentitiesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityMergeDeveloperIdentitiesResponse.html">AWSCognitoIdentityMergeDeveloperIdentitiesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setIdentityPoolRoles:" title="setIdentityPoolRoles:"></a>
+	<h3 class="subsubtitle method-title">setIdentityPoolRoles:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>SetIdentityPoolRoles</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)setIdentityPoolRoles:(AWSCognitoIdentitySetIdentityPoolRolesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SetIdentityPoolRoles service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentitySetIdentityPoolRolesInput.html">AWSCognitoIdentitySetIdentityPoolRolesInput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unlinkDeveloperIdentity:" title="unlinkDeveloperIdentity:"></a>
+	<h3 class="subsubtitle method-title">unlinkDeveloperIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unlinks a <code>DeveloperUserIdentifier</code> from an existing identity. Unlinked developer users will be considered new identities next time they are seen. If, for a given Cognito identity, you remove all federated identities as well as the developer user identifier, the Cognito identity becomes inaccessible.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)unlinkDeveloperIdentity:(AWSCognitoIdentityUnlinkDeveloperIdentityInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the UnlinkDeveloperIdentity service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityUnlinkDeveloperIdentityInput.html">AWSCognitoIdentityUnlinkDeveloperIdentityInput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unlinkIdentity:" title="unlinkIdentity:"></a>
+	<h3 class="subsubtitle method-title">unlinkIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unlinks a federated identity from an existing account. Unlinked logins will be considered new identities next time they are seen. Removing the last linked login will make this identity inaccessible.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)unlinkIdentity:(AWSCognitoIdentityUnlinkIdentityInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the UnlinkIdentity service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityUnlinkIdentityInput.html">AWSCognitoIdentityUnlinkIdentityInput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateIdentityPool:" title="updateIdentityPool:"></a>
+	<h3 class="subsubtitle method-title">updateIdentityPool:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Updates a user pool.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)updateIdentityPool:(AWSCognitoIdentityIdentityPool *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the UpdateIdentityPool service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoIdentityIdentityPool</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoIdentityErrorDomain</code> domian and the following error code: <code>AWSCognitoIdentityErrorInvalidParameter</code>, <code>AWSCognitoIdentityErrorResourceNotFound</code>, <code>AWSCognitoIdentityErrorNotAuthorized</code>, <code>AWSCognitoIdentityErrorResourceConflict</code>, <code>AWSCognitoIdentityErrorTooManyRequests</code>, <code>AWSCognitoIdentityErrorInternalError</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityIdentityPool.html">AWSCognitoIdentityIdentityPool</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoIdentityIdentityPool.html">AWSCognitoIdentityIdentityPool</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoIdentity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-01-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

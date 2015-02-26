@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognito.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognito</TokenIdentifier>
+			<Abstract type="html">Copyright 2014 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+            
+			
+			<NodeRef refid="114"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The error domain for AWSCognito errors.
+&lt;ul&gt;
+&lt;li&gt;AWSCognitoErrorUnknown - Unknow error.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorRemoteDataStorageFailed - The Amazon Cognito call temporarily failed.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorInvalidDataValue - The Amazon Cognito call failed. The value for the
+key is invalid and has been deleted from the local database.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorDataSizeLimitExceeded - The Amazon Cognito call failed. A
+dataset has exceeded the max dataset size.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorLocalDataStorageFailed - The SQLite call failed.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorIllegalArgument - The input value is invalid.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorConflictRetriesExhausted - The number of attempts to resolve a conflict
+has exceeded the max number of retries.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorWiFiNotAvailable - WiFi is required and not currently available.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorDeviceNotRegistered - The device has not been registered yet.&lt;/li&gt;
+&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/configuration</TokenIdentifier>
+			<Abstract type="html">The error domain for AWSCognito errors.
+&lt;ul&gt;
+&lt;li&gt;AWSCognitoErrorUnknown - Unknow error.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorRemoteDataStorageFailed - The Amazon Cognito call temporarily failed.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorInvalidDataValue - The Amazon Cognito call failed. The value for the
+key is invalid and has been deleted from the local database.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorDataSizeLimitExceeded - The Amazon Cognito call failed. A
+dataset has exceeded the max dataset size.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorLocalDataStorageFailed - The SQLite call failed.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorIllegalArgument - The input value is invalid.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorConflictRetriesExhausted - The number of attempts to resolve a conflict
+has exceeded the max number of retries.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorWiFiNotAvailable - WiFi is required and not currently available.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorDeviceNotRegistered - The device has not been registered yet.&lt;/li&gt;
+&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognito/configuration</TokenIdentifier>
+			<Abstract type="html">The error domain for AWSCognito errors.
+&lt;ul&gt;
+&lt;li&gt;AWSCognitoErrorUnknown - Unknow error.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorRemoteDataStorageFailed - The Amazon Cognito call temporarily failed.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorInvalidDataValue - The Amazon Cognito call failed. The value for the
+key is invalid and has been deleted from the local database.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorDataSizeLimitExceeded - The Amazon Cognito call failed. A
+dataset has exceeded the max dataset size.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorLocalDataStorageFailed - The SQLite call failed.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorIllegalArgument - The input value is invalid.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorConflictRetriesExhausted - The number of attempts to resolve a conflict
+has exceeded the max number of retries.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorWiFiNotAvailable - WiFi is required and not currently available.&lt;/li&gt;
+&lt;li&gt;AWSCognitoErrorDeviceNotRegistered - The device has not been registered yet.&lt;/li&gt;
+&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/setConflictHandler:</TokenIdentifier>
+			<Abstract type="html">A conflict resolution handler that will receive calls when there is a
+conflict during a sync operation.  A conflict will occur when both remote and
+local data have been updated since the last sync time.
+When not explicitly set, we will use the default conflict resolution of
+&apos;last writer wins&apos;, where the data most recently updated will be persisted.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoRecordConflictHandler conflictHandler</Declaration>
+			
+			
+			<Anchor>//api/name/conflictHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/conflictHandler</TokenIdentifier>
+			<Abstract type="html">A conflict resolution handler that will receive calls when there is a
+conflict during a sync operation.  A conflict will occur when both remote and
+local data have been updated since the last sync time.
+When not explicitly set, we will use the default conflict resolution of
+&apos;last writer wins&apos;, where the data most recently updated will be persisted.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoRecordConflictHandler conflictHandler</Declaration>
+			
+			
+			<Anchor>//api/name/conflictHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognito/conflictHandler</TokenIdentifier>
+			<Abstract type="html">A conflict resolution handler that will receive calls when there is a
+conflict during a sync operation.  A conflict will occur when both remote and
+local data have been updated since the last sync time.
+When not explicitly set, we will use the default conflict resolution of
+&apos;last writer wins&apos;, where the data most recently updated will be persisted.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoRecordConflictHandler conflictHandler</Declaration>
+			
+			
+			<Anchor>//api/name/conflictHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/setDatasetDeletedHandler:</TokenIdentifier>
+			<Abstract type="html">A deleted dataset handler. This handler will be called during a synchronization
+when the remote service indicates that a dataset has been deleted.
+Returning YES from the handler will cause the service to recreate the dataset
+on the remote on the next synchronization. Returning NO or leaving this property
+nil will cause the client to delete the dataset locally.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoDatasetDeletedHandler datasetDeletedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetDeletedHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/datasetDeletedHandler</TokenIdentifier>
+			<Abstract type="html">A deleted dataset handler. This handler will be called during a synchronization
+when the remote service indicates that a dataset has been deleted.
+Returning YES from the handler will cause the service to recreate the dataset
+on the remote on the next synchronization. Returning NO or leaving this property
+nil will cause the client to delete the dataset locally.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoDatasetDeletedHandler datasetDeletedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetDeletedHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognito/datasetDeletedHandler</TokenIdentifier>
+			<Abstract type="html">A deleted dataset handler. This handler will be called during a synchronization
+when the remote service indicates that a dataset has been deleted.
+Returning YES from the handler will cause the service to recreate the dataset
+on the remote on the next synchronization. Returning NO or leaving this property
+nil will cause the client to delete the dataset locally.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoDatasetDeletedHandler datasetDeletedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetDeletedHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/setDatasetMergedHandler:</TokenIdentifier>
+			<Abstract type="html">A merged dataset handler. This handler will be called during a synchronization
+when the remote service indicates that other datasets should be merged with this one.
+Merged datasets should be fetched, their data overlayed locally and then removed.
+Failing to implement this handler will result in merged datasets remaining on the
+service indefinitely.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoDatasetMergedHandler datasetMergedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetMergedHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/datasetMergedHandler</TokenIdentifier>
+			<Abstract type="html">A merged dataset handler. This handler will be called during a synchronization
+when the remote service indicates that other datasets should be merged with this one.
+Merged datasets should be fetched, their data overlayed locally and then removed.
+Failing to implement this handler will result in merged datasets remaining on the
+service indefinitely.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoDatasetMergedHandler datasetMergedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetMergedHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognito/datasetMergedHandler</TokenIdentifier>
+			<Abstract type="html">A merged dataset handler. This handler will be called during a synchronization
+when the remote service indicates that other datasets should be merged with this one.
+Merged datasets should be fetched, their data overlayed locally and then removed.
+Failing to implement this handler will result in merged datasets remaining on the
+service indefinitely.
+This handler will be propagated to any AWSCognitoDataset opened by this client.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoDatasetMergedHandler datasetMergedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetMergedHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/setDeviceId:</TokenIdentifier>
+			<Abstract type="html">The identifier used for this client in Amazon Cognito.  If not supplied
+Amazon Cognito will create a random GUID for the device.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/deviceId</TokenIdentifier>
+			<Abstract type="html">The identifier used for this client in Amazon Cognito.  If not supplied
+Amazon Cognito will create a random GUID for the device.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognito/deviceId</TokenIdentifier>
+			<Abstract type="html">The identifier used for this client in Amazon Cognito.  If not supplied
+Amazon Cognito will create a random GUID for the device.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/setSynchronizeRetries:</TokenIdentifier>
+			<Abstract type="html">The number of times to attempt a synchronization before failing. This will
+be set on any AWSCognitoDatasets opened with this client. Defaults to 5 if not set.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) uint32_t synchronizeRetries</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeRetries</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/synchronizeRetries</TokenIdentifier>
+			<Abstract type="html">The number of times to attempt a synchronization before failing. This will
+be set on any AWSCognitoDatasets opened with this client. Defaults to 5 if not set.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) uint32_t synchronizeRetries</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeRetries</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognito/synchronizeRetries</TokenIdentifier>
+			<Abstract type="html">The number of times to attempt a synchronization before failing. This will
+be set on any AWSCognitoDatasets opened with this client. Defaults to 5 if not set.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) uint32_t synchronizeRetries</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeRetries</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/setSynchronizeOnWiFiOnly:</TokenIdentifier>
+			<Abstract type="html">Only synchronize if device is on a WiFi network. Defaults to NO if not set.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL synchronizeOnWiFiOnly</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeOnWiFiOnly</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/synchronizeOnWiFiOnly</TokenIdentifier>
+			<Abstract type="html">Only synchronize if device is on a WiFi network. Defaults to NO if not set.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL synchronizeOnWiFiOnly</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeOnWiFiOnly</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognito/synchronizeOnWiFiOnly</TokenIdentifier>
+			<Abstract type="html">Only synchronize if device is on a WiFi network. Defaults to NO if not set.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL synchronizeOnWiFiOnly</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeOnWiFiOnly</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/initWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Initialize the instance with the supplied service config.
+Will return nil if the credentials provider is not an instance of
+AWSCognitoCredentials provider.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
+			
+			
+			<Anchor>//api/name/initWithConfiguration:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCognito/defaultCognito</TokenIdentifier>
+			<Abstract type="html">Return a singleton instance of the AWSCognito client with the default service config.
+Will return nil if the credentials provider is not an instance of
+AWSCognitoCredentials provider.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>+ (AWSCognito *)defaultCognito</Declaration>
+			
+			
+			<Anchor>//api/name/defaultCognito</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/openOrCreateDataset:</TokenIdentifier>
+			<Abstract type="html">Opens an existing dataset or creates a new one.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (AWSCognitoDataset *)openOrCreateDataset:(NSString *)datasetName</Declaration>
+			
+			
+			<Anchor>//api/name/openOrCreateDataset:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/listDatasets</TokenIdentifier>
+			<Abstract type="html">List all datasets our client is aware of. Call refreshDatasetMetadata to ensure
+the client has knowledge of all datasets available on the remote store.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)listDatasets</Declaration>
+			
+			
+			<Anchor>//api/name/listDatasets</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/refreshDatasetMetadata</TokenIdentifier>
+			<Abstract type="html">List all of the datasets.  Returns a BFTask. The result of this task will be an array of AWSCognitoDatasetMetadata objects.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)refreshDatasetMetadata</Declaration>
+			
+			
+			<Anchor>//api/name/refreshDatasetMetadata</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/wipe</TokenIdentifier>
+			<Abstract type="html">Wipe all cached data.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (void)wipe</Declaration>
+			
+			
+			<Anchor>//api/name/wipe</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCognito/defaultConflictHandler</TokenIdentifier>
+			<Abstract type="html">Get the default, last writer wins conflict handler</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>+ (AWSCognitoRecordConflictHandler)defaultConflictHandler</Declaration>
+			
+			
+			<Anchor>//api/name/defaultConflictHandler</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/registerDevice:</TokenIdentifier>
+			<Abstract type="html">Register this device for push notifications.  You will not receive any notifications until you actually subscribe the
+dataset you want to receive push notifications for.  If your build targets Release, this will register the device
+with APNS, if your build targets Debug this will register the device with APNS_SANDBOX. Returns a BFTask.
+The result of this task will be a AWSCognitoSyncRegisterDeviceResponse.</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)registerDevice:(NSData *)deviceToken</Declaration>
+			
+			
+			<Anchor>//api/name/registerDevice:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCognito/cognitoDeviceId</TokenIdentifier>
+			<Abstract type="html">Get the device id Cognito Sync gave this device. nil if device has never been registered</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)cognitoDeviceId</Declaration>
+			
+			
+			<Anchor>//api/name/cognitoDeviceId</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/subscribe:</TokenIdentifier>
+			<Abstract type="html">Subscribe to a list of datasets.  Make sure you have called synchronize on each of the datasets in the list
+at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+AWSCognitoSyncSubscribeToDatasetResponse</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)subscribe:(NSArray *)datasetNames</Declaration>
+			
+			
+			<Anchor>//api/name/subscribe:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/subscribeAll</TokenIdentifier>
+			<Abstract type="html">Subscribe to all datasets you have locally.  Make sure you have called synchronize on all of your local datasets
+at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+AWSCognitoSyncSubscribeToDatasetResponse</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)subscribeAll</Declaration>
+			
+			
+			<Anchor>//api/name/subscribeAll</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/unsubscribe:</TokenIdentifier>
+			<Abstract type="html">Unsubscribe to a list of datasets. Returns a BFTask.  The result of this task will be a NSArray of
+AWSCognitoSyncUnsubscribeToDatasetResponse</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)unsubscribe:(NSArray *)datasetNames</Declaration>
+			
+			
+			<Anchor>//api/name/unsubscribe:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognito/unsubscribeAll</TokenIdentifier>
+			<Abstract type="html">Unsubscribe to all datasets you have locally.  Make sure you have called synchronize on all of your local datasets
+at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+AWSCognitoSyncUnsubscribeToDatasetResponse</Abstract>
+			<DeclaredIn>AWSCognito.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)unsubscribeAll</Declaration>
+			
+			
+			<Anchor>//api/name/unsubscribeAll</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

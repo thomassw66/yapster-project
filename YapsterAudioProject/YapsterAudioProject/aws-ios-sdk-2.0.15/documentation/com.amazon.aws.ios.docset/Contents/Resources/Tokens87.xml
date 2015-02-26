@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingUpdateAutoScalingGroupType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingUpdateAutoScalingGroupType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;
+Required parameters: [AutoScalingGroupName]</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setAvailabilityZones:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Availability Zones for the group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZones</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/availabilityZones</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Availability Zones for the group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZones</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/availabilityZones</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Availability Zones for the group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZones</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setDefaultCooldown:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The amount of time, in seconds, after a scaling activity completes before any further scaling activities can start. For more information, see Cooldown Period. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *defaultCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/defaultCooldown</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/defaultCooldown</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The amount of time, in seconds, after a scaling activity completes before any further scaling activities can start. For more information, see Cooldown Period. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *defaultCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/defaultCooldown</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/defaultCooldown</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The amount of time, in seconds, after a scaling activity completes before any further scaling activities can start. For more information, see Cooldown Period. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *defaultCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/defaultCooldown</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setDesiredCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The desired capacity for the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The desired capacity for the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The desired capacity for the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setHealthCheckGracePeriod:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The length of time that Auto Scaling waits before checking an instance&apos;s health status. The grace period begins when the instance passes System Status and the Instance Status checks from Amazon EC2. For more information, see DescribeInstanceStatus. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *healthCheckGracePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckGracePeriod</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/healthCheckGracePeriod</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The length of time that Auto Scaling waits before checking an instance&apos;s health status. The grace period begins when the instance passes System Status and the Instance Status checks from Amazon EC2. For more information, see DescribeInstanceStatus. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *healthCheckGracePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckGracePeriod</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/healthCheckGracePeriod</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The length of time that Auto Scaling waits before checking an instance&apos;s health status. The grace period begins when the instance passes System Status and the Instance Status checks from Amazon EC2. For more information, see DescribeInstanceStatus. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *healthCheckGracePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckGracePeriod</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setHealthCheckType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The type of health check for the instances in the Auto Scaling group. The health check type can either be &lt;code&gt;EC2&lt;/code&gt; for Amazon EC2 or &lt;code&gt;ELB&lt;/code&gt; for Elastic Load Balancing. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *healthCheckType</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckType</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/healthCheckType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The type of health check for the instances in the Auto Scaling group. The health check type can either be &lt;code&gt;EC2&lt;/code&gt; for Amazon EC2 or &lt;code&gt;ELB&lt;/code&gt; for Elastic Load Balancing. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *healthCheckType</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckType</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/healthCheckType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The type of health check for the instances in the Auto Scaling group. The health check type can either be &lt;code&gt;EC2&lt;/code&gt; for Amazon EC2 or &lt;code&gt;ELB&lt;/code&gt; for Elastic Load Balancing. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *healthCheckType</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckType</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setLaunchConfigurationName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the launch configuration. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/launchConfigurationName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the launch configuration. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/launchConfigurationName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the launch configuration. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setMaxSize:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/maxSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/maxSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setMinSize:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/minSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/minSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setPlacementGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the cluster placement group, if applicable. For more information, go to  Using Cluster Instances in the Amazon EC2 User Guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *placementGroup</Declaration>
+			
+			
+			<Anchor>//api/name/placementGroup</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/placementGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the cluster placement group, if applicable. For more information, go to  Using Cluster Instances in the Amazon EC2 User Guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *placementGroup</Declaration>
+			
+			
+			<Anchor>//api/name/placementGroup</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/placementGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the cluster placement group, if applicable. For more information, go to  Using Cluster Instances in the Amazon EC2 User Guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *placementGroup</Declaration>
+			
+			
+			<Anchor>//api/name/placementGroup</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setTerminationPolicies:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A standalone termination policy or a list of termination policies used to select the instance to terminate. The policies are executed in the order that they are listed. &lt;/p&gt;&lt;p&gt; For more information on creating a termination policy for your Auto Scaling group, go to Instance Termination Policy for Your Auto Scaling Group in the the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *terminationPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/terminationPolicies</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/terminationPolicies</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A standalone termination policy or a list of termination policies used to select the instance to terminate. The policies are executed in the order that they are listed. &lt;/p&gt;&lt;p&gt; For more information on creating a termination policy for your Auto Scaling group, go to Instance Termination Policy for Your Auto Scaling Group in the the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *terminationPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/terminationPolicies</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/terminationPolicies</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A standalone termination policy or a list of termination policies used to select the instance to terminate. The policies are executed in the order that they are listed. &lt;/p&gt;&lt;p&gt; For more information on creating a termination policy for your Auto Scaling group, go to Instance Termination Policy for Your Auto Scaling Group in the the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *terminationPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/terminationPolicies</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/setVPCZoneIdentifier:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The subnet identifier for the Amazon VPC connection, if applicable. You can specify several subnets in a comma-separated list. &lt;/p&gt;&lt;p&gt; When you specify &lt;code&gt;VPCZoneIdentifier&lt;/code&gt; with &lt;code&gt;AvailabilityZones&lt;/code&gt;, ensure that the subnets&apos; Availability Zones match the values you specify for &lt;code&gt;AvailabilityZones&lt;/code&gt;. &lt;/p&gt;&lt;p&gt; For more information on creating your Auto Scaling group in Amazon VPC by specifying subnets, see Launch Auto Scaling Instances into Amazon VPC in the the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *VPCZoneIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/VPCZoneIdentifier</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingUpdateAutoScalingGroupType/VPCZoneIdentifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The subnet identifier for the Amazon VPC connection, if applicable. You can specify several subnets in a comma-separated list. &lt;/p&gt;&lt;p&gt; When you specify &lt;code&gt;VPCZoneIdentifier&lt;/code&gt; with &lt;code&gt;AvailabilityZones&lt;/code&gt;, ensure that the subnets&apos; Availability Zones match the values you specify for &lt;code&gt;AvailabilityZones&lt;/code&gt;. &lt;/p&gt;&lt;p&gt; For more information on creating your Auto Scaling group in Amazon VPC by specifying subnets, see Launch Auto Scaling Instances into Amazon VPC in the the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *VPCZoneIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/VPCZoneIdentifier</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingUpdateAutoScalingGroupType/VPCZoneIdentifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The subnet identifier for the Amazon VPC connection, if applicable. You can specify several subnets in a comma-separated list. &lt;/p&gt;&lt;p&gt; When you specify &lt;code&gt;VPCZoneIdentifier&lt;/code&gt; with &lt;code&gt;AvailabilityZones&lt;/code&gt;, ensure that the subnets&apos; Availability Zones match the values you specify for &lt;code&gt;AvailabilityZones&lt;/code&gt;. &lt;/p&gt;&lt;p&gt; For more information on creating your Auto Scaling group in Amazon VPC by specifying subnets, see Launch Auto Scaling Instances into Amazon VPC in the the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *VPCZoneIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/VPCZoneIdentifier</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

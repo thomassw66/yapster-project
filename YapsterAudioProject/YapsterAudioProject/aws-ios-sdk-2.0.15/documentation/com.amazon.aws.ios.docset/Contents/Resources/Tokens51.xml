@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingExecutePolicyType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingExecutePolicyType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or the Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or the Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingExecutePolicyType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or the Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/setHonorCooldown:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before executing the policy.&lt;/p&gt;&lt;p&gt;Set to &lt;code&gt;False&lt;/code&gt; if you want Auto Scaling to circumvent the cooldown period associated with the Auto Scaling group and execute the policy before the cooldown period ends. &lt;/p&gt;&lt;p&gt;For information about cooldown period, see Cooldown Period in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/honorCooldown</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/honorCooldown</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before executing the policy.&lt;/p&gt;&lt;p&gt;Set to &lt;code&gt;False&lt;/code&gt; if you want Auto Scaling to circumvent the cooldown period associated with the Auto Scaling group and execute the policy before the cooldown period ends. &lt;/p&gt;&lt;p&gt;For information about cooldown period, see Cooldown Period in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/honorCooldown</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingExecutePolicyType/honorCooldown</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before executing the policy.&lt;/p&gt;&lt;p&gt;Set to &lt;code&gt;False&lt;/code&gt; if you want Auto Scaling to circumvent the cooldown period associated with the Auto Scaling group and execute the policy before the cooldown period ends. &lt;/p&gt;&lt;p&gt;For information about cooldown period, see Cooldown Period in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/honorCooldown</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/setPolicyName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or ARN of the policy you want to run. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/policyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or ARN of the policy you want to run. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingExecutePolicyType/policyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or ARN of the policy you want to run. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

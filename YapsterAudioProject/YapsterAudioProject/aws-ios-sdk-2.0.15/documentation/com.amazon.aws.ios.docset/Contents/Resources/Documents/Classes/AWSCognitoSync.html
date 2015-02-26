@@ -1,0 +1,1203 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AWSCognitoSync Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.15 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AWSCognitoSync Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/deleteDataset:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteDataset:</option>
+	
+	<option value="//api/name/describeDataset:">&nbsp;&nbsp;&nbsp;&nbsp;- describeDataset:</option>
+	
+	<option value="//api/name/describeIdentityPoolUsage:">&nbsp;&nbsp;&nbsp;&nbsp;- describeIdentityPoolUsage:</option>
+	
+	<option value="//api/name/describeIdentityUsage:">&nbsp;&nbsp;&nbsp;&nbsp;- describeIdentityUsage:</option>
+	
+	<option value="//api/name/getIdentityPoolConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- getIdentityPoolConfiguration:</option>
+	
+	<option value="//api/name/listDatasets:">&nbsp;&nbsp;&nbsp;&nbsp;- listDatasets:</option>
+	
+	<option value="//api/name/listIdentityPoolUsage:">&nbsp;&nbsp;&nbsp;&nbsp;- listIdentityPoolUsage:</option>
+	
+	<option value="//api/name/listRecords:">&nbsp;&nbsp;&nbsp;&nbsp;- listRecords:</option>
+	
+	<option value="//api/name/registerDevice:">&nbsp;&nbsp;&nbsp;&nbsp;- registerDevice:</option>
+	
+	<option value="//api/name/setIdentityPoolConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- setIdentityPoolConfiguration:</option>
+	
+	<option value="//api/name/subscribeToDataset:">&nbsp;&nbsp;&nbsp;&nbsp;- subscribeToDataset:</option>
+	
+	<option value="//api/name/unsubscribeFromDataset:">&nbsp;&nbsp;&nbsp;&nbsp;- unsubscribeFromDataset:</option>
+	
+	<option value="//api/name/updateRecords:">&nbsp;&nbsp;&nbsp;&nbsp;- updateRecords:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteDataset:">deleteDataset:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeDataset:">describeDataset:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeIdentityPoolUsage:">describeIdentityPoolUsage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeIdentityUsage:">describeIdentityUsage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getIdentityPoolConfiguration:">getIdentityPoolConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listDatasets:">listDatasets:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listIdentityPoolUsage:">listIdentityPoolUsage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listRecords:">listRecords:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerDevice:">registerDevice:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setIdentityPoolConfiguration:">setIdentityPoolConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/subscribeToDataset:">subscribeToDataset:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unsubscribeFromDataset:">unsubscribeFromDataset:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateRecords:">updateRecords:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AWSCognitoSync Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AWSCognitoSync Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">AWSService : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AWSCognitoSync.h<br />AWSCognitoSync.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><fullname>Amazon Cognito Sync</fullname><p>Amazon Cognito Sync provides an AWS service and client library that enable cross-device syncing of application-related user data. High-level client libraries are available for both iOS and Android. You can use these libraries to persist data locally so that it&rsquo;s available even if the device is offline. Developer credentials don&rsquo;t need to be stored on the mobile device to access the service. You can use Amazon Cognito to obtain a normalized user ID and credentials. User data is persisted in a dataset that can store up to 1 MB of key-value pairs, and you can have up to 20 datasets per user identity.</p><p>With Amazon Cognito Sync, the data stored for each identity is accessible only to credentials assigned to that identity. In order to use the Cognito Sync service, you need to make API calls using credentials retrieved with <a href="http://docs.aws.amazon.com/cognitoidentity/latest/APIReference/Welcome.html">Amazon Cognito Identity service</a>.</p></p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteDataset:">&ndash;&nbsp;deleteDataset:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeDataset:">&ndash;&nbsp;describeDataset:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeIdentityPoolUsage:">&ndash;&nbsp;describeIdentityPoolUsage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeIdentityUsage:">&ndash;&nbsp;describeIdentityUsage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getIdentityPoolConfiguration:">&ndash;&nbsp;getIdentityPoolConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listDatasets:">&ndash;&nbsp;listDatasets:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listIdentityPoolUsage:">&ndash;&nbsp;listIdentityPoolUsage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listRecords:">&ndash;&nbsp;listRecords:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/registerDevice:">&ndash;&nbsp;registerDevice:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setIdentityPoolConfiguration:">&ndash;&nbsp;setIdentityPoolConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/subscribeToDataset:">&ndash;&nbsp;subscribeToDataset:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unsubscribeFromDataset:">&ndash;&nbsp;unsubscribeFromDataset:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateRecords:">&ndash;&nbsp;updateRecords:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteDataset:" title="deleteDataset:"></a>
+	<h3 class="subsubtitle method-title">deleteDataset:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes the specific dataset. The dataset will be deleted permanently, and the action can&rsquo;t be undone. Datasets that this dataset was merged with will no longer report the merge. Any consequent operation on this dataset will result in a ResourceNotFoundException.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteDataset:(AWSCognitoSyncDeleteDatasetRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteDataset service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncDeleteDatasetResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncDeleteDatasetRequest.html">AWSCognitoSyncDeleteDatasetRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncDeleteDatasetResponse.html">AWSCognitoSyncDeleteDatasetResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeDataset:" title="describeDataset:"></a>
+	<h3 class="subsubtitle method-title">describeDataset:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets metadata about a dataset by identity and dataset name. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeDataset:(AWSCognitoSyncDescribeDatasetRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeDataset service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncDescribeDatasetResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncDescribeDatasetRequest.html">AWSCognitoSyncDescribeDatasetRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncDescribeDatasetResponse.html">AWSCognitoSyncDescribeDatasetResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeIdentityPoolUsage:" title="describeIdentityPoolUsage:"></a>
+	<h3 class="subsubtitle method-title">describeIdentityPoolUsage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets usage details (for example, data storage) about a particular identity pool.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeIdentityPoolUsage:(AWSCognitoSyncDescribeIdentityPoolUsageRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeIdentityPoolUsage service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncDescribeIdentityPoolUsageResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncDescribeIdentityPoolUsageRequest.html">AWSCognitoSyncDescribeIdentityPoolUsageRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncDescribeIdentityPoolUsageResponse.html">AWSCognitoSyncDescribeIdentityPoolUsageResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeIdentityUsage:" title="describeIdentityUsage:"></a>
+	<h3 class="subsubtitle method-title">describeIdentityUsage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets usage information for an identity, including number of datasets and data usage.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeIdentityUsage:(AWSCognitoSyncDescribeIdentityUsageRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeIdentityUsage service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncDescribeIdentityUsageResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncDescribeIdentityUsageRequest.html">AWSCognitoSyncDescribeIdentityUsageRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncDescribeIdentityUsageResponse.html">AWSCognitoSyncDescribeIdentityUsageResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getIdentityPoolConfiguration:" title="getIdentityPoolConfiguration:"></a>
+	<h3 class="subsubtitle method-title">getIdentityPoolConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets the configuration settings of an identity pool.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)getIdentityPoolConfiguration:(AWSCognitoSyncGetIdentityPoolConfigurationRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the GetIdentityPoolConfiguration service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncGetIdentityPoolConfigurationResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncGetIdentityPoolConfigurationRequest.html">AWSCognitoSyncGetIdentityPoolConfigurationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncGetIdentityPoolConfigurationResponse.html">AWSCognitoSyncGetIdentityPoolConfigurationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listDatasets:" title="listDatasets:"></a>
+	<h3 class="subsubtitle method-title">listDatasets:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Lists datasets for an identity. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)listDatasets:(AWSCognitoSyncListDatasetsRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ListDatasets service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncListDatasetsResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncListDatasetsRequest.html">AWSCognitoSyncListDatasetsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncListDatasetsResponse.html">AWSCognitoSyncListDatasetsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listIdentityPoolUsage:" title="listIdentityPoolUsage:"></a>
+	<h3 class="subsubtitle method-title">listIdentityPoolUsage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets a list of identity pools registered with Cognito.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)listIdentityPoolUsage:(AWSCognitoSyncListIdentityPoolUsageRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ListIdentityPoolUsage service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncListIdentityPoolUsageResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncListIdentityPoolUsageRequest.html">AWSCognitoSyncListIdentityPoolUsageRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncListIdentityPoolUsageResponse.html">AWSCognitoSyncListIdentityPoolUsageResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listRecords:" title="listRecords:"></a>
+	<h3 class="subsubtitle method-title">listRecords:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets paginated records, optionally changed after a particular sync count for a dataset and identity. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)listRecords:(AWSCognitoSyncListRecordsRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ListRecords service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncListRecordsResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorTooManyRequests, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncListRecordsRequest.html">AWSCognitoSyncListRecordsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncListRecordsResponse.html">AWSCognitoSyncListRecordsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/registerDevice:" title="registerDevice:"></a>
+	<h3 class="subsubtitle method-title">registerDevice:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Registers a device to receive push sync notifications.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)registerDevice:(AWSCognitoSyncRegisterDeviceRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the RegisterDevice service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncRegisterDeviceResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError, AWSCognitoSyncErrorInvalidConfiguration.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncRegisterDeviceRequest.html">AWSCognitoSyncRegisterDeviceRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncRegisterDeviceResponse.html">AWSCognitoSyncRegisterDeviceResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setIdentityPoolConfiguration:" title="setIdentityPoolConfiguration:"></a>
+	<h3 class="subsubtitle method-title">setIdentityPoolConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the necessary configuration for push sync.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)setIdentityPoolConfiguration:(AWSCognitoSyncSetIdentityPoolConfigurationRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SetIdentityPoolConfiguration service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncSetIdentityPoolConfigurationResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncSetIdentityPoolConfigurationRequest.html">AWSCognitoSyncSetIdentityPoolConfigurationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncSetIdentityPoolConfigurationResponse.html">AWSCognitoSyncSetIdentityPoolConfigurationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/subscribeToDataset:" title="subscribeToDataset:"></a>
+	<h3 class="subsubtitle method-title">subscribeToDataset:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Subscribes to receive notifications when a dataset is modified by another device.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)subscribeToDataset:(AWSCognitoSyncSubscribeToDatasetRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SubscribeToDataset service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncSubscribeToDatasetResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError, AWSCognitoSyncErrorInvalidConfiguration.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncSubscribeToDatasetRequest.html">AWSCognitoSyncSubscribeToDatasetRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncSubscribeToDatasetResponse.html">AWSCognitoSyncSubscribeToDatasetResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unsubscribeFromDataset:" title="unsubscribeFromDataset:"></a>
+	<h3 class="subsubtitle method-title">unsubscribeFromDataset:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unsubscribe from receiving notifications when a dataset is modified by another device.</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribeFromDataset:(AWSCognitoSyncUnsubscribeFromDatasetRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the UnsubscribeFromDataset service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncUnsubscribeFromDatasetResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorInternalError, AWSCognitoSyncErrorInvalidConfiguration.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncUnsubscribeFromDatasetRequest.html">AWSCognitoSyncUnsubscribeFromDatasetRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncUnsubscribeFromDatasetResponse.html">AWSCognitoSyncUnsubscribeFromDatasetResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateRecords:" title="updateRecords:"></a>
+	<h3 class="subsubtitle method-title">updateRecords:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Posts updates to records and add and delete records for a dataset and user. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)updateRecords:(AWSCognitoSyncUpdateRecordsRequest *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the UpdateRecords service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoSyncUpdateRecordsResponse. On failed execution, task.error may contain an NSError with AWSCognitoSyncErrorDomain domian and the following error code: AWSCognitoSyncErrorInvalidParameter, AWSCognitoSyncErrorLimitExceeded, AWSCognitoSyncErrorNotAuthorized, AWSCognitoSyncErrorResourceNotFound, AWSCognitoSyncErrorResourceConflict, AWSCognitoSyncErrorTooManyRequests, AWSCognitoSyncErrorInternalError.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncUpdateRecordsRequest.html">AWSCognitoSyncUpdateRecordsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSCognitoSyncUpdateRecordsResponse.html">AWSCognitoSyncUpdateRecordsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSCognitoSync.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-01-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

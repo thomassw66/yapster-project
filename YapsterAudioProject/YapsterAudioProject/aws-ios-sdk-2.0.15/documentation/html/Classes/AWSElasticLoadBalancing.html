@@ -1,0 +1,2466 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AWSElasticLoadBalancing Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.15 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AWSElasticLoadBalancing Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/configuration">&nbsp;&nbsp;&nbsp;&nbsp;configuration</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/defaultElasticLoadBalancing">&nbsp;&nbsp;&nbsp;&nbsp;+ defaultElasticLoadBalancing</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addTags:">&nbsp;&nbsp;&nbsp;&nbsp;- addTags:</option>
+	
+	<option value="//api/name/applySecurityGroupsToLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- applySecurityGroupsToLoadBalancer:</option>
+	
+	<option value="//api/name/attachLoadBalancerToSubnets:">&nbsp;&nbsp;&nbsp;&nbsp;- attachLoadBalancerToSubnets:</option>
+	
+	<option value="//api/name/configureHealthCheck:">&nbsp;&nbsp;&nbsp;&nbsp;- configureHealthCheck:</option>
+	
+	<option value="//api/name/createAppCookieStickinessPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- createAppCookieStickinessPolicy:</option>
+	
+	<option value="//api/name/createLBCookieStickinessPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- createLBCookieStickinessPolicy:</option>
+	
+	<option value="//api/name/createLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- createLoadBalancer:</option>
+	
+	<option value="//api/name/createLoadBalancerListeners:">&nbsp;&nbsp;&nbsp;&nbsp;- createLoadBalancerListeners:</option>
+	
+	<option value="//api/name/createLoadBalancerPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- createLoadBalancerPolicy:</option>
+	
+	<option value="//api/name/deleteLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLoadBalancer:</option>
+	
+	<option value="//api/name/deleteLoadBalancerListeners:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLoadBalancerListeners:</option>
+	
+	<option value="//api/name/deleteLoadBalancerPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLoadBalancerPolicy:</option>
+	
+	<option value="//api/name/deregisterInstancesFromLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- deregisterInstancesFromLoadBalancer:</option>
+	
+	<option value="//api/name/describeInstanceHealth:">&nbsp;&nbsp;&nbsp;&nbsp;- describeInstanceHealth:</option>
+	
+	<option value="//api/name/describeLoadBalancerAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLoadBalancerAttributes:</option>
+	
+	<option value="//api/name/describeLoadBalancerPolicies:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLoadBalancerPolicies:</option>
+	
+	<option value="//api/name/describeLoadBalancerPolicyTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLoadBalancerPolicyTypes:</option>
+	
+	<option value="//api/name/describeLoadBalancers:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLoadBalancers:</option>
+	
+	<option value="//api/name/describeTags:">&nbsp;&nbsp;&nbsp;&nbsp;- describeTags:</option>
+	
+	<option value="//api/name/detachLoadBalancerFromSubnets:">&nbsp;&nbsp;&nbsp;&nbsp;- detachLoadBalancerFromSubnets:</option>
+	
+	<option value="//api/name/disableAvailabilityZonesForLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- disableAvailabilityZonesForLoadBalancer:</option>
+	
+	<option value="//api/name/enableAvailabilityZonesForLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- enableAvailabilityZonesForLoadBalancer:</option>
+	
+	<option value="//api/name/initWithConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithConfiguration:</option>
+	
+	<option value="//api/name/modifyLoadBalancerAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- modifyLoadBalancerAttributes:</option>
+	
+	<option value="//api/name/registerInstancesWithLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- registerInstancesWithLoadBalancer:</option>
+	
+	<option value="//api/name/removeTags:">&nbsp;&nbsp;&nbsp;&nbsp;- removeTags:</option>
+	
+	<option value="//api/name/setLoadBalancerListenerSSLCertificate:">&nbsp;&nbsp;&nbsp;&nbsp;- setLoadBalancerListenerSSLCertificate:</option>
+	
+	<option value="//api/name/setLoadBalancerPoliciesForBackendServer:">&nbsp;&nbsp;&nbsp;&nbsp;- setLoadBalancerPoliciesForBackendServer:</option>
+	
+	<option value="//api/name/setLoadBalancerPoliciesOfListener:">&nbsp;&nbsp;&nbsp;&nbsp;- setLoadBalancerPoliciesOfListener:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/configuration">configuration</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultElasticLoadBalancing">defaultElasticLoadBalancing</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTags:">addTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applySecurityGroupsToLoadBalancer:">applySecurityGroupsToLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attachLoadBalancerToSubnets:">attachLoadBalancerToSubnets:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/configureHealthCheck:">configureHealthCheck:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createAppCookieStickinessPolicy:">createAppCookieStickinessPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLBCookieStickinessPolicy:">createLBCookieStickinessPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLoadBalancer:">createLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLoadBalancerListeners:">createLoadBalancerListeners:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLoadBalancerPolicy:">createLoadBalancerPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLoadBalancer:">deleteLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLoadBalancerListeners:">deleteLoadBalancerListeners:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLoadBalancerPolicy:">deleteLoadBalancerPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deregisterInstancesFromLoadBalancer:">deregisterInstancesFromLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeInstanceHealth:">describeInstanceHealth:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLoadBalancerAttributes:">describeLoadBalancerAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLoadBalancerPolicies:">describeLoadBalancerPolicies:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLoadBalancerPolicyTypes:">describeLoadBalancerPolicyTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLoadBalancers:">describeLoadBalancers:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeTags:">describeTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/detachLoadBalancerFromSubnets:">detachLoadBalancerFromSubnets:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/disableAvailabilityZonesForLoadBalancer:">disableAvailabilityZonesForLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableAvailabilityZonesForLoadBalancer:">enableAvailabilityZonesForLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithConfiguration:">initWithConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/modifyLoadBalancerAttributes:">modifyLoadBalancerAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerInstancesWithLoadBalancer:">registerInstancesWithLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeTags:">removeTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLoadBalancerListenerSSLCertificate:">setLoadBalancerListenerSSLCertificate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLoadBalancerPoliciesForBackendServer:">setLoadBalancerPoliciesForBackendServer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLoadBalancerPoliciesOfListener:">setLoadBalancerPoliciesOfListener:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AWSElasticLoadBalancing Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AWSElasticLoadBalancing Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">AWSService : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AWSElasticLoadBalancing.h<br />AWSElasticLoadBalancing.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/configuration">&nbsp;&nbsp;configuration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultElasticLoadBalancing">+&nbsp;defaultElasticLoadBalancing</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithConfiguration:">&ndash;&nbsp;initWithConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTags:">&ndash;&nbsp;addTags:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applySecurityGroupsToLoadBalancer:">&ndash;&nbsp;applySecurityGroupsToLoadBalancer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attachLoadBalancerToSubnets:">&ndash;&nbsp;attachLoadBalancerToSubnets:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/configureHealthCheck:">&ndash;&nbsp;configureHealthCheck:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createAppCookieStickinessPolicy:">&ndash;&nbsp;createAppCookieStickinessPolicy:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLBCookieStickinessPolicy:">&ndash;&nbsp;createLBCookieStickinessPolicy:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLoadBalancer:">&ndash;&nbsp;createLoadBalancer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLoadBalancerListeners:">&ndash;&nbsp;createLoadBalancerListeners:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLoadBalancerPolicy:">&ndash;&nbsp;createLoadBalancerPolicy:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLoadBalancer:">&ndash;&nbsp;deleteLoadBalancer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLoadBalancerListeners:">&ndash;&nbsp;deleteLoadBalancerListeners:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLoadBalancerPolicy:">&ndash;&nbsp;deleteLoadBalancerPolicy:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deregisterInstancesFromLoadBalancer:">&ndash;&nbsp;deregisterInstancesFromLoadBalancer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeInstanceHealth:">&ndash;&nbsp;describeInstanceHealth:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLoadBalancerAttributes:">&ndash;&nbsp;describeLoadBalancerAttributes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLoadBalancerPolicies:">&ndash;&nbsp;describeLoadBalancerPolicies:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLoadBalancerPolicyTypes:">&ndash;&nbsp;describeLoadBalancerPolicyTypes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLoadBalancers:">&ndash;&nbsp;describeLoadBalancers:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeTags:">&ndash;&nbsp;describeTags:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/detachLoadBalancerFromSubnets:">&ndash;&nbsp;detachLoadBalancerFromSubnets:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/disableAvailabilityZonesForLoadBalancer:">&ndash;&nbsp;disableAvailabilityZonesForLoadBalancer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enableAvailabilityZonesForLoadBalancer:">&ndash;&nbsp;enableAvailabilityZonesForLoadBalancer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/modifyLoadBalancerAttributes:">&ndash;&nbsp;modifyLoadBalancerAttributes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/registerInstancesWithLoadBalancer:">&ndash;&nbsp;registerInstancesWithLoadBalancer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeTags:">&ndash;&nbsp;removeTags:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setLoadBalancerListenerSSLCertificate:">&ndash;&nbsp;setLoadBalancerListenerSSLCertificate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setLoadBalancerPoliciesForBackendServer:">&ndash;&nbsp;setLoadBalancerPoliciesForBackendServer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setLoadBalancerPoliciesOfListener:">&ndash;&nbsp;setLoadBalancerPoliciesOfListener:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/configuration" title="configuration"></a>
+	<h3 class="subsubtitle method-title">configuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The service configuration used to instantiate this service client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultElasticLoadBalancing" title="defaultElasticLoadBalancing"></a>
+	<h3 class="subsubtitle method-title">defaultElasticLoadBalancing</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with <code>defaultServiceConfiguration</code> from <code>[AWSServiceManager defaultServiceManager]</code>. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)defaultElasticLoadBalancing</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The default service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addTags:" title="addTags:"></a>
+	<h3 class="subsubtitle method-title">addTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>AddTags</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)addTags:(AWSElasticLoadBalancingAddTagsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the AddTags service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAddTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorTooManyTags</code>, <code>AWSElasticLoadBalancingErrorDuplicateTagKeys</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingAddTagsInput.html">AWSElasticLoadBalancingAddTagsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingAddTagsOutput.html">AWSElasticLoadBalancingAddTagsOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applySecurityGroupsToLoadBalancer:" title="applySecurityGroupsToLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">applySecurityGroupsToLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>ApplySecurityGroupsToLoadBalancer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)applySecurityGroupsToLoadBalancer:(AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ApplySecurityGroupsToLoadBalancer service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorInvalidSecurityGroup</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput.html">AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerOutput.html">AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attachLoadBalancerToSubnets:" title="attachLoadBalancerToSubnets:"></a>
+	<h3 class="subsubtitle method-title">attachLoadBalancerToSubnets:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>AttachLoadBalancerToSubnets</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)attachLoadBalancerToSubnets:(AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the AttachLoadBalancerToSubnets service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorSubnetNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidSubnet</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput.html">AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput.html">AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/configureHealthCheck:" title="configureHealthCheck:"></a>
+	<h3 class="subsubtitle method-title">configureHealthCheck:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>ConfigureHealthCheck</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)configureHealthCheck:(AWSElasticLoadBalancingConfigureHealthCheckInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ConfigureHealthCheck service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingConfigureHealthCheckOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingConfigureHealthCheckInput.html">AWSElasticLoadBalancingConfigureHealthCheckInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingConfigureHealthCheckOutput.html">AWSElasticLoadBalancingConfigureHealthCheckOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createAppCookieStickinessPolicy:" title="createAppCookieStickinessPolicy:"></a>
+	<h3 class="subsubtitle method-title">createAppCookieStickinessPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>CreateAppCookieStickinessPolicy</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createAppCookieStickinessPolicy:(AWSElasticLoadBalancingCreateAppCookieStickinessPolicyInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateAppCookieStickinessPolicy service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateAppCookieStickinessPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateAppCookieStickinessPolicyInput.html">AWSElasticLoadBalancingCreateAppCookieStickinessPolicyInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateAppCookieStickinessPolicyOutput.html">AWSElasticLoadBalancingCreateAppCookieStickinessPolicyOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLBCookieStickinessPolicy:" title="createLBCookieStickinessPolicy:"></a>
+	<h3 class="subsubtitle method-title">createLBCookieStickinessPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>CreateLBCookieStickinessPolicy</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createLBCookieStickinessPolicy:(AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateLBCookieStickinessPolicy service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLBCookieStickinessPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput.html">AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyOutput.html">AWSElasticLoadBalancingCreateLBCookieStickinessPolicyOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLoadBalancer:" title="createLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">createLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>CreateLoadBalancer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createLoadBalancer:(AWSElasticLoadBalancingCreateAccessPointInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateLoadBalancer service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateAccessPointOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorDuplicateAccessPointName</code>, <code>AWSElasticLoadBalancingErrorTooManyAccessPoints</code>, <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorSubnetNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidSubnet</code>, <code>AWSElasticLoadBalancingErrorInvalidSecurityGroup</code>, <code>AWSElasticLoadBalancingErrorInvalidScheme</code>, <code>AWSElasticLoadBalancingErrorTooManyTags</code>, <code>AWSElasticLoadBalancingErrorDuplicateTagKeys</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateAccessPointInput.html">AWSElasticLoadBalancingCreateAccessPointInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateAccessPointOutput.html">AWSElasticLoadBalancingCreateAccessPointOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLoadBalancerListeners:" title="createLoadBalancerListeners:"></a>
+	<h3 class="subsubtitle method-title">createLoadBalancerListeners:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>CreateLoadBalancerListeners</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createLoadBalancerListeners:(AWSElasticLoadBalancingCreateLoadBalancerListenerInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateLoadBalancerListeners service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLoadBalancerListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicateListener</code>, <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateLoadBalancerListenerInput.html">AWSElasticLoadBalancingCreateLoadBalancerListenerInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateLoadBalancerListenerOutput.html">AWSElasticLoadBalancingCreateLoadBalancerListenerOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLoadBalancerPolicy:" title="createLoadBalancerPolicy:"></a>
+	<h3 class="subsubtitle method-title">createLoadBalancerPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>CreateLoadBalancerPolicy</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)createLoadBalancerPolicy:(AWSElasticLoadBalancingCreateLoadBalancerPolicyInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the CreateLoadBalancerPolicy service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLoadBalancerPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyTypeNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateLoadBalancerPolicyInput.html">AWSElasticLoadBalancingCreateLoadBalancerPolicyInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingCreateLoadBalancerPolicyOutput.html">AWSElasticLoadBalancingCreateLoadBalancerPolicyOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLoadBalancer:" title="deleteLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">deleteLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DeleteLoadBalancer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteLoadBalancer:(AWSElasticLoadBalancingDeleteAccessPointInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteLoadBalancer service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteAccessPointOutput</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDeleteAccessPointInput.html">AWSElasticLoadBalancingDeleteAccessPointInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDeleteAccessPointOutput.html">AWSElasticLoadBalancingDeleteAccessPointOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLoadBalancerListeners:" title="deleteLoadBalancerListeners:"></a>
+	<h3 class="subsubtitle method-title">deleteLoadBalancerListeners:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DeleteLoadBalancerListeners</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteLoadBalancerListeners:(AWSElasticLoadBalancingDeleteLoadBalancerListenerInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteLoadBalancerListeners service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteLoadBalancerListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput.html">AWSElasticLoadBalancingDeleteLoadBalancerListenerInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDeleteLoadBalancerListenerOutput.html">AWSElasticLoadBalancingDeleteLoadBalancerListenerOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLoadBalancerPolicy:" title="deleteLoadBalancerPolicy:"></a>
+	<h3 class="subsubtitle method-title">deleteLoadBalancerPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DeleteLoadBalancerPolicy</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deleteLoadBalancerPolicy:(AWSElasticLoadBalancingDeleteLoadBalancerPolicyInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeleteLoadBalancerPolicy service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteLoadBalancerPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDeleteLoadBalancerPolicyInput.html">AWSElasticLoadBalancingDeleteLoadBalancerPolicyInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDeleteLoadBalancerPolicyOutput.html">AWSElasticLoadBalancingDeleteLoadBalancerPolicyOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deregisterInstancesFromLoadBalancer:" title="deregisterInstancesFromLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">deregisterInstancesFromLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DeregisterInstancesFromLoadBalancer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)deregisterInstancesFromLoadBalancer:(AWSElasticLoadBalancingDeregisterEndPointsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DeregisterInstancesFromLoadBalancer service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeregisterEndPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDeregisterEndPointsInput.html">AWSElasticLoadBalancingDeregisterEndPointsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDeregisterEndPointsOutput.html">AWSElasticLoadBalancingDeregisterEndPointsOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeInstanceHealth:" title="describeInstanceHealth:"></a>
+	<h3 class="subsubtitle method-title">describeInstanceHealth:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DescribeInstanceHealth</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeInstanceHealth:(AWSElasticLoadBalancingDescribeEndPointStateInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeInstanceHealth service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeEndPointStateOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeEndPointStateInput.html">AWSElasticLoadBalancingDescribeEndPointStateInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeEndPointStateOutput.html">AWSElasticLoadBalancingDescribeEndPointStateOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLoadBalancerAttributes:" title="describeLoadBalancerAttributes:"></a>
+	<h3 class="subsubtitle method-title">describeLoadBalancerAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DescribeLoadBalancerAttributes</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeLoadBalancerAttributes:(AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeLoadBalancerAttributes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerAttributesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput.html">AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeLoadBalancerAttributesOutput.html">AWSElasticLoadBalancingDescribeLoadBalancerAttributesOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLoadBalancerPolicies:" title="describeLoadBalancerPolicies:"></a>
+	<h3 class="subsubtitle method-title">describeLoadBalancerPolicies:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DescribeLoadBalancerPolicies</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeLoadBalancerPolicies:(AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeLoadBalancerPolicies service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerPoliciesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput.html">AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesOutput.html">AWSElasticLoadBalancingDescribeLoadBalancerPoliciesOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLoadBalancerPolicyTypes:" title="describeLoadBalancerPolicyTypes:"></a>
+	<h3 class="subsubtitle method-title">describeLoadBalancerPolicyTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DescribeLoadBalancerPolicyTypes</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeLoadBalancerPolicyTypes:(AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeLoadBalancerPolicyTypes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorPolicyTypeNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput.html">AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput.html">AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLoadBalancers:" title="describeLoadBalancers:"></a>
+	<h3 class="subsubtitle method-title">describeLoadBalancers:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DescribeLoadBalancers</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeLoadBalancers:(AWSElasticLoadBalancingDescribeAccessPointsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeLoadBalancers service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeAccessPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeAccessPointsInput.html">AWSElasticLoadBalancingDescribeAccessPointsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeAccessPointsOutput.html">AWSElasticLoadBalancingDescribeAccessPointsOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeTags:" title="describeTags:"></a>
+	<h3 class="subsubtitle method-title">describeTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DescribeTags</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)describeTags:(AWSElasticLoadBalancingDescribeTagsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DescribeTags service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeTagsInput.html">AWSElasticLoadBalancingDescribeTagsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDescribeTagsOutput.html">AWSElasticLoadBalancingDescribeTagsOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/detachLoadBalancerFromSubnets:" title="detachLoadBalancerFromSubnets:"></a>
+	<h3 class="subsubtitle method-title">detachLoadBalancerFromSubnets:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DetachLoadBalancerFromSubnets</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)detachLoadBalancerFromSubnets:(AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DetachLoadBalancerFromSubnets service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput.html">AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsOutput.html">AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/disableAvailabilityZonesForLoadBalancer:" title="disableAvailabilityZonesForLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">disableAvailabilityZonesForLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>DisableAvailabilityZonesForLoadBalancer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)disableAvailabilityZonesForLoadBalancer:(AWSElasticLoadBalancingRemoveAvailabilityZonesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the DisableAvailabilityZonesForLoadBalancer service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRemoveAvailabilityZonesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingRemoveAvailabilityZonesInput.html">AWSElasticLoadBalancingRemoveAvailabilityZonesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingRemoveAvailabilityZonesOutput.html">AWSElasticLoadBalancingRemoveAvailabilityZonesOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enableAvailabilityZonesForLoadBalancer:" title="enableAvailabilityZonesForLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">enableAvailabilityZonesForLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>EnableAvailabilityZonesForLoadBalancer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)enableAvailabilityZonesForLoadBalancer:(AWSElasticLoadBalancingAddAvailabilityZonesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the EnableAvailabilityZonesForLoadBalancer service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAddAvailabilityZonesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingAddAvailabilityZonesInput.html">AWSElasticLoadBalancingAddAvailabilityZonesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingAddAvailabilityZonesOutput.html">AWSElasticLoadBalancingAddAvailabilityZonesOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithConfiguration:" title="initWithConfiguration:"></a>
+	<h3 class="subsubtitle method-title">initWithConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Instantiates the service client with the given service configuration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)<em>configuration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>configuration</em></dt>
+			<dd><p>The service configuration object.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of the service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div><div class="warning"><p><strong>Warning:</strong> Unlike the singleton method, you are responsible for maintaining a strong reference to this object. If the service client is released before completing a service request, the request may fail with unspecified errors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/modifyLoadBalancerAttributes:" title="modifyLoadBalancerAttributes:"></a>
+	<h3 class="subsubtitle method-title">modifyLoadBalancerAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>ModifyLoadBalancerAttributes</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)modifyLoadBalancerAttributes:(AWSElasticLoadBalancingModifyLoadBalancerAttributesInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the ModifyLoadBalancerAttributes service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingModifyLoadBalancerAttributesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput.html">AWSElasticLoadBalancingModifyLoadBalancerAttributesInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingModifyLoadBalancerAttributesOutput.html">AWSElasticLoadBalancingModifyLoadBalancerAttributesOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/registerInstancesWithLoadBalancer:" title="registerInstancesWithLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">registerInstancesWithLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>RegisterInstancesWithLoadBalancer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)registerInstancesWithLoadBalancer:(AWSElasticLoadBalancingRegisterEndPointsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the RegisterInstancesWithLoadBalancer service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRegisterEndPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingRegisterEndPointsInput.html">AWSElasticLoadBalancingRegisterEndPointsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingRegisterEndPointsOutput.html">AWSElasticLoadBalancingRegisterEndPointsOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeTags:" title="removeTags:"></a>
+	<h3 class="subsubtitle method-title">removeTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>RemoveTags</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)removeTags:(AWSElasticLoadBalancingRemoveTagsInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the RemoveTags service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRemoveTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingRemoveTagsInput.html">AWSElasticLoadBalancingRemoveTagsInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingRemoveTagsOutput.html">AWSElasticLoadBalancingRemoveTagsOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setLoadBalancerListenerSSLCertificate:" title="setLoadBalancerListenerSSLCertificate:"></a>
+	<h3 class="subsubtitle method-title">setLoadBalancerListenerSSLCertificate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>SetLoadBalancerListenerSSLCertificate</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)setLoadBalancerListenerSSLCertificate:(AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SetLoadBalancerListenerSSLCertificate service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorListenerNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput.html">AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput.html">AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setLoadBalancerPoliciesForBackendServer:" title="setLoadBalancerPoliciesForBackendServer:"></a>
+	<h3 class="subsubtitle method-title">setLoadBalancerPoliciesForBackendServer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>SetLoadBalancerPoliciesForBackendServer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)setLoadBalancerPoliciesForBackendServer:(AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SetLoadBalancerPoliciesForBackendServer service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerInput.html">AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerOutput.html">AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setLoadBalancerPoliciesOfListener:" title="setLoadBalancerPoliciesOfListener:"></a>
+	<h3 class="subsubtitle method-title">setLoadBalancerPoliciesOfListener:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>SetLoadBalancerPoliciesOfListener</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BFTask *)setLoadBalancerPoliciesOfListener:(AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A container for the necessary parameters to execute the SetLoadBalancerPoliciesOfListener service method.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>, <code>AWSElasticLoadBalancingErrorListenerNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput.html">AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerOutput.html">AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerOutput</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSElasticLoadBalancing.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-01-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSDynamoDBBatchGetItemInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBBatchGetItemInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input of a &lt;i&gt;BatchGetItem&lt;/i&gt; operation.&lt;/p&gt;
+Required parameters: [RequestItems]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="191"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemInput/setRequestItems:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, the corresponding primary keys for the items to retrieve. Each table name can be invoked only once.&lt;/p&gt;&lt;p&gt;Each element in the map consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Keys&lt;/i&gt; - An array of primary key attribute values that define specific items in the table. For each primary key, you must provide &lt;i&gt;all&lt;/i&gt; of the key attributes. For example, with a hash type primary key, you only need to specify the hash attribute. For a hash-and-range type primary key, you must specify &lt;i&gt;both&lt;/i&gt; the hash attribute and the range attribute.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - One or more attributes to be retrieved from the table. By default, all attributes are returned. If a specified attribute is not found, it does not appear in the result.&lt;/p&gt;&lt;p&gt;Note that &lt;i&gt;AttributesToGet&lt;/i&gt; has no effect on provisioned throughput consumption. DynamoDB determines capacity units consumed based on item size, not on the amount of data that is returned to an application.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - If &lt;code&gt;true&lt;/code&gt;, a strongly consistent read is used; if &lt;code&gt;false&lt;/code&gt; (the default), an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemInput/requestItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, the corresponding primary keys for the items to retrieve. Each table name can be invoked only once.&lt;/p&gt;&lt;p&gt;Each element in the map consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Keys&lt;/i&gt; - An array of primary key attribute values that define specific items in the table. For each primary key, you must provide &lt;i&gt;all&lt;/i&gt; of the key attributes. For example, with a hash type primary key, you only need to specify the hash attribute. For a hash-and-range type primary key, you must specify &lt;i&gt;both&lt;/i&gt; the hash attribute and the range attribute.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - One or more attributes to be retrieved from the table. By default, all attributes are returned. If a specified attribute is not found, it does not appear in the result.&lt;/p&gt;&lt;p&gt;Note that &lt;i&gt;AttributesToGet&lt;/i&gt; has no effect on provisioned throughput consumption. DynamoDB determines capacity units consumed based on item size, not on the amount of data that is returned to an application.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - If &lt;code&gt;true&lt;/code&gt;, a strongly consistent read is used; if &lt;code&gt;false&lt;/code&gt; (the default), an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchGetItemInput/requestItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, the corresponding primary keys for the items to retrieve. Each table name can be invoked only once.&lt;/p&gt;&lt;p&gt;Each element in the map consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Keys&lt;/i&gt; - An array of primary key attribute values that define specific items in the table. For each primary key, you must provide &lt;i&gt;all&lt;/i&gt; of the key attributes. For example, with a hash type primary key, you only need to specify the hash attribute. For a hash-and-range type primary key, you must specify &lt;i&gt;both&lt;/i&gt; the hash attribute and the range attribute.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - One or more attributes to be retrieved from the table. By default, all attributes are returned. If a specified attribute is not found, it does not appear in the result.&lt;/p&gt;&lt;p&gt;Note that &lt;i&gt;AttributesToGet&lt;/i&gt; has no effect on provisioned throughput consumption. DynamoDB determines capacity units consumed based on item size, not on the amount of data that is returned to an application.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - If &lt;code&gt;true&lt;/code&gt;, a strongly consistent read is used; if &lt;code&gt;false&lt;/code&gt; (the default), an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemInput/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A value that if set to &lt;code&gt;TOTAL&lt;/code&gt;, the response includes &lt;i&gt;ConsumedCapacity&lt;/i&gt; data for tables and indexes. If set to &lt;code&gt;INDEXES&lt;/code&gt;, the response includes &lt;i&gt;ConsumedCapacity&lt;/i&gt; for indexes. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), &lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included in the response.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemInput/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A value that if set to &lt;code&gt;TOTAL&lt;/code&gt;, the response includes &lt;i&gt;ConsumedCapacity&lt;/i&gt; data for tables and indexes. If set to &lt;code&gt;INDEXES&lt;/code&gt;, the response includes &lt;i&gt;ConsumedCapacity&lt;/i&gt; for indexes. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), &lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included in the response.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchGetItemInput/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A value that if set to &lt;code&gt;TOTAL&lt;/code&gt;, the response includes &lt;i&gt;ConsumedCapacity&lt;/i&gt; data for tables and indexes. If set to &lt;code&gt;INDEXES&lt;/code&gt;, the response includes &lt;i&gt;ConsumedCapacity&lt;/i&gt; for indexes. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), &lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included in the response.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

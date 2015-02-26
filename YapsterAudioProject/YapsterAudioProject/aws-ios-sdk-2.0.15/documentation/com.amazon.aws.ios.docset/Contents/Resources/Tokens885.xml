@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSESIdentityNotificationAttributes.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESIdentityNotificationAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the notification attributes of an identity, including whether an identity has Amazon Simple Notification Service (Amazon SNS) topics set for bounce, complaint, and/or delivery notifications, and whether feedback forwarding is enabled for bounce and complaint notifications.&lt;/p&gt;
+Required parameters: [BounceTopic, ComplaintTopic, DeliveryTopic, ForwardingEnabled]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="885"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityNotificationAttributes/setBounceTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish bounce notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bounceTopic</Declaration>
+			
+			
+			<Anchor>//api/name/bounceTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityNotificationAttributes/bounceTopic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish bounce notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bounceTopic</Declaration>
+			
+			
+			<Anchor>//api/name/bounceTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityNotificationAttributes/bounceTopic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish bounce notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bounceTopic</Declaration>
+			
+			
+			<Anchor>//api/name/bounceTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityNotificationAttributes/setComplaintTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish complaint notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *complaintTopic</Declaration>
+			
+			
+			<Anchor>//api/name/complaintTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityNotificationAttributes/complaintTopic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish complaint notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *complaintTopic</Declaration>
+			
+			
+			<Anchor>//api/name/complaintTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityNotificationAttributes/complaintTopic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish complaint notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *complaintTopic</Declaration>
+			
+			
+			<Anchor>//api/name/complaintTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityNotificationAttributes/setDeliveryTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish delivery notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryTopic</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityNotificationAttributes/deliveryTopic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish delivery notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryTopic</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityNotificationAttributes/deliveryTopic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon SNS topic where Amazon SES will publish delivery notifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryTopic</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryTopic</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityNotificationAttributes/setForwardingEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes whether Amazon SES will forward bounce and complaint notifications as email. &lt;code&gt;true&lt;/code&gt; indicates that Amazon SES will forward bounce and complaint notifications as email, while &lt;code&gt;false&lt;/code&gt; indicates that bounce and complaint notifications will be published only to the specified bounce and complaint Amazon SNS topics.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *forwardingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/forwardingEnabled</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityNotificationAttributes/forwardingEnabled</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes whether Amazon SES will forward bounce and complaint notifications as email. &lt;code&gt;true&lt;/code&gt; indicates that Amazon SES will forward bounce and complaint notifications as email, while &lt;code&gt;false&lt;/code&gt; indicates that bounce and complaint notifications will be published only to the specified bounce and complaint Amazon SNS topics.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *forwardingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/forwardingEnabled</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityNotificationAttributes/forwardingEnabled</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes whether Amazon SES will forward bounce and complaint notifications as email. &lt;code&gt;true&lt;/code&gt; indicates that Amazon SES will forward bounce and complaint notifications as email, while &lt;code&gt;false&lt;/code&gt; indicates that bounce and complaint notifications will be published only to the specified bounce and complaint Amazon SNS topics.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *forwardingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/forwardingEnabled</Anchor>
+            <NodeRef refid="885"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

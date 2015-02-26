@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScaling.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScaling</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;Auto Scaling&lt;/fullname&gt;&lt;p&gt; Auto Scaling is a web service designed to automatically launch or terminate Amazon Elastic Compute Cloud (Amazon EC2) instances based on user-defined policies, schedules, and health checks. This service is used in conjunction with Amazon CloudWatch and Elastic Load Balancing services. &lt;/p&gt;&lt;p&gt;Auto Scaling provides APIs that you can call by submitting a Query Request. Query requests are HTTP or HTTPS requests that use the HTTP verbs GET or POST and a Query parameter named &lt;i&gt;Action&lt;/i&gt; or &lt;i&gt;Operation&lt;/i&gt; that specifies the API you are calling. Action is used throughout this documentation, although Operation is also supported for backward compatibility with other Amazon Web Services (AWS) Query APIs. &lt;/p&gt;&lt;p&gt;Calling the API using a Query request is the most direct way to access the web service, but requires that your application handle low-level details such as generating the hash to sign the request and error handling. The benefit of calling the service using a Query request is that you are assured of having access to the complete functionality of the API. For information about signing a a query request, see Auto Scaling Developer Guide. &lt;/p&gt;&lt;p&gt;This reference is based on the current WSDL, which is available at:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://autoscaling.amazonaws.com/doc/2011-01-01/AutoScaling.wsdl&quot;&gt;http://autoscaling.amazonaws.com/doc/2011-01-01/AutoScaling.wsdl&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Endpoints&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The examples in this guide assume that your instances are launched in the US East (Northern Virginia) region and use us-east-1 as the endpoint.&lt;/p&gt;&lt;p&gt;You can set up your Auto Scaling infrastructure in other AWS regions. For information about this product&apos;s regions and endpoints, see Regions and Endpoints in the Amazon Web Services General Reference. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScaling/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSAutoScaling/defaultAutoScaling</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultAutoScaling</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultAutoScaling</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/initWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">The service configuration object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithConfiguration:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/attachInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Attaches one or more Amazon EC2 instances to an existing Auto Scaling group. After the instance(s) is attached, it becomes a part of the Auto Scaling group. &lt;/p&gt;&lt;p&gt;For more information, see Attach Amazon EC2 Instances to Your Existing Auto Scaling Group in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingAttachInstancesQuery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)attachInstances:(AWSAutoScalingAttachInstancesQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AttachInstances service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/attachInstances:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/completeLifecycleAction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Completes the lifecycle action for the associated token initiated under the given lifecycle hook with the specified result. &lt;/p&gt;&lt;p&gt; This operation is a part of the basic sequence for adding a lifecycle hook to an Auto Scaling group: &lt;/p&gt;&lt;ol&gt;&lt;li&gt; Create a notification target. A target can be either an Amazon SQS queue or an Amazon SNS topic. &lt;/li&gt;&lt;li&gt; Create an IAM role. This role allows Auto Scaling to publish lifecycle notifications to the designated SQS queue or SNS topic. &lt;/li&gt;&lt;li&gt; Create the lifecycle hook. You can create a hook that acts when instances launch or when instances terminate. &lt;/li&gt;&lt;li&gt; If necessary, record the lifecycle action heartbeat to keep the instance in a pending state. &lt;/li&gt;&lt;li&gt;&lt;b&gt;Complete the lifecycle action.&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;To learn more, see Auto Scaling Terminating State.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingCompleteLifecycleActionType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingCompleteLifecycleActionAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)completeLifecycleAction:(AWSAutoScalingCompleteLifecycleActionType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CompleteLifecycleAction service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingCompleteLifecycleActionAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/completeLifecycleAction:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/createAutoScalingGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Creates a new Auto Scaling group with the specified name and other attributes. When the creation request is completed, the Auto Scaling group is ready to be used in other calls. &lt;/p&gt;&lt;note&gt; The Auto Scaling group name must be unique within the scope of your AWS account. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingCreateAutoScalingGroupType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createAutoScalingGroup:(AWSAutoScalingCreateAutoScalingGroupType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateAutoScalingGroup service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorAlreadyExists, AWSAutoScalingErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/createAutoScalingGroup:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/createLaunchConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Creates a new launch configuration. The launch configuration name must be unique within the scope of the client&apos;s AWS account. The maximum limit of launch configurations, which by default is 100, must not yet have been met; otherwise, the call will fail. When created, the new launch configuration is available for immediate use. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingCreateLaunchConfigurationType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createLaunchConfiguration:(AWSAutoScalingCreateLaunchConfigurationType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateLaunchConfiguration service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorAlreadyExists, AWSAutoScalingErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/createLaunchConfiguration:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/createOrUpdateTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Creates new tags or updates existing tags for an Auto Scaling group. &lt;/p&gt;&lt;note&gt; A tag&apos;s definition is composed of a resource ID, resource type, key and value, and the propagate flag. Value and the propagate flag are optional parameters. See the Request Parameters for more information. &lt;/note&gt;&lt;p&gt;For information on creating tags for your Auto Scaling group, see Tag Your Auto Scaling Groups and Amazon EC2 Instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingCreateOrUpdateTagsType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createOrUpdateTags:(AWSAutoScalingCreateOrUpdateTagsType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateOrUpdateTags service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorLimitExceeded, AWSAutoScalingErrorAlreadyExists.</Abstract></ReturnValue>
+			<Anchor>//api/name/createOrUpdateTags:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/deleteAutoScalingGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Deletes the specified Auto Scaling group if the group has no instances and no scaling activities in progress. &lt;/p&gt;&lt;note&gt; To remove all instances before calling &lt;a&gt;DeleteAutoScalingGroup&lt;/a&gt;, you can call &lt;a&gt;UpdateAutoScalingGroup&lt;/a&gt; to set the minimum and maximum size of the AutoScalingGroup to zero. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteAutoScalingGroupType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteAutoScalingGroup:(AWSAutoScalingDeleteAutoScalingGroupType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteAutoScalingGroup service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress, AWSAutoScalingErrorResourceInUse.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteAutoScalingGroup:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/deleteLaunchConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Deletes the specified &lt;a&gt;LaunchConfiguration&lt;/a&gt;. &lt;/p&gt;&lt;p&gt; The specified launch configuration must not be attached to an Auto Scaling group. When this call completes, the launch configuration is no longer available for use. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingLaunchConfigurationNameType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteLaunchConfiguration:(AWSAutoScalingLaunchConfigurationNameType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteLaunchConfiguration service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorResourceInUse.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteLaunchConfiguration:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/deleteLifecycleHook:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified lifecycle hook. If there are any outstanding lifecycle actions, they are completed first (ABANDON for launching instances, CONTINUE for terminating instances).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteLifecycleHookType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteLifecycleHookAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteLifecycleHook:(AWSAutoScalingDeleteLifecycleHookType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteLifecycleHook service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDeleteLifecycleHookAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteLifecycleHook:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/deleteNotificationConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes notifications created by &lt;a&gt;PutNotificationConfiguration&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteNotificationConfigurationType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteNotificationConfiguration:(AWSAutoScalingDeleteNotificationConfigurationType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteNotificationConfiguration service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteNotificationConfiguration:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/deletePolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes a policy created by &lt;a&gt;PutScalingPolicy&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeletePolicyType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deletePolicy:(AWSAutoScalingDeletePolicyType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeletePolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/deletePolicy:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/deleteScheduledAction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes a scheduled action previously created using the &lt;a&gt;PutScheduledUpdateGroupAction&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteScheduledActionType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteScheduledAction:(AWSAutoScalingDeleteScheduledActionType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteScheduledAction service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteScheduledAction:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/deleteTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Removes the specified tags or a set of tags from a set of resources.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteTagsType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteTags:(AWSAutoScalingDeleteTagsType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteTags service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteTags:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeAccountLimits:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns the limits for the Auto Scaling resources currently allowed for your AWS account. &lt;/p&gt;&lt;p&gt;Your AWS account comes with default limits on resources for Auto Scaling. There is a default limit of &lt;code&gt;20&lt;/code&gt; Auto Scaling groups and &lt;code&gt;100&lt;/code&gt; launch configurations per region.&lt;/p&gt;&lt;p&gt;If you reach the limits for the number of Auto Scaling groups or the launch configurations, you can go to the Support Center and place a request to raise the limits.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeAccountLimitsAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeAccountLimits:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAccountLimits service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeAccountLimitsAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAccountLimits:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeAdjustmentTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns policy adjustment types for use in the &lt;a&gt;PutScalingPolicy&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeAdjustmentTypesAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeAdjustmentTypes:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAdjustmentTypes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeAdjustmentTypesAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAdjustmentTypes:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeAutoScalingGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a full description of each Auto Scaling group in the given list. This includes all Amazon EC2 instances that are members of the group. If a list of names is not provided, the service returns the full details of all Auto Scaling groups. &lt;/p&gt;&lt;p&gt; This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call this action again with the returned token as the &lt;code&gt;NextToken&lt;/code&gt; parameter. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingAutoScalingGroupNamesType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingAutoScalingGroupsType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeAutoScalingGroups:(AWSAutoScalingAutoScalingGroupNamesType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAutoScalingGroups service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingAutoScalingGroupsType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAutoScalingGroups:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeAutoScalingInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a description of each Auto Scaling instance in the &lt;code&gt;InstanceIds&lt;/code&gt; list. If a list is not provided, the service returns the full details of all instances up to a maximum of 50. By default, the service returns a list of 20 items. &lt;/p&gt;&lt;p&gt; This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call this action again with the returned token as the &lt;code&gt;NextToken&lt;/code&gt; parameter. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeAutoScalingInstancesType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingAutoScalingInstancesType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeAutoScalingInstances:(AWSAutoScalingDescribeAutoScalingInstancesType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAutoScalingInstances service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingAutoScalingInstancesType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAutoScalingInstances:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeAutoScalingNotificationTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a list of all notification types that are supported by Auto Scaling. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeAutoScalingNotificationTypes:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAutoScalingNotificationTypes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAutoScalingNotificationTypes:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeLaunchConfigurations:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a full description of the launch configurations, or the specified launch configurations, if they exist. &lt;/p&gt;&lt;p&gt; If no name is specified, then the full details of all launch configurations are returned. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingLaunchConfigurationNamesType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingLaunchConfigurationsType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeLaunchConfigurations:(AWSAutoScalingLaunchConfigurationNamesType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeLaunchConfigurations service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingLaunchConfigurationsType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLaunchConfigurations:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeLifecycleHookTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the available types of lifecycle hooks.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeLifecycleHookTypesAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeLifecycleHookTypes:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeLifecycleHookTypes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeLifecycleHookTypesAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLifecycleHookTypes:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeLifecycleHooks:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Describes the lifecycle hooks that currently belong to the specified Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeLifecycleHooksType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeLifecycleHooksAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeLifecycleHooks:(AWSAutoScalingDescribeLifecycleHooksType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeLifecycleHooks service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeLifecycleHooksAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLifecycleHooks:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeMetricCollectionTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a list of metrics and a corresponding list of granularities for each metric. &lt;/p&gt;&lt;note&gt;&lt;p&gt;The &lt;code&gt;GroupStandbyInstances&lt;/code&gt; metric is not returned by default. You must explicitly request it when calling &lt;a&gt;EnableMetricsCollection&lt;/a&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeMetricCollectionTypesAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeMetricCollectionTypes:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeMetricCollectionTypes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeMetricCollectionTypesAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeMetricCollectionTypes:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeNotificationConfigurations:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a list of notification actions associated with Auto Scaling groups for specified events. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeNotificationConfigurationsType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeNotificationConfigurationsAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeNotificationConfigurations:(AWSAutoScalingDescribeNotificationConfigurationsType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeNotificationConfigurations service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeNotificationConfigurationsAnswer. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeNotificationConfigurations:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describePolicies:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns descriptions of what each policy does. This action supports pagination. If the response includes a token, there are more records available. To get the additional records, repeat the request with the response token as the &lt;code&gt;NextToken&lt;/code&gt; parameter. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribePoliciesType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingPoliciesType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describePolicies:(AWSAutoScalingDescribePoliciesType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribePolicies service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingPoliciesType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describePolicies:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeScalingActivities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns the scaling activities for the specified Auto Scaling group. &lt;/p&gt;&lt;p&gt; If the specified &lt;code&gt;ActivityIds&lt;/code&gt; list is empty, all the activities from the past six weeks are returned. Activities are sorted by the start time. Activities still in progress appear first on the list. &lt;/p&gt;&lt;p&gt; This action supports pagination. If the response includes a token, there are more records available. To get the additional records, repeat the request with the response token as the &lt;code&gt;NextToken&lt;/code&gt; parameter. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeScalingActivitiesType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingActivitiesType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeScalingActivities:(AWSAutoScalingDescribeScalingActivitiesType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeScalingActivities service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingActivitiesType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeScalingActivities:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeScalingProcessTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns scaling process types for use in the &lt;a&gt;ResumeProcesses&lt;/a&gt; and &lt;a&gt;SuspendProcesses&lt;/a&gt; actions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingProcessesType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeScalingProcessTypes:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeScalingProcessTypes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingProcessesType.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeScalingProcessTypes:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeScheduledActions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Lists all the actions scheduled for your Auto Scaling group that haven&apos;t been executed. To see a list of actions already executed, see the activity record returned in &lt;a&gt;DescribeScalingActivities&lt;/a&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeScheduledActionsType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingScheduledActionsType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeScheduledActions:(AWSAutoScalingDescribeScheduledActionsType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeScheduledActions service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingScheduledActionsType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeScheduledActions:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Lists the Auto Scaling group tags. &lt;/p&gt;&lt;p&gt; You can use filters to limit results when describing tags. For example, you can query for tags of a particular Auto Scaling group. You can specify multiple values for a filter. A tag must match at least one of the specified values for it to be included in the results. &lt;/p&gt;&lt;p&gt; You can also specify multiple filters. The result includes information for a particular tag only if it matches all your filters. If there&apos;s no match, no special message is returned. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeTagsType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingTagsType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeTags:(AWSAutoScalingDescribeTagsType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeTags service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingTagsType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeTags:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/describeTerminationPolicyTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a list of all termination policies supported by Auto Scaling. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeTerminationPolicyTypesAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeTerminationPolicyTypes:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeTerminationPolicyTypes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeTerminationPolicyTypesAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeTerminationPolicyTypes:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/detachInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Using &lt;code&gt;DetachInstances&lt;/code&gt;, you can remove an instance from an Auto Scaling group. After the instances are detached, you can manage them independently from the rest of the Auto Scaling group.&lt;/p&gt;&lt;p&gt;To learn more about detaching instances, see Detach Amazon EC2 Instances From Your Auto Scaling Group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDetachInstancesQuery</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDetachInstancesAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)detachInstances:(AWSAutoScalingDetachInstancesQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DetachInstances service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDetachInstancesAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/detachInstances:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/disableMetricsCollection:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Disables monitoring of group metrics for the Auto Scaling group specified in &lt;code&gt;AutoScalingGroupName&lt;/code&gt;. You can specify the list of affected metrics with the &lt;code&gt;Metrics&lt;/code&gt; parameter. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDisableMetricsCollectionQuery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)disableMetricsCollection:(AWSAutoScalingDisableMetricsCollectionQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DisableMetricsCollection service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/disableMetricsCollection:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/enableMetricsCollection:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Enables monitoring of group metrics for the Auto Scaling group specified in &lt;code&gt;AutoScalingGroupName&lt;/code&gt;. You can specify the list of enabled metrics with the &lt;code&gt;Metrics&lt;/code&gt; parameter. &lt;/p&gt;&lt;p&gt; Auto Scaling metrics collection can be turned on only if the &lt;code&gt;InstanceMonitoring&lt;/code&gt; flag, in the Auto Scaling group&apos;s launch configuration, is set to &lt;code&gt;True&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnableMetricsCollectionQuery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)enableMetricsCollection:(AWSAutoScalingEnableMetricsCollectionQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the EnableMetricsCollection service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/enableMetricsCollection:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/enterStandby:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Move instances in an Auto Scaling group into a Standby mode. &lt;/p&gt;&lt;p&gt;To learn more about how to put instances into a Standby mode, see Auto Scaling InService State.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnterStandbyQuery</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnterStandbyAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)enterStandby:(AWSAutoScalingEnterStandbyQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the EnterStandby service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingEnterStandbyAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/enterStandby:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/executePolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Executes the specified policy. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingExecutePolicyType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)executePolicy:(AWSAutoScalingExecutePolicyType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ExecutePolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress.</Abstract></ReturnValue>
+			<Anchor>//api/name/executePolicy:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/exitStandby:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Move an instance out of Standby mode. &lt;/p&gt;&lt;p&gt;To learn more about how to put instances that are in a Standby mode back into service, see Auto Scaling InService State.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingExitStandbyQuery</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingExitStandbyAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)exitStandby:(AWSAutoScalingExitStandbyQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ExitStandby service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingExitStandbyAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/exitStandby:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/putLifecycleHook:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates or updates a lifecycle hook for an Auto Scaling Group.&lt;/p&gt;&lt;p&gt;A lifecycle hook tells Auto Scaling that you want to perform an action on an instance that is not actively in service; for example, either when the instance launches or before the instance terminates.&lt;/p&gt;&lt;p&gt; This operation is a part of the basic sequence for adding a lifecycle hook to an Auto Scaling group: &lt;/p&gt;&lt;ol&gt;&lt;li&gt; Create a notification target. A target can be either an Amazon SQS queue or an Amazon SNS topic. &lt;/li&gt;&lt;li&gt; Create an IAM role. This role allows Auto Scaling to publish lifecycle notifications to the designated SQS queue or SNS topic. &lt;/li&gt;&lt;li&gt;&lt;b&gt;Create the lifecycle hook. You can create a hook that acts when instances launch or when instances terminate.&lt;/b&gt;&lt;/li&gt;&lt;li&gt; If necessary, record the lifecycle action heartbeat to keep the instance in a pending state. &lt;/li&gt;&lt;li&gt; Complete the lifecycle action. &lt;/li&gt;&lt;/ol&gt;&lt;p&gt;To learn more, see Auto Scaling Terminating State.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingPutLifecycleHookType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingPutLifecycleHookAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)putLifecycleHook:(AWSAutoScalingPutLifecycleHookType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutLifecycleHook service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingPutLifecycleHookAnswer. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/putLifecycleHook:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/putNotificationConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Configures an Auto Scaling group to send notifications when specified events take place. Subscribers to this topic can have messages for events delivered to an endpoint such as a web server or email address. &lt;/p&gt;&lt;p&gt;For more information see Get Email Notifications When Your Auto Scaling Group Changes&lt;/p&gt;&lt;p&gt;A new &lt;code&gt;PutNotificationConfiguration&lt;/code&gt; overwrites an existing configuration. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingPutNotificationConfigurationType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)putNotificationConfiguration:(AWSAutoScalingPutNotificationConfigurationType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutNotificationConfiguration service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/putNotificationConfiguration:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/putScalingPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Creates or updates a policy for an Auto Scaling group. To update an existing policy, use the existing policy name and set the parameter(s) you want to change. Any existing parameter not changed in an update to an existing policy is not changed in this update request. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingPutScalingPolicyType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingPolicyARNType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)putScalingPolicy:(AWSAutoScalingPutScalingPolicyType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutScalingPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingPolicyARNType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/putScalingPolicy:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/putScheduledUpdateGroupAction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Creates or updates a scheduled scaling action for an Auto Scaling group. When updating a scheduled scaling action, if you leave a parameter unspecified, the corresponding value remains unchanged in the affected Auto Scaling group. &lt;/p&gt;&lt;p&gt;For information on creating or updating a scheduled action for your Auto Scaling group, see Scale Based on a Schedule.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Auto Scaling supports the date and time expressed in &quot;YYYY-MM-DDThh:mm:ssZ&quot; format in UTC/GMT only.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingPutScheduledUpdateGroupActionType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)putScheduledUpdateGroupAction:(AWSAutoScalingPutScheduledUpdateGroupActionType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutScheduledUpdateGroupAction service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorAlreadyExists, AWSAutoScalingErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/putScheduledUpdateGroupAction:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/recordLifecycleActionHeartbeat:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Records a heartbeat for the lifecycle action associated with a specific token. This extends the timeout by the length of time defined by the &lt;code&gt;HeartbeatTimeout&lt;/code&gt; parameter of the &lt;a&gt;PutLifecycleHook&lt;/a&gt; operation. &lt;/p&gt;&lt;p&gt; This operation is a part of the basic sequence for adding a lifecycle hook to an Auto Scaling group: &lt;/p&gt;&lt;ol&gt;&lt;li&gt; Create a notification target. A target can be either an Amazon SQS queue or an Amazon SNS topic. &lt;/li&gt;&lt;li&gt; Create an IAM role. This role allows Auto Scaling to publish lifecycle notifications to the designated SQS queue or SNS topic. &lt;/li&gt;&lt;li&gt; Create the lifecycle hook. You can create a hook that acts when instances launch or when instances terminate. &lt;/li&gt;&lt;li&gt;&lt;b&gt;If necessary, record the lifecycle action heartbeat to keep the instance in a pending state.&lt;/b&gt;&lt;/li&gt;&lt;li&gt; Complete the lifecycle action. &lt;/li&gt;&lt;/ol&gt;&lt;p&gt;To learn more, see Auto Scaling Terminating State.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingRecordLifecycleActionHeartbeatType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingRecordLifecycleActionHeartbeatAnswer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)recordLifecycleActionHeartbeat:(AWSAutoScalingRecordLifecycleActionHeartbeatType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RecordLifecycleActionHeartbeat service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingRecordLifecycleActionHeartbeatAnswer.</Abstract></ReturnValue>
+			<Anchor>//api/name/recordLifecycleActionHeartbeat:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/resumeProcesses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Resumes all suspended Auto Scaling processes for an Auto Scaling group. For information on suspending and resuming Auto Scaling process, see Suspend and Resume Auto Scaling Process. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingScalingProcessQuery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)resumeProcesses:(AWSAutoScalingScalingProcessQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ResumeProcesses service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/resumeProcesses:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/setDesiredCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Sets the desired size of the specified &lt;a&gt;AutoScalingGroup&lt;/a&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingSetDesiredCapacityType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setDesiredCapacity:(AWSAutoScalingSetDesiredCapacityType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetDesiredCapacity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress.</Abstract></ReturnValue>
+			<Anchor>//api/name/setDesiredCapacity:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/setInstanceHealth:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Sets the health status of a specified instance that belongs to any of your Auto Scaling groups. &lt;/p&gt;&lt;p&gt;For more information, see Configure Health Checks for Your Auto Scaling group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingSetInstanceHealthQuery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setInstanceHealth:(AWSAutoScalingSetInstanceHealthQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetInstanceHealth service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/setInstanceHealth:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/suspendProcesses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Suspends Auto Scaling processes for an Auto Scaling group. To suspend specific process types, specify them by name with the &lt;code&gt;ScalingProcesses.member.N&lt;/code&gt; parameter. To suspend all process types, omit the &lt;code&gt;ScalingProcesses.member.N&lt;/code&gt; parameter. &lt;/p&gt;&lt;important&gt;&lt;p&gt; Suspending either of the two primary process types, &lt;code&gt;Launch&lt;/code&gt; or &lt;code&gt;Terminate&lt;/code&gt;, can prevent other process types from functioning properly. &lt;/p&gt;&lt;/important&gt;&lt;p&gt; To resume processes that have been suspended, use &lt;a&gt;ResumeProcesses&lt;/a&gt; For more information on suspending and resuming Auto Scaling process, see Suspend and Resume Auto Scaling Process. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingScalingProcessQuery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)suspendProcesses:(AWSAutoScalingScalingProcessQuery *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SuspendProcesses service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/suspendProcesses:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/terminateInstanceInAutoScalingGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Terminates the specified instance. Optionally, the desired group size can be adjusted. &lt;/p&gt;&lt;note&gt; This call simply registers a termination request. The termination of the instance cannot happen immediately. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingTerminateInstanceInAutoScalingGroupType</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingActivityType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)terminateInstanceInAutoScalingGroup:(AWSAutoScalingTerminateInstanceInAutoScalingGroupType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the TerminateInstanceInAutoScalingGroup service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingActivityType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress.</Abstract></ReturnValue>
+			<Anchor>//api/name/terminateInstanceInAutoScalingGroup:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScaling/updateAutoScalingGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Updates the configuration for the specified &lt;a&gt;AutoScalingGroup&lt;/a&gt;. &lt;/p&gt;&lt;note&gt;&lt;p&gt; To update an Auto Scaling group with a launch configuration that has the &lt;code&gt;InstanceMonitoring&lt;/code&gt; flag set to &lt;code&gt;False&lt;/code&gt;, you must first ensure that collection of group metrics is disabled. Otherwise, calls to &lt;a&gt;UpdateAutoScalingGroup&lt;/a&gt; will fail. If you have previously enabled group metrics collection, you can disable collection of all group metrics by calling &lt;a&gt;DisableMetricsCollection&lt;/a&gt;. &lt;/p&gt;&lt;/note&gt;&lt;p&gt; The new settings are registered upon the completion of this call. Any launch configuration settings take effect on any triggers after this call returns. Scaling activities that are currently in progress aren&apos;t affected. &lt;/p&gt;&lt;note&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;If a new value is specified for &lt;i&gt;MinSize&lt;/i&gt; without specifying the value for &lt;i&gt;DesiredCapacity&lt;/i&gt;, and if the new &lt;i&gt;MinSize&lt;/i&gt; is larger than the current size of the Auto Scaling Group, there will be an implicit call to &lt;a&gt;SetDesiredCapacity&lt;/a&gt; to set the group to the new &lt;i&gt;MinSize&lt;/i&gt;. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;If a new value is specified for &lt;i&gt;MaxSize&lt;/i&gt; without specifying the value for &lt;i&gt;DesiredCapacity&lt;/i&gt;, and the new &lt;i&gt;MaxSize&lt;/i&gt; is smaller than the current size of the Auto Scaling Group, there will be an implicit call to &lt;a&gt;SetDesiredCapacity&lt;/a&gt; to set the group to the new &lt;i&gt;MaxSize&lt;/i&gt;. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;All other optional parameters are left unchanged if not passed in the request.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScaling.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingUpdateAutoScalingGroupType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)updateAutoScalingGroup:(AWSAutoScalingUpdateAutoScalingGroupType *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateAutoScalingGroup service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateAutoScalingGroup:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

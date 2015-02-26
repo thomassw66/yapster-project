@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingLifecycleHook.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingLifecycleHook</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A lifecycle hook tells Auto Scaling that you want to perform an action when an instance launches or terminates. When you have a lifecycle hook in place, the Auto Scaling group will either: &lt;/p&gt;&lt;ul&gt;&lt;li&gt; Pause the instance after it launches, but before it is put into service &lt;/li&gt;&lt;li&gt; Pause the instance as it terminates, but before it is fully terminated &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;To learn more, see Auto Scaling Terminating State.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group to which the lifecycle action belongs. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group to which the lifecycle action belongs. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group to which the lifecycle action belongs. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setDefaultResult:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Defines the action the Auto Scaling group should take when the lifecycle hook timeout elapses or if an unexpected failure occurs. The value for this parameter can be either &lt;code&gt;CONTINUE&lt;/code&gt; or &lt;code&gt;ABANDON&lt;/code&gt;. The default value for this parameter is &lt;code&gt;CONTINUE&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *defaultResult</Declaration>
+			
+			
+			<Anchor>//api/name/defaultResult</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/defaultResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Defines the action the Auto Scaling group should take when the lifecycle hook timeout elapses or if an unexpected failure occurs. The value for this parameter can be either &lt;code&gt;CONTINUE&lt;/code&gt; or &lt;code&gt;ABANDON&lt;/code&gt;. The default value for this parameter is &lt;code&gt;CONTINUE&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *defaultResult</Declaration>
+			
+			
+			<Anchor>//api/name/defaultResult</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/defaultResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Defines the action the Auto Scaling group should take when the lifecycle hook timeout elapses or if an unexpected failure occurs. The value for this parameter can be either &lt;code&gt;CONTINUE&lt;/code&gt; or &lt;code&gt;ABANDON&lt;/code&gt;. The default value for this parameter is &lt;code&gt;CONTINUE&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *defaultResult</Declaration>
+			
+			
+			<Anchor>//api/name/defaultResult</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setGlobalTimeout:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum length of time an instance can remain in a &lt;code&gt;Pending:Wait&lt;/code&gt; or &lt;code&gt;Terminating:Wait&lt;/code&gt; state. Currently, this value is set at 48 hours.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *globalTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/globalTimeout</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/globalTimeout</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum length of time an instance can remain in a &lt;code&gt;Pending:Wait&lt;/code&gt; or &lt;code&gt;Terminating:Wait&lt;/code&gt; state. Currently, this value is set at 48 hours.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *globalTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/globalTimeout</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/globalTimeout</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum length of time an instance can remain in a &lt;code&gt;Pending:Wait&lt;/code&gt; or &lt;code&gt;Terminating:Wait&lt;/code&gt; state. Currently, this value is set at 48 hours.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *globalTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/globalTimeout</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setHeartbeatTimeout:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Defines the amount of time that can elapse before the lifecycle hook times out. When the lifecycle hook times out, Auto Scaling performs the action defined in the &lt;code&gt;DefaultResult&lt;/code&gt; parameter. You can prevent the lifecycle hook from timing out by calling &lt;a&gt;RecordLifecycleActionHeartbeat&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *heartbeatTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/heartbeatTimeout</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/heartbeatTimeout</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Defines the amount of time that can elapse before the lifecycle hook times out. When the lifecycle hook times out, Auto Scaling performs the action defined in the &lt;code&gt;DefaultResult&lt;/code&gt; parameter. You can prevent the lifecycle hook from timing out by calling &lt;a&gt;RecordLifecycleActionHeartbeat&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *heartbeatTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/heartbeatTimeout</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/heartbeatTimeout</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Defines the amount of time that can elapse before the lifecycle hook times out. When the lifecycle hook times out, Auto Scaling performs the action defined in the &lt;code&gt;DefaultResult&lt;/code&gt; parameter. You can prevent the lifecycle hook from timing out by calling &lt;a&gt;RecordLifecycleActionHeartbeat&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *heartbeatTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/heartbeatTimeout</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setLifecycleHookName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the lifecycle action hook. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleHookName</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookName</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/lifecycleHookName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the lifecycle action hook. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleHookName</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookName</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/lifecycleHookName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the lifecycle action hook. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleHookName</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookName</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setLifecycleTransition:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon EC2 instance state to which you want to attach the lifecycle hook. See &lt;a&gt;DescribeLifecycleHooks&lt;/a&gt; for a list of available lifecycle hook types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleTransition</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleTransition</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/lifecycleTransition</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon EC2 instance state to which you want to attach the lifecycle hook. See &lt;a&gt;DescribeLifecycleHooks&lt;/a&gt; for a list of available lifecycle hook types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleTransition</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleTransition</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/lifecycleTransition</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon EC2 instance state to which you want to attach the lifecycle hook. See &lt;a&gt;DescribeLifecycleHooks&lt;/a&gt; for a list of available lifecycle hook types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lifecycleTransition</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleTransition</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setNotificationMetadata:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains additional information that you want to include any time Auto Scaling sends a message to the notification target.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationMetadata</Declaration>
+			
+			
+			<Anchor>//api/name/notificationMetadata</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/notificationMetadata</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains additional information that you want to include any time Auto Scaling sends a message to the notification target.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationMetadata</Declaration>
+			
+			
+			<Anchor>//api/name/notificationMetadata</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/notificationMetadata</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains additional information that you want to include any time Auto Scaling sends a message to the notification target.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationMetadata</Declaration>
+			
+			
+			<Anchor>//api/name/notificationMetadata</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setNotificationTargetARN:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the notification target that Auto Scaling will use to notify you when an instance is in the transition state for the lifecycle hook. This ARN target can be either an SQS queue or an SNS topic. The notification message sent to the target will include:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lifecycle action token&lt;/li&gt;&lt;li&gt;User account ID&lt;/li&gt;&lt;li&gt;Name of the Auto Scaling group&lt;/li&gt;&lt;li&gt;Lifecycle hook name&lt;/li&gt;&lt;li&gt;EC2 instance ID&lt;/li&gt;&lt;li&gt;Lifecycle transition&lt;/li&gt;&lt;li&gt;Notification metadata&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationTargetARN</Declaration>
+			
+			
+			<Anchor>//api/name/notificationTargetARN</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/notificationTargetARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the notification target that Auto Scaling will use to notify you when an instance is in the transition state for the lifecycle hook. This ARN target can be either an SQS queue or an SNS topic. The notification message sent to the target will include:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lifecycle action token&lt;/li&gt;&lt;li&gt;User account ID&lt;/li&gt;&lt;li&gt;Name of the Auto Scaling group&lt;/li&gt;&lt;li&gt;Lifecycle hook name&lt;/li&gt;&lt;li&gt;EC2 instance ID&lt;/li&gt;&lt;li&gt;Lifecycle transition&lt;/li&gt;&lt;li&gt;Notification metadata&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationTargetARN</Declaration>
+			
+			
+			<Anchor>//api/name/notificationTargetARN</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/notificationTargetARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the notification target that Auto Scaling will use to notify you when an instance is in the transition state for the lifecycle hook. This ARN target can be either an SQS queue or an SNS topic. The notification message sent to the target will include:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lifecycle action token&lt;/li&gt;&lt;li&gt;User account ID&lt;/li&gt;&lt;li&gt;Name of the Auto Scaling group&lt;/li&gt;&lt;li&gt;Lifecycle hook name&lt;/li&gt;&lt;li&gt;EC2 instance ID&lt;/li&gt;&lt;li&gt;Lifecycle transition&lt;/li&gt;&lt;li&gt;Notification metadata&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationTargetARN</Declaration>
+			
+			
+			<Anchor>//api/name/notificationTargetARN</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/setRoleARN:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the Amazon IAM role that allows the Auto Scaling group to publish to the specified notification target.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleARN</Declaration>
+			
+			
+			<Anchor>//api/name/roleARN</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingLifecycleHook/roleARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the Amazon IAM role that allows the Auto Scaling group to publish to the specified notification target.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleARN</Declaration>
+			
+			
+			<Anchor>//api/name/roleARN</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingLifecycleHook/roleARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the Amazon IAM role that allows the Auto Scaling group to publish to the specified notification target.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleARN</Declaration>
+			
+			
+			<Anchor>//api/name/roleARN</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

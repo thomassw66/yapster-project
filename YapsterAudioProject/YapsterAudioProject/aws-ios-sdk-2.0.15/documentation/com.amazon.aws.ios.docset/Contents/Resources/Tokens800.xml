@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSS3GetPreSignedURLRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetPreSignedURLRequest</TokenIdentifier>
+			<Abstract type="html">The GetPreSignedURLRequest contains the parameters used to create
+a pre signed URL.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSS3PreSignedURLBuilder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="800"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html">The name of the bucket</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/bucket</TokenIdentifier>
+			<Abstract type="html">The name of the bucket</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/bucket</TokenIdentifier>
+			<Abstract type="html">The name of the bucket</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setKey:</TokenIdentifier>
+			<Abstract type="html">The name of the S3 object</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/key</TokenIdentifier>
+			<Abstract type="html">The name of the S3 object</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/key</TokenIdentifier>
+			<Abstract type="html">The name of the S3 object</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setHTTPMethod:</TokenIdentifier>
+			<Abstract type="html">Specifies the verb used in the pre-signed URL. accepted AWSHTTPMethodGET, AWSHTTPMethodPUT, AWSHTTPMethodHEAD.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSHTTPMethod HTTPMethod</Declaration>
+			
+			
+			<Anchor>//api/name/HTTPMethod</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/HTTPMethod</TokenIdentifier>
+			<Abstract type="html">Specifies the verb used in the pre-signed URL. accepted AWSHTTPMethodGET, AWSHTTPMethodPUT, AWSHTTPMethodHEAD.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSHTTPMethod HTTPMethod</Declaration>
+			
+			
+			<Anchor>//api/name/HTTPMethod</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/HTTPMethod</TokenIdentifier>
+			<Abstract type="html">Specifies the verb used in the pre-signed URL. accepted AWSHTTPMethodGET, AWSHTTPMethodPUT, AWSHTTPMethodHEAD.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSHTTPMethod HTTPMethod</Declaration>
+			
+			
+			<Anchor>//api/name/HTTPMethod</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setExpires:</TokenIdentifier>
+			<Abstract type="html">The time when the signature expires, specified as an NSDate object.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/expires</TokenIdentifier>
+			<Abstract type="html">The time when the signature expires, specified as an NSDate object.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/expires</TokenIdentifier>
+			<Abstract type="html">The time when the signature expires, specified as an NSDate object.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setMinimumCredentialsExpirationInterval:</TokenIdentifier>
+			<Abstract type="html">(Optional) AWSS3GetPreSignedURLRequest will automatically refresh temporary credential if expiration duration in less than minimumCredentialsExpirationInterval. Only applied for credential provider using temporary token (e.g. CognitoIdentityProvider). Default value is 3000 seconds.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval minimumCredentialsExpirationInterval</Declaration>
+			
+			
+			<Anchor>//api/name/minimumCredentialsExpirationInterval</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/minimumCredentialsExpirationInterval</TokenIdentifier>
+			<Abstract type="html">(Optional) AWSS3GetPreSignedURLRequest will automatically refresh temporary credential if expiration duration in less than minimumCredentialsExpirationInterval. Only applied for credential provider using temporary token (e.g. CognitoIdentityProvider). Default value is 3000 seconds.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval minimumCredentialsExpirationInterval</Declaration>
+			
+			
+			<Anchor>//api/name/minimumCredentialsExpirationInterval</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/minimumCredentialsExpirationInterval</TokenIdentifier>
+			<Abstract type="html">(Optional) AWSS3GetPreSignedURLRequest will automatically refresh temporary credential if expiration duration in less than minimumCredentialsExpirationInterval. Only applied for credential provider using temporary token (e.g. CognitoIdentityProvider). Default value is 3000 seconds.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval minimumCredentialsExpirationInterval</Declaration>
+			
+			
+			<Anchor>//api/name/minimumCredentialsExpirationInterval</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">(Optional) VersionId used in the pre signed URL. Default is nil.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/versionId</TokenIdentifier>
+			<Abstract type="html">(Optional) VersionId used in the pre signed URL. Default is nil.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/versionId</TokenIdentifier>
+			<Abstract type="html">(Optional) VersionId used in the pre signed URL. Default is nil.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setContentType:</TokenIdentifier>
+			<Abstract type="html">(Optional) A standard MIME type describing the format of the object data. only apply when AWSHTTPMethod property is AWSHTTPMethodPUT.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
+			
+			
+			<Anchor>//api/name/contentType</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/contentType</TokenIdentifier>
+			<Abstract type="html">(Optional) A standard MIME type describing the format of the object data. only apply when AWSHTTPMethod property is AWSHTTPMethodPUT.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
+			
+			
+			<Anchor>//api/name/contentType</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/contentType</TokenIdentifier>
+			<Abstract type="html">(Optional) A standard MIME type describing the format of the object data. only apply when AWSHTTPMethod property is AWSHTTPMethodPUT.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
+			
+			
+			<Anchor>//api/name/contentType</Anchor>
+            <NodeRef refid="800"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

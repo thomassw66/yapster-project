@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSStaticCredentialsProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSStaticCredentialsProvider</TokenIdentifier>
+			<Abstract type="html">This credentials provider is intended only for testing purposes.
+We strongly discourage embedding AWS credentials in your production apps because they can be easily extracted and abused.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1031"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSStaticCredentialsProvider/setAccessKey:</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+            <NodeRef refid="1031"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSStaticCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+            <NodeRef refid="1031"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSStaticCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+            <NodeRef refid="1031"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSStaticCredentialsProvider/setSecretKey:</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1031"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSStaticCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1031"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSStaticCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1031"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

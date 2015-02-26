@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSESGetIdentityDkimAttributesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a list of all the DKIM attributes for the specified identity.&lt;/p&gt;
+Required parameters: [DkimAttributes]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="877"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityDkimAttributesResponse/setDkimAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The DKIM attributes for an email address or a domain. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *dkimAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/dkimAttributes</Anchor>
+            <NodeRef refid="877"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityDkimAttributesResponse/dkimAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The DKIM attributes for an email address or a domain. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *dkimAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/dkimAttributes</Anchor>
+            <NodeRef refid="877"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityDkimAttributesResponse/dkimAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The DKIM attributes for an email address or a domain. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *dkimAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/dkimAttributes</Anchor>
+            <NodeRef refid="877"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

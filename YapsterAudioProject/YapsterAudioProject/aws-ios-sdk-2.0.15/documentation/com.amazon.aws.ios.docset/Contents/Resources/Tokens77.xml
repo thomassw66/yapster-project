@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingScalingProcessQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingScalingProcessQuery</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="77"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScalingProcessQuery/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="77"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScalingProcessQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="77"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScalingProcessQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name or Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="77"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScalingProcessQuery/setScalingProcesses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The processes that you want to suspend or resume, which can include one or more of the following: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Launch&lt;/li&gt;&lt;li&gt;Terminate&lt;/li&gt;&lt;li&gt;HealthCheck&lt;/li&gt;&lt;li&gt;ReplaceUnhealthy&lt;/li&gt;&lt;li&gt;AZRebalance&lt;/li&gt;&lt;li&gt;AlarmNotification&lt;/li&gt;&lt;li&gt;ScheduledActions&lt;/li&gt;&lt;li&gt;AddToLoadBalancer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; To suspend all process types, omit this parameter. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *scalingProcesses</Declaration>
+			
+			
+			<Anchor>//api/name/scalingProcesses</Anchor>
+            <NodeRef refid="77"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScalingProcessQuery/scalingProcesses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The processes that you want to suspend or resume, which can include one or more of the following: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Launch&lt;/li&gt;&lt;li&gt;Terminate&lt;/li&gt;&lt;li&gt;HealthCheck&lt;/li&gt;&lt;li&gt;ReplaceUnhealthy&lt;/li&gt;&lt;li&gt;AZRebalance&lt;/li&gt;&lt;li&gt;AlarmNotification&lt;/li&gt;&lt;li&gt;ScheduledActions&lt;/li&gt;&lt;li&gt;AddToLoadBalancer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; To suspend all process types, omit this parameter. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *scalingProcesses</Declaration>
+			
+			
+			<Anchor>//api/name/scalingProcesses</Anchor>
+            <NodeRef refid="77"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScalingProcessQuery/scalingProcesses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The processes that you want to suspend or resume, which can include one or more of the following: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Launch&lt;/li&gt;&lt;li&gt;Terminate&lt;/li&gt;&lt;li&gt;HealthCheck&lt;/li&gt;&lt;li&gt;ReplaceUnhealthy&lt;/li&gt;&lt;li&gt;AZRebalance&lt;/li&gt;&lt;li&gt;AlarmNotification&lt;/li&gt;&lt;li&gt;ScheduledActions&lt;/li&gt;&lt;li&gt;AddToLoadBalancer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; To suspend all process types, omit this parameter. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *scalingProcesses</Declaration>
+			
+			
+			<Anchor>//api/name/scalingProcesses</Anchor>
+            <NodeRef refid="77"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSCognitoIdentityProviderErrorType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoIdentityProviderErrorType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1053"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoIdentityProviderErrorIdentityIsNil</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoIdentityProviderErrorIdentityIsNil</Declaration>
+            
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+            <NodeRef refid="1053"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

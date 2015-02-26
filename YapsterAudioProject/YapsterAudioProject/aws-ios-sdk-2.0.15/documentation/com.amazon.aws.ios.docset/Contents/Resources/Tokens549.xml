@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ReplicateSnapshotRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplicateSnapshotRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="549"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDestinationRegion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
+			
+			
+			<Anchor>//api/name/destinationRegion</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/destinationRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
+			
+			
+			<Anchor>//api/name/destinationRegion</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/destinationRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
+			
+			
+			<Anchor>//api/name/destinationRegion</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setPresignedUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
+			
+			
+			<Anchor>//api/name/presignedUrl</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/presignedUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
+			
+			
+			<Anchor>//api/name/presignedUrl</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/presignedUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
+			
+			
+			<Anchor>//api/name/presignedUrl</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setSourceRegion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			
+			
+			<Anchor>//api/name/sourceRegion</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/sourceRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			
+			
+			<Anchor>//api/name/sourceRegion</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/sourceRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			
+			
+			<Anchor>//api/name/sourceRegion</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setSourceSnapshotId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSnapshotId</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/sourceSnapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSnapshotId</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/sourceSnapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSnapshotId</Anchor>
+            <NodeRef refid="549"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSTSGetFederationTokenRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSTSGetFederationTokenRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1004"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSGetFederationTokenRequest/setDurationSeconds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, that the session should last. Acceptable durations for federation sessions range from 900 seconds (15 minutes) to 129600 seconds (36 hours), with 43200 seconds (12 hours) as the default. Sessions obtained using AWS account (root) credentials are restricted to a maximum of 3600 seconds (one hour). If the specified duration is longer than one hour, the session obtained by using AWS account (root) credentials defaults to one hour. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSGetFederationTokenRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, that the session should last. Acceptable durations for federation sessions range from 900 seconds (15 minutes) to 129600 seconds (36 hours), with 43200 seconds (12 hours) as the default. Sessions obtained using AWS account (root) credentials are restricted to a maximum of 3600 seconds (one hour). If the specified duration is longer than one hour, the session obtained by using AWS account (root) credentials defaults to one hour. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSGetFederationTokenRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, that the session should last. Acceptable durations for federation sessions range from 900 seconds (15 minutes) to 129600 seconds (36 hours), with 43200 seconds (12 hours) as the default. Sessions obtained using AWS account (root) credentials are restricted to a maximum of 3600 seconds (one hour). If the specified duration is longer than one hour, the session obtained by using AWS account (root) credentials defaults to one hour. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSGetFederationTokenRequest/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the federated user. The name is used as an identifier for the temporary security credentials (such as &lt;code&gt;Bob&lt;/code&gt;). For example, you can reference the federated user name in a resource-based policy, such as in an Amazon S3 bucket policy. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSGetFederationTokenRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the federated user. The name is used as an identifier for the temporary security credentials (such as &lt;code&gt;Bob&lt;/code&gt;). For example, you can reference the federated user name in a resource-based policy, such as in an Amazon S3 bucket policy. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSGetFederationTokenRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the federated user. The name is used as an identifier for the temporary security credentials (such as &lt;code&gt;Bob&lt;/code&gt;). For example, you can reference the federated user name in a resource-based policy, such as in an Amazon S3 bucket policy. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSGetFederationTokenRequest/setPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format that is passed with the &lt;code&gt;GetFederationToken&lt;/code&gt; call and evaluated along with the policy or policies that are attached to the IAM user whose credentials are used to call &lt;code&gt;GetFederationToken&lt;/code&gt;. The passed policy is used to scope down the permissions that are available to the IAM user, by allowing only a subset of the permissions that are granted to the IAM user. The passed policy cannot grant more permissions than those granted to the IAM user. The final permissions for the federated user are the most restrictive set based on the intersection of the passed policy and the IAM user policy.&lt;/p&gt;&lt;p&gt;If you do not pass a policy, the resulting temporary security credentials have no effective permissions. The only exception is when the temporary security credentials are used to access a resource that has a resource-based policy that specifically allows the federated user to access the resource. &lt;/p&gt;&lt;p&gt;For more information about how permissions work, see Permissions for GetFederationToken in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSGetFederationTokenRequest/policy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format that is passed with the &lt;code&gt;GetFederationToken&lt;/code&gt; call and evaluated along with the policy or policies that are attached to the IAM user whose credentials are used to call &lt;code&gt;GetFederationToken&lt;/code&gt;. The passed policy is used to scope down the permissions that are available to the IAM user, by allowing only a subset of the permissions that are granted to the IAM user. The passed policy cannot grant more permissions than those granted to the IAM user. The final permissions for the federated user are the most restrictive set based on the intersection of the passed policy and the IAM user policy.&lt;/p&gt;&lt;p&gt;If you do not pass a policy, the resulting temporary security credentials have no effective permissions. The only exception is when the temporary security credentials are used to access a resource that has a resource-based policy that specifically allows the federated user to access the resource. &lt;/p&gt;&lt;p&gt;For more information about how permissions work, see Permissions for GetFederationToken in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSGetFederationTokenRequest/policy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format that is passed with the &lt;code&gt;GetFederationToken&lt;/code&gt; call and evaluated along with the policy or policies that are attached to the IAM user whose credentials are used to call &lt;code&gt;GetFederationToken&lt;/code&gt;. The passed policy is used to scope down the permissions that are available to the IAM user, by allowing only a subset of the permissions that are granted to the IAM user. The passed policy cannot grant more permissions than those granted to the IAM user. The final permissions for the federated user are the most restrictive set based on the intersection of the passed policy and the IAM user policy.&lt;/p&gt;&lt;p&gt;If you do not pass a policy, the resulting temporary security credentials have no effective permissions. The only exception is when the temporary security credentials are used to access a resource that has a resource-based policy that specifically allows the federated user to access the resource. &lt;/p&gt;&lt;p&gt;For more information about how permissions work, see Permissions for GetFederationToken in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+            <NodeRef refid="1004"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

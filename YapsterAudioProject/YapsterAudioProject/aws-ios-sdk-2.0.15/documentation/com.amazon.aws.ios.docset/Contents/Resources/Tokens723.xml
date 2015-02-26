@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSKinesisRecorder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisRecorder</TokenIdentifier>
+			<Abstract type="html">The AWSKinesisRecorder is a high level client meant for storing put record requests on the user&apos;s device. This allows developers to retain requests when the device is offline. It can also increase performance and battery efficiency since the Wi-Fi or cell network does not need to be woken up as frequently.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="723"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/setDiskBytesUsed:</TokenIdentifier>
+			<Abstract type="html">The number of bytes currently used to store AWSKinesisPutRecordInput objects on disk.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger diskBytesUsed</Declaration>
+			
+			
+			<Anchor>//api/name/diskBytesUsed</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/diskBytesUsed</TokenIdentifier>
+			<Abstract type="html">The number of bytes currently used to store AWSKinesisPutRecordInput objects on disk.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger diskBytesUsed</Declaration>
+			
+			
+			<Anchor>//api/name/diskBytesUsed</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisRecorder/diskBytesUsed</TokenIdentifier>
+			<Abstract type="html">The number of bytes currently used to store AWSKinesisPutRecordInput objects on disk.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger diskBytesUsed</Declaration>
+			
+			
+			<Anchor>//api/name/diskBytesUsed</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/setNotificationByteThreshold:</TokenIdentifier>
+			<Abstract type="html">The threshold of disk bytes for notification. When exceeded, saveRecord:streamName: posts AWSKinesisRecorderByteThresholdReachedNotification. The default is 0 meaning it will not post the notification.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger notificationByteThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/notificationByteThreshold</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/notificationByteThreshold</TokenIdentifier>
+			<Abstract type="html">The threshold of disk bytes for notification. When exceeded, saveRecord:streamName: posts AWSKinesisRecorderByteThresholdReachedNotification. The default is 0 meaning it will not post the notification.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger notificationByteThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/notificationByteThreshold</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisRecorder/notificationByteThreshold</TokenIdentifier>
+			<Abstract type="html">The threshold of disk bytes for notification. When exceeded, saveRecord:streamName: posts AWSKinesisRecorderByteThresholdReachedNotification. The default is 0 meaning it will not post the notification.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger notificationByteThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/notificationByteThreshold</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/setDiskByteLimit:</TokenIdentifier>
+			<Abstract type="html">The limit of the disk cache size in bytes. When exceeded, older requests will be discarded. Setting this value to 0.0 meaning no practical limit. The default value is 5MB.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger diskByteLimit</Declaration>
+			
+			
+			<Anchor>//api/name/diskByteLimit</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/diskByteLimit</TokenIdentifier>
+			<Abstract type="html">The limit of the disk cache size in bytes. When exceeded, older requests will be discarded. Setting this value to 0.0 meaning no practical limit. The default value is 5MB.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger diskByteLimit</Declaration>
+			
+			
+			<Anchor>//api/name/diskByteLimit</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisRecorder/diskByteLimit</TokenIdentifier>
+			<Abstract type="html">The limit of the disk cache size in bytes. When exceeded, older requests will be discarded. Setting this value to 0.0 meaning no practical limit. The default value is 5MB.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger diskByteLimit</Declaration>
+			
+			
+			<Anchor>//api/name/diskByteLimit</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/setDiskAgeLimit:</TokenIdentifier>
+			<Abstract type="html">The age limit of the cached requests. When exceeded, requests older than the specified age will be discarded. Setting this value to 0 meaning no practical limit. The default is no age limit.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval diskAgeLimit</Declaration>
+			
+			
+			<Anchor>//api/name/diskAgeLimit</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/diskAgeLimit</TokenIdentifier>
+			<Abstract type="html">The age limit of the cached requests. When exceeded, requests older than the specified age will be discarded. Setting this value to 0 meaning no practical limit. The default is no age limit.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval diskAgeLimit</Declaration>
+			
+			
+			<Anchor>//api/name/diskAgeLimit</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisRecorder/diskAgeLimit</TokenIdentifier>
+			<Abstract type="html">The age limit of the cached requests. When exceeded, requests older than the specified age will be discarded. Setting this value to 0 meaning no practical limit. The default is no age limit.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval diskAgeLimit</Declaration>
+			
+			
+			<Anchor>//api/name/diskAgeLimit</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSKinesisRecorder/defaultKinesisRecorder</TokenIdentifier>
+			<Abstract type="html">Returns a shared instance of this service client using [AWSServiceManager defaultServiceManager].defaultServiceConfiguration. When defaultServiceConfiguration is not set, this method returns nil.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultKinesisRecorder</Declaration>
+			
+			<ReturnValue><Abstract type="html">A shared instance of this service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultKinesisRecorder</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/initWithConfiguration:identifier:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of this service client using configuration and identifier.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration identifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">An object to configure the internal AWSKinesis. At least regionType and credentialsProvider need to be set.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">An unique identifier for AWSKinesisRecorder to create a disk cache. Multiple instances with the same identifier are allowed and can safely access the same data on disk.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of this service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithConfiguration:identifier:</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/saveRecord:streamName:</TokenIdentifier>
+			<Abstract type="html">Saves a record to local storage to be sent later. The record will be submitted to the streamName provided with a randomly generated partition key to ensure equal distribution across shards.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)saveRecord:(NSData *)data streamName:(NSString *)streamName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data to send to Amazon Kinesis.</Abstract>
+				</Parameter><Parameter>
+					<Name>streamName</Name>
+					<Abstract type="html">The stream name for Amazon Kinesis.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask- task.result contains an instance of AWSKinesisPutRecordInput persisted.</Abstract></ReturnValue>
+			<Anchor>//api/name/saveRecord:streamName:</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/submitAllRecords</TokenIdentifier>
+			<Abstract type="html">Submits all locally saved requests to Amazon Kinesis. Requests that are successfully sent will be deleted from the device. Requests that fail due to the device being offline will stop the submission process and be kept. Requests that fail due to other reasons (such as the request being invalid) will be deleted.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)submitAllRecords</Declaration>
+			
+			<ReturnValue><Abstract type="html">BFTask - task.result is always nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/submitAllRecords</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRecorder/removeAllRecords</TokenIdentifier>
+			<Abstract type="html">Removes all requests saved to disk.</Abstract>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)removeAllRecords</Declaration>
+			
+			<ReturnValue><Abstract type="html">BFTask- task.result is always nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeAllRecords</Anchor>
+            <NodeRef refid="723"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

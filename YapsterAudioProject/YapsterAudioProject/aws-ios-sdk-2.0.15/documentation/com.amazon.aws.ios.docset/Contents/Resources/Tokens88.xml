@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSBasicCognitoIdentityProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSBasicCognitoIdentityProvider</TokenIdentifier>
+			<Abstract type="html">The basic Amazon Cognito Identity Provider. Follows the following flow for credentials:
+1. Calls GetId to establish an identity id.
+2. Calls GetOpenIdToken to get an OpenId Connect token for that identity id.
+3. Calls AssumeRoleWithWebIdentity to get credentials with that token.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="88"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

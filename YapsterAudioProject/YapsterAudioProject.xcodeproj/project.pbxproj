@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF061BF91A84843500A35B66 /* DownloadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF061BF81A84843500A35B66 /* DownloadTableViewController.m */; };
+		EF061BFD1A8486C500A35B66 /* DownloadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF061BFC1A8486C500A35B66 /* DownloadTableViewCell.m */; };
+		EF176D2F1A812D7B00CA5042 /* AWSiOSSDKv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D2E1A812D7B00CA5042 /* AWSiOSSDKv2.framework */; };
+		EF176D311A812E3800CA5042 /* AWSCognitoSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D301A812E3800CA5042 /* AWSCognitoSync.framework */; };
+		EF176D3A1A812E8A00CA5042 /* XMLDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D321A812E8A00CA5042 /* XMLDictionary.framework */; };
+		EF176D3B1A812E8A00CA5042 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D331A812E8A00CA5042 /* UICKeyChainStore.framework */; };
+		EF176D3C1A812E8A00CA5042 /* TMCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D341A812E8A00CA5042 /* TMCache.framework */; };
+		EF176D3D1A812E8A00CA5042 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D351A812E8A00CA5042 /* Reachability.framework */; };
+		EF176D3E1A812E8A00CA5042 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D361A812E8A00CA5042 /* Mantle.framework */; };
+		EF176D3F1A812E8A00CA5042 /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D371A812E8A00CA5042 /* GZIP.framework */; };
+		EF176D401A812E8A00CA5042 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D381A812E8A00CA5042 /* FMDB.framework */; };
+		EF176D411A812E8A00CA5042 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF176D391A812E8A00CA5042 /* Bolts.framework */; };
+		EF1777391A812F6600CA5042 /* autoscaling-2011-01-01.json in Resources */ = {isa = PBXBuildFile; fileRef = EF17772A1A812F6500CA5042 /* autoscaling-2011-01-01.json */; };
+		EF17773A1A812F6600CA5042 /* cognito-identity-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = EF17772B1A812F6500CA5042 /* cognito-identity-2014-06-30.json */; };
+		EF17773B1A812F6600CA5042 /* css-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = EF17772C1A812F6500CA5042 /* css-2014-06-30.json */; };
+		EF17773C1A812F6600CA5042 /* dynamodb-2012-08-10.json in Resources */ = {isa = PBXBuildFile; fileRef = EF17772D1A812F6500CA5042 /* dynamodb-2012-08-10.json */; };
+		EF17773D1A812F6600CA5042 /* ec2-2014-09-01.json in Resources */ = {isa = PBXBuildFile; fileRef = EF17772E1A812F6500CA5042 /* ec2-2014-09-01.json */; };
+		EF17773E1A812F6600CA5042 /* elasticloadbalancing-2012-06-01.json in Resources */ = {isa = PBXBuildFile; fileRef = EF17772F1A812F6500CA5042 /* elasticloadbalancing-2012-06-01.json */; };
+		EF17773F1A812F6600CA5042 /* email-2010-12-01.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777301A812F6500CA5042 /* email-2010-12-01.json */; };
+		EF1777401A812F6600CA5042 /* kinesis-2013-12-02.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777311A812F6500CA5042 /* kinesis-2013-12-02.json */; };
+		EF1777411A812F6600CA5042 /* mobileanalytics-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777321A812F6500CA5042 /* mobileanalytics-2014-06-30.json */; };
+		EF1777421A812F6600CA5042 /* monitoring-2010-08-01.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777331A812F6500CA5042 /* monitoring-2010-08-01.json */; };
+		EF1777431A812F6600CA5042 /* s3-2006-03-01.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777341A812F6600CA5042 /* s3-2006-03-01.json */; };
+		EF1777441A812F6600CA5042 /* sdb-2009-04-15.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777351A812F6600CA5042 /* sdb-2009-04-15.json */; };
+		EF1777451A812F6600CA5042 /* sns-2010-03-31.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777361A812F6600CA5042 /* sns-2010-03-31.json */; };
+		EF1777461A812F6600CA5042 /* sqs-2012-11-05.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777371A812F6600CA5042 /* sqs-2012-11-05.json */; };
+		EF1777471A812F6600CA5042 /* sts-2011-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1777381A812F6600CA5042 /* sts-2011-06-15.json */; };
+		EF1777491A8160C000CA5042 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1777481A8160C000CA5042 /* libsqlite3.dylib */; };
+		EF17774B1A8160D100CA5042 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF17774A1A8160D100CA5042 /* libz.dylib */; };
+		EF17774D1A82726600CA5042 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF17774C1A82726600CA5042 /* AVFoundation.framework */; };
+		EF4DFBAE1A9E1AC2003CDC20 /* TWAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DFBAD1A9E1AC2003CDC20 /* TWAPViewController.m */; };
+		EF4F838F1A92CC3600B2BD81 /* TWAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F838E1A92CC3600B2BD81 /* TWAudio.m */; };
+		EF4F83921A938DAA00B2BD81 /* TWImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F83911A938DAA00B2BD81 /* TWImage.m */; };
+		EFD5008E1A8129C80091893C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD5008D1A8129C80091893C /* main.m */; };
+		EFD500911A8129C80091893C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD500901A8129C80091893C /* AppDelegate.m */; };
+		EFD500941A8129C80091893C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD500931A8129C80091893C /* ViewController.m */; };
+		EFD500971A8129C80091893C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD500951A8129C80091893C /* Main.storyboard */; };
+		EFD500991A8129C80091893C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD500981A8129C80091893C /* Images.xcassets */; };
+		EFD5009C1A8129C80091893C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD5009A1A8129C80091893C /* LaunchScreen.xib */; };
+		EFD500A81A8129C80091893C /* YapsterAudioProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD500A71A8129C80091893C /* YapsterAudioProjectTests.m */; };
+		EFEE61621A85D994001A5947 /* IronBacon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFEE61611A85D994001A5947 /* IronBacon.mp3 */; };
+		EFEE61651A89436C001A5947 /* ContentGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEE61641A89436B001A5947 /* ContentGenerator.m */; };
+		EFEE61681A8A8BD8001A5947 /* AudioProjectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEE61671A8A8BD8001A5947 /* AudioProjectObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD500A21A8129C80091893C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD500801A8129C80091893C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD500871A8129C80091893C;
+			remoteInfo = YapsterAudioProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF061BF81A84843500A35B66 /* DownloadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadTableViewController.m; sourceTree = "<group>"; };
+		EF061BFA1A8484AC00A35B66 /* DownloadTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadTableViewController.h; sourceTree = "<group>"; };
+		EF061BFB1A8486C500A35B66 /* DownloadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadTableViewCell.h; sourceTree = "<group>"; };
+		EF061BFC1A8486C500A35B66 /* DownloadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadTableViewCell.m; sourceTree = "<group>"; };
+		EF176D2E1A812D7B00CA5042 /* AWSiOSSDKv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSiOSSDKv2.framework; path = ../AWSiOSSDKv2.framework; sourceTree = "<group>"; };
+		EF176D301A812E3800CA5042 /* AWSCognitoSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoSync.framework; path = ../AWSCognitoSync.framework; sourceTree = "<group>"; };
+		EF176D321A812E8A00CA5042 /* XMLDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMLDictionary.framework; path = ../XMLDictionary.framework; sourceTree = "<group>"; };
+		EF176D331A812E8A00CA5042 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UICKeyChainStore.framework; path = ../UICKeyChainStore.framework; sourceTree = "<group>"; };
+		EF176D341A812E8A00CA5042 /* TMCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TMCache.framework; path = ../TMCache.framework; sourceTree = "<group>"; };
+		EF176D351A812E8A00CA5042 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = ../Reachability.framework; sourceTree = "<group>"; };
+		EF176D361A812E8A00CA5042 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = ../Mantle.framework; sourceTree = "<group>"; };
+		EF176D371A812E8A00CA5042 /* GZIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GZIP.framework; path = ../GZIP.framework; sourceTree = "<group>"; };
+		EF176D381A812E8A00CA5042 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = ../FMDB.framework; sourceTree = "<group>"; };
+		EF176D391A812E8A00CA5042 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
+		EF17772A1A812F6500CA5042 /* autoscaling-2011-01-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "autoscaling-2011-01-01.json"; path = "../autoscaling-2011-01-01.json"; sourceTree = "<group>"; };
+		EF17772B1A812F6500CA5042 /* cognito-identity-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "cognito-identity-2014-06-30.json"; path = "../cognito-identity-2014-06-30.json"; sourceTree = "<group>"; };
+		EF17772C1A812F6500CA5042 /* css-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "css-2014-06-30.json"; path = "../css-2014-06-30.json"; sourceTree = "<group>"; };
+		EF17772D1A812F6500CA5042 /* dynamodb-2012-08-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "dynamodb-2012-08-10.json"; path = "../dynamodb-2012-08-10.json"; sourceTree = "<group>"; };
+		EF17772E1A812F6500CA5042 /* ec2-2014-09-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "ec2-2014-09-01.json"; path = "../ec2-2014-09-01.json"; sourceTree = "<group>"; };
+		EF17772F1A812F6500CA5042 /* elasticloadbalancing-2012-06-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "elasticloadbalancing-2012-06-01.json"; path = "../elasticloadbalancing-2012-06-01.json"; sourceTree = "<group>"; };
+		EF1777301A812F6500CA5042 /* email-2010-12-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "email-2010-12-01.json"; path = "../email-2010-12-01.json"; sourceTree = "<group>"; };
+		EF1777311A812F6500CA5042 /* kinesis-2013-12-02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "kinesis-2013-12-02.json"; path = "../kinesis-2013-12-02.json"; sourceTree = "<group>"; };
+		EF1777321A812F6500CA5042 /* mobileanalytics-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "mobileanalytics-2014-06-30.json"; path = "../mobileanalytics-2014-06-30.json"; sourceTree = "<group>"; };
+		EF1777331A812F6500CA5042 /* monitoring-2010-08-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "monitoring-2010-08-01.json"; path = "../monitoring-2010-08-01.json"; sourceTree = "<group>"; };
+		EF1777341A812F6600CA5042 /* s3-2006-03-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "s3-2006-03-01.json"; path = "../s3-2006-03-01.json"; sourceTree = "<group>"; };
+		EF1777351A812F6600CA5042 /* sdb-2009-04-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "sdb-2009-04-15.json"; path = "../sdb-2009-04-15.json"; sourceTree = "<group>"; };
+		EF1777361A812F6600CA5042 /* sns-2010-03-31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "sns-2010-03-31.json"; path = "../sns-2010-03-31.json"; sourceTree = "<group>"; };
+		EF1777371A812F6600CA5042 /* sqs-2012-11-05.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "sqs-2012-11-05.json"; path = "../sqs-2012-11-05.json"; sourceTree = "<group>"; };
+		EF1777381A812F6600CA5042 /* sts-2011-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "sts-2011-06-15.json"; path = "../sts-2011-06-15.json"; sourceTree = "<group>"; };
+		EF1777481A8160C000CA5042 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EF17774A1A8160D100CA5042 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EF17774C1A82726600CA5042 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF4DFBAC1A9E1AC1003CDC20 /* TWAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAPViewController.h; sourceTree = "<group>"; };
+		EF4DFBAD1A9E1AC2003CDC20 /* TWAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAPViewController.m; sourceTree = "<group>"; };
+		EF4F838D1A92CC3600B2BD81 /* TWAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAudio.h; sourceTree = "<group>"; };
+		EF4F838E1A92CC3600B2BD81 /* TWAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAudio.m; sourceTree = "<group>"; };
+		EF4F83901A938DAA00B2BD81 /* TWImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWImage.h; sourceTree = "<group>"; };
+		EF4F83911A938DAA00B2BD81 /* TWImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWImage.m; sourceTree = "<group>"; };
+		EFD500881A8129C80091893C /* YapsterAudioProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YapsterAudioProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD5008C1A8129C80091893C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD5008D1A8129C80091893C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD5008F1A8129C80091893C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFD500901A8129C80091893C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFD500921A8129C80091893C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFD500931A8129C80091893C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFD500961A8129C80091893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD500981A8129C80091893C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD5009B1A8129C80091893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFD500A11A8129C80091893C /* YapsterAudioProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YapsterAudioProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD500A61A8129C80091893C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD500A71A8129C80091893C /* YapsterAudioProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YapsterAudioProjectTests.m; sourceTree = "<group>"; };
+		EFEE61611A85D994001A5947 /* IronBacon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IronBacon.mp3; sourceTree = "<group>"; };
+		EFEE61631A89436A001A5947 /* ContentGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentGenerator.h; sourceTree = "<group>"; };
+		EFEE61641A89436B001A5947 /* ContentGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentGenerator.m; sourceTree = "<group>"; };
+		EFEE61661A8A8BD8001A5947 /* AudioProjectObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioProjectObject.h; sourceTree = "<group>"; };
+		EFEE61671A8A8BD8001A5947 /* AudioProjectObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioProjectObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD500851A8129C80091893C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF17774D1A82726600CA5042 /* AVFoundation.framework in Frameworks */,
+				EF17774B1A8160D100CA5042 /* libz.dylib in Frameworks */,
+				EF1777491A8160C000CA5042 /* libsqlite3.dylib in Frameworks */,
+				EF176D3B1A812E8A00CA5042 /* UICKeyChainStore.framework in Frameworks */,
+				EF176D3D1A812E8A00CA5042 /* Reachability.framework in Frameworks */,
+				EF176D3E1A812E8A00CA5042 /* Mantle.framework in Frameworks */,
+				EF176D2F1A812D7B00CA5042 /* AWSiOSSDKv2.framework in Frameworks */,
+				EF176D3F1A812E8A00CA5042 /* GZIP.framework in Frameworks */,
+				EF176D411A812E8A00CA5042 /* Bolts.framework in Frameworks */,
+				EF176D311A812E3800CA5042 /* AWSCognitoSync.framework in Frameworks */,
+				EF176D3A1A812E8A00CA5042 /* XMLDictionary.framework in Frameworks */,
+				EF176D401A812E8A00CA5042 /* FMDB.framework in Frameworks */,
+				EF176D3C1A812E8A00CA5042 /* TMCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5009E1A8129C80091893C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD5007F1A8129C80091893C = {
+			isa = PBXGroup;
+			children = (
+				EFD5008A1A8129C80091893C /* YapsterAudioProject */,
+				EFD500A41A8129C80091893C /* YapsterAudioProjectTests */,
+				EFD500891A8129C80091893C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD500891A8129C80091893C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD500881A8129C80091893C /* YapsterAudioProject.app */,
+				EFD500A11A8129C80091893C /* YapsterAudioProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD5008A1A8129C80091893C /* YapsterAudioProject */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5008F1A8129C80091893C /* AppDelegate.h */,
+				EFD500901A8129C80091893C /* AppDelegate.m */,
+				EFD500921A8129C80091893C /* ViewController.h */,
+				EFD500931A8129C80091893C /* ViewController.m */,
+				EF4F838D1A92CC3600B2BD81 /* TWAudio.h */,
+				EF4F838E1A92CC3600B2BD81 /* TWAudio.m */,
+				EF4F83901A938DAA00B2BD81 /* TWImage.h */,
+				EF4F83911A938DAA00B2BD81 /* TWImage.m */,
+				EF061BFB1A8486C500A35B66 /* DownloadTableViewCell.h */,
+				EF061BFC1A8486C500A35B66 /* DownloadTableViewCell.m */,
+				EF061BFA1A8484AC00A35B66 /* DownloadTableViewController.h */,
+				EF061BF81A84843500A35B66 /* DownloadTableViewController.m */,
+				EFEE61661A8A8BD8001A5947 /* AudioProjectObject.h */,
+				EFEE61671A8A8BD8001A5947 /* AudioProjectObject.m */,
+				EFEE61631A89436A001A5947 /* ContentGenerator.h */,
+				EFEE61641A89436B001A5947 /* ContentGenerator.m */,
+				EF4DFBAC1A9E1AC1003CDC20 /* TWAPViewController.h */,
+				EF4DFBAD1A9E1AC2003CDC20 /* TWAPViewController.m */,
+				EFD500951A8129C80091893C /* Main.storyboard */,
+				EFD500981A8129C80091893C /* Images.xcassets */,
+				EFD5009A1A8129C80091893C /* LaunchScreen.xib */,
+				EFD5008B1A8129C80091893C /* Supporting Files */,
+			);
+			path = YapsterAudioProject;
+			sourceTree = "<group>";
+		};
+		EFD5008B1A8129C80091893C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE61611A85D994001A5947 /* IronBacon.mp3 */,
+				EF17774A1A8160D100CA5042 /* libz.dylib */,
+				EF1777481A8160C000CA5042 /* libsqlite3.dylib */,
+				EF17772A1A812F6500CA5042 /* autoscaling-2011-01-01.json */,
+				EF17772B1A812F6500CA5042 /* cognito-identity-2014-06-30.json */,
+				EF17772C1A812F6500CA5042 /* css-2014-06-30.json */,
+				EF17772D1A812F6500CA5042 /* dynamodb-2012-08-10.json */,
+				EF17772E1A812F6500CA5042 /* ec2-2014-09-01.json */,
+				EF17772F1A812F6500CA5042 /* elasticloadbalancing-2012-06-01.json */,
+				EF1777301A812F6500CA5042 /* email-2010-12-01.json */,
+				EF1777311A812F6500CA5042 /* kinesis-2013-12-02.json */,
+				EF1777321A812F6500CA5042 /* mobileanalytics-2014-06-30.json */,
+				EF1777331A812F6500CA5042 /* monitoring-2010-08-01.json */,
+				EF1777341A812F6600CA5042 /* s3-2006-03-01.json */,
+				EF1777351A812F6600CA5042 /* sdb-2009-04-15.json */,
+				EF1777361A812F6600CA5042 /* sns-2010-03-31.json */,
+				EF1777371A812F6600CA5042 /* sqs-2012-11-05.json */,
+				EF1777381A812F6600CA5042 /* sts-2011-06-15.json */,
+				EF17774C1A82726600CA5042 /* AVFoundation.framework */,
+				EF176D391A812E8A00CA5042 /* Bolts.framework */,
+				EF176D321A812E8A00CA5042 /* XMLDictionary.framework */,
+				EF176D331A812E8A00CA5042 /* UICKeyChainStore.framework */,
+				EF176D341A812E8A00CA5042 /* TMCache.framework */,
+				EF176D351A812E8A00CA5042 /* Reachability.framework */,
+				EF176D361A812E8A00CA5042 /* Mantle.framework */,
+				EF176D371A812E8A00CA5042 /* GZIP.framework */,
+				EF176D381A812E8A00CA5042 /* FMDB.framework */,
+				EF176D301A812E3800CA5042 /* AWSCognitoSync.framework */,
+				EF176D2E1A812D7B00CA5042 /* AWSiOSSDKv2.framework */,
+				EFD5008C1A8129C80091893C /* Info.plist */,
+				EFD5008D1A8129C80091893C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD500A41A8129C80091893C /* YapsterAudioProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD500A71A8129C80091893C /* YapsterAudioProjectTests.m */,
+				EFD500A51A8129C80091893C /* Supporting Files */,
+			);
+			path = YapsterAudioProjectTests;
+			sourceTree = "<group>";
+		};
+		EFD500A51A8129C80091893C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD500A61A8129C80091893C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD500871A8129C80091893C /* YapsterAudioProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD500AB1A8129C80091893C /* Build configuration list for PBXNativeTarget "YapsterAudioProject" */;
+			buildPhases = (
+				EFD500841A8129C80091893C /* Sources */,
+				EFD500851A8129C80091893C /* Frameworks */,
+				EFD500861A8129C80091893C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YapsterAudioProject;
+			productName = YapsterAudioProject;
+			productReference = EFD500881A8129C80091893C /* YapsterAudioProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD500A01A8129C80091893C /* YapsterAudioProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD500AE1A8129C80091893C /* Build configuration list for PBXNativeTarget "YapsterAudioProjectTests" */;
+			buildPhases = (
+				EFD5009D1A8129C80091893C /* Sources */,
+				EFD5009E1A8129C80091893C /* Frameworks */,
+				EFD5009F1A8129C80091893C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD500A31A8129C80091893C /* PBXTargetDependency */,
+			);
+			name = YapsterAudioProjectTests;
+			productName = YapsterAudioProjectTests;
+			productReference = EFD500A11A8129C80091893C /* YapsterAudioProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD500801A8129C80091893C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "thomas wheeler";
+				TargetAttributes = {
+					EFD500871A8129C80091893C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EFD500A01A8129C80091893C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EFD500871A8129C80091893C;
+					};
+				};
+			};
+			buildConfigurationList = EFD500831A8129C80091893C /* Build configuration list for PBXProject "YapsterAudioProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD5007F1A8129C80091893C;
+			productRefGroup = EFD500891A8129C80091893C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD500871A8129C80091893C /* YapsterAudioProject */,
+				EFD500A01A8129C80091893C /* YapsterAudioProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD500861A8129C80091893C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1777411A812F6600CA5042 /* mobileanalytics-2014-06-30.json in Resources */,
+				EF1777461A812F6600CA5042 /* sqs-2012-11-05.json in Resources */,
+				EF1777471A812F6600CA5042 /* sts-2011-06-15.json in Resources */,
+				EF17773B1A812F6600CA5042 /* css-2014-06-30.json in Resources */,
+				EFEE61621A85D994001A5947 /* IronBacon.mp3 in Resources */,
+				EF17773E1A812F6600CA5042 /* elasticloadbalancing-2012-06-01.json in Resources */,
+				EF1777391A812F6600CA5042 /* autoscaling-2011-01-01.json in Resources */,
+				EF1777451A812F6600CA5042 /* sns-2010-03-31.json in Resources */,
+				EFD500971A8129C80091893C /* Main.storyboard in Resources */,
+				EF1777431A812F6600CA5042 /* s3-2006-03-01.json in Resources */,
+				EF1777421A812F6600CA5042 /* monitoring-2010-08-01.json in Resources */,
+				EFD5009C1A8129C80091893C /* LaunchScreen.xib in Resources */,
+				EF17773C1A812F6600CA5042 /* dynamodb-2012-08-10.json in Resources */,
+				EF1777401A812F6600CA5042 /* kinesis-2013-12-02.json in Resources */,
+				EF17773F1A812F6600CA5042 /* email-2010-12-01.json in Resources */,
+				EF17773D1A812F6600CA5042 /* ec2-2014-09-01.json in Resources */,
+				EF1777441A812F6600CA5042 /* sdb-2009-04-15.json in Resources */,
+				EF17773A1A812F6600CA5042 /* cognito-identity-2014-06-30.json in Resources */,
+				EFD500991A8129C80091893C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5009F1A8129C80091893C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD500841A8129C80091893C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4DFBAE1A9E1AC2003CDC20 /* TWAPViewController.m in Sources */,
+				EFEE61681A8A8BD8001A5947 /* AudioProjectObject.m in Sources */,
+				EF4F838F1A92CC3600B2BD81 /* TWAudio.m in Sources */,
+				EFD500941A8129C80091893C /* ViewController.m in Sources */,
+				EFEE61651A89436C001A5947 /* ContentGenerator.m in Sources */,
+				EF4F83921A938DAA00B2BD81 /* TWImage.m in Sources */,
+				EFD500911A8129C80091893C /* AppDelegate.m in Sources */,
+				EF061BFD1A8486C500A35B66 /* DownloadTableViewCell.m in Sources */,
+				EFD5008E1A8129C80091893C /* main.m in Sources */,
+				EF061BF91A84843500A35B66 /* DownloadTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5009D1A8129C80091893C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD500A81A8129C80091893C /* YapsterAudioProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD500A31A8129C80091893C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD500871A8129C80091893C /* YapsterAudioProject */;
+			targetProxy = EFD500A21A8129C80091893C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD500951A8129C80091893C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD500961A8129C80091893C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD5009A1A8129C80091893C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD5009B1A8129C80091893C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD500A91A8129C80091893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFD500AA1A8129C80091893C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD500AC1A8129C80091893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/YapsterAudioProject/aws-ios-sdk-2.0.15/frameworks",
+					"$(PROJECT_DIR)/YapsterAudioProject/aws-ios-sdk-2.0.15/frameworks/extras",
+					"$(PROJECT_DIR)/YapsterAudioProject/aws-ios-sdk-2.0.15/third-party",
+				);
+				INFOPLIST_FILE = YapsterAudioProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD500AD1A8129C80091893C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/YapsterAudioProject/aws-ios-sdk-2.0.15/frameworks",
+					"$(PROJECT_DIR)/YapsterAudioProject/aws-ios-sdk-2.0.15/frameworks/extras",
+					"$(PROJECT_DIR)/YapsterAudioProject/aws-ios-sdk-2.0.15/third-party",
+				);
+				INFOPLIST_FILE = YapsterAudioProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFD500AF1A8129C80091893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YapsterAudioProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YapsterAudioProject.app/YapsterAudioProject";
+			};
+			name = Debug;
+		};
+		EFD500B01A8129C80091893C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YapsterAudioProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YapsterAudioProject.app/YapsterAudioProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD500831A8129C80091893C /* Build configuration list for PBXProject "YapsterAudioProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD500A91A8129C80091893C /* Debug */,
+				EFD500AA1A8129C80091893C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD500AB1A8129C80091893C /* Build configuration list for PBXNativeTarget "YapsterAudioProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD500AC1A8129C80091893C /* Debug */,
+				EFD500AD1A8129C80091893C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD500AE1A8129C80091893C /* Build configuration list for PBXNativeTarget "YapsterAudioProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD500AF1A8129C80091893C /* Debug */,
+				EFD500B01A8129C80091893C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD500801A8129C80091893C /* Project object */;
+}

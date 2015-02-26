@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingDescribeLifecycleHookTypesAnswer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeLifecycleHookTypesAnswer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeLifecycleHookTypesAnswer/setLifecycleHookTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of all notification types supported by Auto Scaling. They are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCHING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHookTypes</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookTypes</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeLifecycleHookTypesAnswer/lifecycleHookTypes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of all notification types supported by Auto Scaling. They are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCHING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHookTypes</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookTypes</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeLifecycleHookTypesAnswer/lifecycleHookTypes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of all notification types supported by Auto Scaling. They are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCHING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHookTypes</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleHookTypes</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

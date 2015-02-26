@@ -1,0 +1,968 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AWSMobileAnalyticsEventClient Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.15 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AWSMobileAnalyticsEventClient Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addGlobalAttribute:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- addGlobalAttribute:forKey:</option>
+	
+	<option value="//api/name/addGlobalAttribute:forKey:forEventType:">&nbsp;&nbsp;&nbsp;&nbsp;- addGlobalAttribute:forKey:forEventType:</option>
+	
+	<option value="//api/name/addGlobalMetric:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- addGlobalMetric:forKey:</option>
+	
+	<option value="//api/name/addGlobalMetric:forKey:forEventType:">&nbsp;&nbsp;&nbsp;&nbsp;- addGlobalMetric:forKey:forEventType:</option>
+	
+	<option value="//api/name/createEventWithEventType:">&nbsp;&nbsp;&nbsp;&nbsp;- createEventWithEventType:</option>
+	
+	<option value="//api/name/recordEvent:">&nbsp;&nbsp;&nbsp;&nbsp;- recordEvent:</option>
+	
+	<option value="//api/name/removeGlobalAttributeForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- removeGlobalAttributeForKey:</option>
+	
+	<option value="//api/name/removeGlobalAttributeForKey:forEventType:">&nbsp;&nbsp;&nbsp;&nbsp;- removeGlobalAttributeForKey:forEventType:</option>
+	
+	<option value="//api/name/removeGlobalMetricForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- removeGlobalMetricForKey:</option>
+	
+	<option value="//api/name/removeGlobalMetricForKey:forEventType:">&nbsp;&nbsp;&nbsp;&nbsp;- removeGlobalMetricForKey:forEventType:</option>
+	
+	<option value="//api/name/submitEvents">&nbsp;&nbsp;&nbsp;&nbsp;- submitEvents</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addGlobalAttribute:forKey:">addGlobalAttribute:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addGlobalAttribute:forKey:forEventType:">addGlobalAttribute:forKey:forEventType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addGlobalMetric:forKey:">addGlobalMetric:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addGlobalMetric:forKey:forEventType:">addGlobalMetric:forKey:forEventType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createEventWithEventType:">createEventWithEventType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recordEvent:">recordEvent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeGlobalAttributeForKey:">removeGlobalAttributeForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeGlobalAttributeForKey:forEventType:">removeGlobalAttributeForKey:forEventType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeGlobalMetricForKey:">removeGlobalMetricForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeGlobalMetricForKey:forEventType:">removeGlobalMetricForKey:forEventType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/submitEvents">submitEvents</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AWSMobileAnalyticsEventClient Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AWSMobileAnalyticsEventClient Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AWSMobileAnalyticsEventClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>AWSMobileAnalyticsEventClient is the entry point into the Mobile Analytics SDK where AWSMobileAnalyticsEvent objects are created,
+recorded, and submitted to the Mobile Analytics Website.</p>
+
+<h3>Recording Events</h3>
+
+
+<p>
+The example below demonstrates how to create and record events after retrieving an AIVariation. In this example,
+the developer records the <em>\@"level1Complete"</em> event to represent a view, and if the user makes
+a purchase, the developer records a <em>\@"level1UserBoughtUpgrade"</em> to represent a conversion.
+</p>
+
+
+<p>Example:
+@code
+// get the event client from insights instance
+id<AWSMobileAnalyticsEventClient> eventClient = insights.eventClient;</p>
+
+<p>// create the view event
+id<a href="../Protocols/AWSMobileAnalyticsEvent.html">AWSMobileAnalyticsEvent</a> level1Event = [eventClient createEventWithEventType:@&ldquo;level1Complete&rdquo;];</p>
+
+<p>// record the view event
+[eventClient recordEvent:level1Event];</p>
+
+<p>// record if the user bought an upgrade (conversion)
+if (userBoughtUpgrade) {
+// create the conversion event
+id<a href="../Protocols/AWSMobileAnalyticsEvent.html">AWSMobileAnalyticsEvent</a> boughtUpgradeEvent = [eventClient createEventWithEventType:@&ldquo;level1UserBoughtUpgrade&rdquo;];</p>
+
+<p>// record the conversion event
+[eventClient recordEvent:boughtUpgradeEvent];
+}
+@endcode</p>
+
+<h3>Submitting Events</h3>
+
+
+<p>
+The example below demonstrates how to submit events to the Mobile Analytics Website.
+The SDK will automatically attempt to submit events when the application goes into the background. If you want to explicitly submit events you can invoke the AWSMobileAnalyticsEventClient::submitEvents selector to submit events to the Mobile Analytics Website in a background thread.
+</p>
+
+
+<p>Example:
+@code
+// get the event client from insights instance
+id<AWSMobileAnalyticsEventClient> eventClient = insights.eventClient;</p>
+
+<p>// submit events to the website
+[eventClient submitEvents];
+@endcode
+The SDK ensures that you do not submit events too frequently. If you try submitting events within one minute of a previous
+submission, the submission request will be ignored.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addGlobalAttribute:forKey:">&ndash;&nbsp;addGlobalAttribute:forKey:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addGlobalAttribute:forKey:forEventType:">&ndash;&nbsp;addGlobalAttribute:forKey:forEventType:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addGlobalMetric:forKey:">&ndash;&nbsp;addGlobalMetric:forKey:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addGlobalMetric:forKey:forEventType:">&ndash;&nbsp;addGlobalMetric:forKey:forEventType:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeGlobalAttributeForKey:">&ndash;&nbsp;removeGlobalAttributeForKey:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeGlobalAttributeForKey:forEventType:">&ndash;&nbsp;removeGlobalAttributeForKey:forEventType:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeGlobalMetricForKey:">&ndash;&nbsp;removeGlobalMetricForKey:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeGlobalMetricForKey:forEventType:">&ndash;&nbsp;removeGlobalMetricForKey:forEventType:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/recordEvent:">&ndash;&nbsp;recordEvent:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createEventWithEventType:">&ndash;&nbsp;createEventWithEventType:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/submitEvents">&ndash;&nbsp;submitEvents</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addGlobalAttribute:forKey:" title="addGlobalAttribute:forKey:"></a>
+	<h3 class="subsubtitle method-title">addGlobalAttribute:forKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds the specified attribute to all subsequent recorded events.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addGlobalAttribute:(NSString *)<em>theValue</em> forKey:(NSString *)<em>theKey</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theValue</em></dt>
+			<dd><p>the value of the attribute</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>the name of the attribute to add</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addGlobalAttribute:forKey:forEventType:" title="addGlobalAttribute:forKey:forEventType:"></a>
+	<h3 class="subsubtitle method-title">addGlobalAttribute:forKey:forEventType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds the specified attribute to all subsequent recorded events with the specified event type.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addGlobalAttribute:(NSString *)<em>theValue</em> forKey:(NSString *)<em>theKey</em> forEventType:(NSString *)<em>theEventType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theValue</em></dt>
+			<dd><p>the value of the attribute</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>the name of the attribute to add</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theEventType</em></dt>
+			<dd><p>the type of events to add the attribute to</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addGlobalMetric:forKey:" title="addGlobalMetric:forKey:"></a>
+	<h3 class="subsubtitle method-title">addGlobalMetric:forKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds the specified metric to all subsequent recorded events.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addGlobalMetric:(NSNumber *)<em>theValue</em> forKey:(NSString *)<em>theKey</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theValue</em></dt>
+			<dd><p>the value of the metric</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>the name of the metric to add</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addGlobalMetric:forKey:forEventType:" title="addGlobalMetric:forKey:forEventType:"></a>
+	<h3 class="subsubtitle method-title">addGlobalMetric:forKey:forEventType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds the specified metric to all subsequent recorded events with the specified event type.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addGlobalMetric:(NSNumber *)<em>theValue</em> forKey:(NSString *)<em>theKey</em> forEventType:(NSString *)<em>theEventType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theValue</em></dt>
+			<dd><p>the value of the metric</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>the name of the metric to add</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theEventType</em></dt>
+			<dd><p>the type of events to add the metric to</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createEventWithEventType:" title="createEventWithEventType:"></a>
+	<h3 class="subsubtitle method-title">createEventWithEventType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create an AWSMobileAnalyticsEvent with the specified theEventType</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id&lt;AWSMobileAnalyticsEvent&gt;)createEventWithEventType:(NSString *)<em>theEventType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theEventType</em></dt>
+			<dd><p>the type of event to create</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>an AWSMobileAnalyticsEvent with the specified event type</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/recordEvent:" title="recordEvent:"></a>
+	<h3 class="subsubtitle method-title">recordEvent:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Records the specified AWSMobileAnalyticsEvent to the local filestore</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)recordEvent:(id&lt;AWSMobileAnalyticsEvent&gt;)<em>theEvent</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theEvent</em></dt>
+			<dd><p>The AWSMobileAnalyticsEvent to persist</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeGlobalAttributeForKey:" title="removeGlobalAttributeForKey:"></a>
+	<h3 class="subsubtitle method-title">removeGlobalAttributeForKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified attribute. All subsequent recorded events will no longer have this global attribute.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeGlobalAttributeForKey:(NSString *)<em>theKey</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>the key of the attribute to remove</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeGlobalAttributeForKey:forEventType:" title="removeGlobalAttributeForKey:forEventType:"></a>
+	<h3 class="subsubtitle method-title">removeGlobalAttributeForKey:forEventType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified attribute. All subsequent recorded events with the specified event type will no longer have this global attribute.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeGlobalAttributeForKey:(NSString *)<em>theKey</em> forEventType:(NSString *)<em>theEventType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>the key of the attribute to remove</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theEventType</em></dt>
+			<dd><p>the type of events to remove the attribute from</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeGlobalMetricForKey:" title="removeGlobalMetricForKey:"></a>
+	<h3 class="subsubtitle method-title">removeGlobalMetricForKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified metric. All subsequent recorded events will no longer have this global metric.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeGlobalMetricForKey:(NSString *)<em>theKey</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>the key of the metric to remove</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeGlobalMetricForKey:forEventType:" title="removeGlobalMetricForKey:forEventType:"></a>
+	<h3 class="subsubtitle method-title">removeGlobalMetricForKey:forEventType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified metric. All subsequent recorded events with the specified event type will no longer have this global metric.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeGlobalMetricForKey:(NSString *)<em>theKey</em> forEventType:(NSString *)<em>theEventType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>the key of the metric to remove</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theEventType</em></dt>
+			<dd><p>the type of events to remove the metric from</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/submitEvents" title="submitEvents"></a>
+	<h3 class="subsubtitle method-title">submitEvents</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Submits all recorded events to the Mobile Analytics Website. If you try to submit
+events within one minute of a previous submission, the submission request will be ignored.
+See AWSMobileAnalyticsOptions for customizing which Internet connection the SDK can submit on. Events
+are automatically submitted when the application goes into the background.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)submitEvents</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsEventClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-01-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSESGetIdentityNotificationAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="878"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityNotificationAttributesRequest/setIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			
+			
+			<Anchor>//api/name/identities</Anchor>
+            <NodeRef refid="878"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityNotificationAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			
+			
+			<Anchor>//api/name/identities</Anchor>
+            <NodeRef refid="878"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityNotificationAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			
+			
+			<Anchor>//api/name/identities</Anchor>
+            <NodeRef refid="878"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

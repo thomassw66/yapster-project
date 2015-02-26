@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingNotificationConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingNotificationConfiguration</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The &lt;code&gt;NotificationConfiguration&lt;/code&gt; data type. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingNotificationConfiguration/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies the Auto Scaling group name. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingNotificationConfiguration/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies the Auto Scaling group name. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingNotificationConfiguration/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies the Auto Scaling group name. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingNotificationConfiguration/setNotificationType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The types of events for an action to start. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationType</Declaration>
+			
+			
+			<Anchor>//api/name/notificationType</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingNotificationConfiguration/notificationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The types of events for an action to start. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationType</Declaration>
+			
+			
+			<Anchor>//api/name/notificationType</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingNotificationConfiguration/notificationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The types of events for an action to start. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *notificationType</Declaration>
+			
+			
+			<Anchor>//api/name/notificationType</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingNotificationConfiguration/setTopicARN:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicARN</Declaration>
+			
+			
+			<Anchor>//api/name/topicARN</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingNotificationConfiguration/topicARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicARN</Declaration>
+			
+			
+			<Anchor>//api/name/topicARN</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingNotificationConfiguration/topicARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicARN</Declaration>
+			
+			
+			<Anchor>//api/name/topicARN</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,685 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AWSMobileAnalyticsAppleMonetizationEventBuilder Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.15 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AWSMobileAnalyticsAppleMonetizationEventBuilder Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/builderWithEventClient:">&nbsp;&nbsp;&nbsp;&nbsp;+ builderWithEventClient:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/build">&nbsp;&nbsp;&nbsp;&nbsp;- build</option>
+	
+	<option value="//api/name/withItemPrice:andPriceLocale:">&nbsp;&nbsp;&nbsp;&nbsp;- withItemPrice:andPriceLocale:</option>
+	
+	<option value="//api/name/withProductId:">&nbsp;&nbsp;&nbsp;&nbsp;- withProductId:</option>
+	
+	<option value="//api/name/withQuantity:">&nbsp;&nbsp;&nbsp;&nbsp;- withQuantity:</option>
+	
+	<option value="//api/name/withTransactionId:">&nbsp;&nbsp;&nbsp;&nbsp;- withTransactionId:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/builderWithEventClient:">builderWithEventClient:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/build">build</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/withItemPrice:andPriceLocale:">withItemPrice:andPriceLocale:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/withProductId:">withProductId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/withQuantity:">withQuantity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/withTransactionId:">withTransactionId:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AWSMobileAnalyticsAppleMonetizationEventBuilder Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AWSMobileAnalyticsAppleMonetizationEventBuilder Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AWSMobileAnalyticsMonetizationEventBuilder.html">AWSMobileAnalyticsMonetizationEventBuilder</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AWSMobileAnalyticsAppleMonetizationEventBuilder.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>AWSMobileAnalyticsAppleMonetizationEventBuilder builds monetization events to track purchases from Apple&rsquo;s
+IAP Framework. In order to build a monetization event, you must call all of the setters on this builder.
+You will need to access properties on both the SKProduct class and the SKPurchaseTransaction class in order
+to build an Apple Monetization event.</p>
+
+<p>The example below demonstrates how to create a monetization event after you recieve a SKPaymentTransaction
+from the SKPaymentTransactionObserver. Since Apple does not give you any product information in the SKPaymentTransaction
+object, you must have a way to access your SKProduct store inventory when the purchase is being finalized. In the example
+below, we have a product catalog object that can return SKProduct&rsquo;s based on the product id returned in an SKPaymentTransaction object.
+This product catalog was built after receiving a SKProductsRequest from the SKProductsRequestDelegate.</p>
+
+<p>Example:
+@code
+-(void)paymentQueue:(SKPaymentQueue <em>)queue updatedTransactions:(NSArray </em>)transactions {
+for (SKPaymentTransaction* transaction in transactions) {
+switch (transaction.transactionState) {
+case SKPaymentTransactionStatePurchased:</p>
+
+<p>// when an item is purchased, give the user access to the content, and
+// record a monetization purchase event.
+[self completeTransaction:transaction];
+break;
+case SKPaymentTransactionStateFailed:
+// &hellip; handle a failed transaction
+break;
+case SKPaymentTransactionStateRestored:
+// &hellip; restore the transaction
+break;
+}
+}
+}</p>
+
+<p>-(void)completeTransaction:(SKPaymentTransaction*)transaction{
+// provide the content that the user purchased
+[self provideContentForProductIdentifier:transaction.payment.productIdentifier];</p>
+
+<p>// get the SKProduct for the product identifier that was purchased
+SKProduct* product = [productCatalog objectForKey:transaction.payment.productIdentifier];</p>
+
+<p>// get the event client for the builder
+id<a href="../Protocols/AWSMobileAnalyticsEventClient.html">AWSMobileAnalyticsEventClient</a> eventClient = insights.eventClient;</p>
+
+<p>// create a builder that can record purchase events from Apple
+AWSMobileAnalyticsAppleMonetizationEventBuilder* builder = [AWSMobileAnalyticsAppleMonetizationEventBuilder builderWithEventClient:eventClient];</p>
+
+<p>// set the product id of the purchased item (obtained from the SKPurchaseTransaction object)
+[builder withProductId:transaction.payment.productIdentifier];</p>
+
+<p>// set the item price and price locale (obtained from the SKProduct object)
+[builder withItemPrice:[product.price doubleValue]
+andPriceLocale:product.priceLocale];</p>
+
+<p>// set the quantity of item(s) purchased (obtained from the SKPurchaseTransaction object)
+[builder withQuantity:transaction.payment.quantity];</p>
+
+<p>// set the transactionId of the transaction (obtained from the SKPurchaseTransaction object)
+[builder withTransactionId:transaction.transactionIdentifier];</p>
+
+<p>// build the monetization event
+id<a href="../Protocols/AWSMobileAnalyticsEvent.html">AWSMobileAnalyticsEvent</a> purchaseEvent = [builder build];</p>
+
+<p>// add any additional metrics/attributes and record
+[eventClient recordEvent:purchaseEvent];</p>
+
+<p>// finalize the transaction as required by Apple
+[[SKPaymentQueue defaultQueue] finishTransaction:transaction];
+}
+@endcode</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/builderWithEventClient:">+&nbsp;builderWithEventClient:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/withProductId:">&ndash;&nbsp;withProductId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/withItemPrice:andPriceLocale:">&ndash;&nbsp;withItemPrice:andPriceLocale:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/withQuantity:">&ndash;&nbsp;withQuantity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/withTransactionId:">&ndash;&nbsp;withTransactionId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/build">&ndash;&nbsp;build</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/builderWithEventClient:" title="builderWithEventClient:"></a>
+	<h3 class="subsubtitle method-title">builderWithEventClient:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create a monetization builder that can record purchase events from Apple&rsquo;s
+IAP Framework.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (AWSMobileAnalyticsAppleMonetizationEventBuilder *)builderWithEventClient:(id&lt;AWSMobileAnalyticsEventClient&gt;)<em>theEventClient</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theEventClient</em></dt>
+			<dd><p>The event client used to create the event</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>a monetization event builder for Apple purchases</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsAppleMonetizationEventBuilder.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/build" title="build"></a>
+	<h3 class="subsubtitle method-title">build</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Builds the monetization event using the parameters set on the builder. You must
+still record the event.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id&lt;AWSMobileAnalyticsEvent&gt;)build</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>an AWSMobileAnalyticsEvent to record</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsAppleMonetizationEventBuilder.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/withItemPrice:andPriceLocale:" title="withItemPrice:andPriceLocale:"></a>
+	<h3 class="subsubtitle method-title">withItemPrice:andPriceLocale:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the item price and locale of the item being purchased. (Obtained from the SKProduct object)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)withItemPrice:(double)<em>theItemPrice</em> andPriceLocale:(NSLocale *)<em>thePriceLocale</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theItemPrice</em></dt>
+			<dd><p>The numerical item price</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>thePriceLocale</em></dt>
+			<dd><p>The locale representing the item price&rsquo;s currency</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsAppleMonetizationEventBuilder.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/withProductId:" title="withProductId:"></a>
+	<h3 class="subsubtitle method-title">withProductId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the product id for the item(s) being purchased</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)withProductId:(NSString *)<em>theProductId</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>withProductId</em></dt>
+			<dd><p>The product id of the item(s) being purchased</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsAppleMonetizationEventBuilder.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/withQuantity:" title="withQuantity:"></a>
+	<h3 class="subsubtitle method-title">withQuantity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the quantity of item(s) being purchased. (Obtained from the SKPurchaseTransaction object)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)withQuantity:(NSInteger)<em>theQuantity</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theQuantity</em></dt>
+			<dd><p>The quantity of items purchased</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsAppleMonetizationEventBuilder.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/withTransactionId:" title="withTransactionId:"></a>
+	<h3 class="subsubtitle method-title">withTransactionId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the transaction id of the purchase (Obtained from the SKPurchaseTransaction object)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)withTransactionId:(NSString *)<em>theTransactionId</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theTransactionId</em></dt>
+			<dd><p>The transaction id of the purchase</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSMobileAnalyticsAppleMonetizationEventBuilder.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-01-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

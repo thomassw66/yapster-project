@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSES.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSES</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;Amazon Simple Email Service&lt;/fullname&gt;&lt;p&gt; This is the API Reference for Amazon Simple Email Service (Amazon SES). This documentation is intended to be used in conjunction with the Regions and Amazon SES in the Amazon SES Developer Guide. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+            
+			
+			<NodeRef refid="869"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSES/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSES/defaultSES</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultSES</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultSES</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/initWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">The service configuration object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithConfiguration:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified identity (email address or domain) from the list of verified identities.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteIdentity:(AWSSESDeleteIdentityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteIdentity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESDeleteIdentityResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteIdentity:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteVerifiedEmailAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified email address from the list of verified addresses.&lt;/p&gt;&lt;important&gt;The DeleteVerifiedEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The DeleteIdentity action is now preferred.&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteVerifiedEmailAddressRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteVerifiedEmailAddress:(AWSSESDeleteVerifiedEmailAddressRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteVerifiedEmailAddress service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteVerifiedEmailAddress:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityDkimAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the current status of Easy DKIM signing for an entity. For domain name identities, this action also returns the DKIM tokens that are required for Easy DKIM signing, and whether Amazon SES has successfully verified that these tokens have been published.&lt;/p&gt;&lt;p&gt;This action takes a list of identities as input and returns the following information for each:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Whether Easy DKIM signing is enabled or disabled.&lt;/li&gt;&lt;li&gt;A set of DKIM tokens that represent the identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/li&gt;&lt;li&gt;Whether Amazon SES has successfully verified the DKIM tokens published in the domain&apos;s DNS. This information is only returned for domain name identities, not for email addresses.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getIdentityDkimAttributes:(AWSSESGetIdentityDkimAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityDkimAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESGetIdentityDkimAttributesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityDkimAttributes:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityNotificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given a list of verified identities (email addresses and/or domains), returns a structure describing identity notification attributes.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about using notifications with Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getIdentityNotificationAttributes:(AWSSESGetIdentityNotificationAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityNotificationAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESGetIdentityNotificationAttributesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityNotificationAttributes:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityVerificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given a list of identities (email addresses and/or domains), returns the verification status and (for domain identities) the verification token for each identity.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getIdentityVerificationAttributes:(AWSSESGetIdentityVerificationAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityVerificationAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESGetIdentityVerificationAttributesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityVerificationAttributes:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getSendQuota:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the user&apos;s current sending limits.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendQuotaResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getSendQuota:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetSendQuota service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESGetSendQuotaResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSendQuota:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getSendStatistics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the user&apos;s sending statistics. The result is a list of data points, representing the last two weeks of sending activity. &lt;/p&gt;&lt;p&gt;Each data point in the list contains statistics for a 15-minute interval.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendStatisticsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getSendStatistics:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetSendStatistics service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESGetSendStatisticsResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSendStatistics:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list containing all of the identities (email addresses and domains) for a specific AWS Account, regardless of verification status.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentitiesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentitiesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listIdentities:(AWSSESListIdentitiesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListIdentities service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESListIdentitiesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/listIdentities:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listVerifiedEmailAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list containing all of the email addresses that have been verified.&lt;/p&gt;&lt;important&gt;The ListVerifiedEmailAddresses action is deprecated as of the May 15, 2012 release of Domain Verification. The ListIdentities action is now preferred.&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListVerifiedEmailAddressesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listVerifiedEmailAddresses:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListVerifiedEmailAddresses service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESListVerifiedEmailAddressesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/listVerifiedEmailAddresses:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/sendEmail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Composes an email message based on input data, and then immediately queues the message for sending. &lt;/p&gt;&lt;important&gt; You can only send email from verified email addresses and domains. If you have not requested production access to Amazon SES, you must also verify every recipient email address except for the recipients provided by the Amazon SES mailbox simulator. For more information, go to the Amazon SES Developer Guide. &lt;/important&gt;&lt;p&gt;The total size of the message cannot exceed 10 MB.&lt;/p&gt;&lt;p&gt;Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group. &lt;/p&gt;&lt;p&gt;For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your &lt;i&gt;sending quota&lt;/i&gt; - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go to the Amazon SES Developer Guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)sendEmail:(AWSSESSendEmailRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendEmail service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESSendEmailResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domian and the following error code: AWSSESErrorMessageRejected.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendEmail:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/sendRawEmail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sends an email message, with header and content specified by the client. The &lt;code&gt;SendRawEmail&lt;/code&gt; action is useful for sending multipart MIME emails. The raw text of the message must comply with Internet email standards; otherwise, the message cannot be sent. &lt;/p&gt;&lt;important&gt; You can only send email from verified email addresses and domains. If you have not requested production access to Amazon SES, you must also verify every recipient email address except for the recipients provided by the Amazon SES mailbox simulator. For more information, go to the Amazon SES Developer Guide. &lt;/important&gt;&lt;p&gt;The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.&lt;/p&gt;&lt;p&gt;Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group. &lt;/p&gt;&lt;p&gt;The To:, CC:, and BCC: headers in the raw message can contain a group list. Note that each recipient in a group list counts towards the 50-recipient limit. &lt;/p&gt;&lt;p&gt;For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your &lt;i&gt;sending quota&lt;/i&gt; - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go to the Amazon SES Developer Guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)sendRawEmail:(AWSSESSendRawEmailRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendRawEmail service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESSendRawEmailResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domian and the following error code: AWSSESErrorMessageRejected.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendRawEmail:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityDkimEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables or disables Easy DKIM signing of email sent from an identity:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If Easy DKIM signing is enabled for a domain name identity (e.g., &lt;code&gt;example.com&lt;/code&gt;), then Amazon SES will DKIM-sign all email sent by addresses under that domain name (e.g., &lt;code&gt;user@example.com&lt;/code&gt;).&lt;/li&gt;&lt;li&gt;If Easy DKIM signing is enabled for an email address, then Amazon SES will DKIM-sign all email sent by that email address.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;For email addresses (e.g., &lt;code&gt;user@example.com&lt;/code&gt;), you can only enable Easy DKIM signing if the corresponding domain (e.g., &lt;code&gt;example.com&lt;/code&gt;) has been set up for Easy DKIM using the AWS Console or the &lt;code&gt;VerifyDomainDkim&lt;/code&gt; action.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about Easy DKIM signing, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityDkimEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityDkimEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setIdentityDkimEnabled:(AWSSESSetIdentityDkimEnabledRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityDkimEnabled service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESSetIdentityDkimEnabledResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityDkimEnabled:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityFeedbackForwardingEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given an identity (email address or domain), enables or disables whether Amazon SES forwards bounce and complaint notifications as email. Feedback forwarding can only be disabled when Amazon Simple Notification Service (Amazon SNS) topics are specified for both bounces and complaints.&lt;/p&gt;&lt;note&gt;Feedback forwarding does not apply to delivery notifications. Delivery notifications are only available through Amazon SNS.&lt;/note&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about using notifications with Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityFeedbackForwardingEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityFeedbackForwardingEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setIdentityFeedbackForwardingEnabled:(AWSSESSetIdentityFeedbackForwardingEnabledRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityFeedbackForwardingEnabled service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESSetIdentityFeedbackForwardingEnabledResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityFeedbackForwardingEnabled:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityNotificationTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given an identity (email address or domain), sets the Amazon Simple Notification Service (Amazon SNS) topic to which Amazon SES will publish bounce, complaint, and/or delivery notifications for emails sent with that identity as the &lt;code&gt;Source&lt;/code&gt;.&lt;/p&gt;&lt;note&gt;Unless feedback forwarding is enabled, you must specify Amazon SNS topics for bounce and complaint notifications. For more information, see &lt;code&gt;SetIdentityFeedbackForwardingEnabled&lt;/code&gt;. &lt;/note&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about feedback notification, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityNotificationTopicRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityNotificationTopicResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)setIdentityNotificationTopic:(AWSSESSetIdentityNotificationTopicRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityNotificationTopic service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESSetIdentityNotificationTopicResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityNotificationTopic:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyDomainDkim:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a set of DKIM tokens for a domain. DKIM &lt;i&gt;tokens&lt;/i&gt; are character strings that represent your domain&apos;s identity. Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign email originating from that domain.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;To enable or disable Easy DKIM signing for a domain, use the &lt;code&gt;SetIdentityDkimEnabled&lt;/code&gt; action.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainDkimRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainDkimResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)verifyDomainDkim:(AWSSESVerifyDomainDkimRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyDomainDkim service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESVerifyDomainDkimResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyDomainDkim:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyDomainIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies a domain.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)verifyDomainIdentity:(AWSSESVerifyDomainIdentityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyDomainIdentity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESVerifyDomainIdentityResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyDomainIdentity:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyEmailAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies an email address. This action causes a confirmation email message to be sent to the specified address.&lt;/p&gt;&lt;important&gt;The VerifyEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The VerifyEmailIdentity action is now preferred.&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailAddressRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)verifyEmailAddress:(AWSSESVerifyEmailAddressRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyEmailAddress service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyEmailAddress:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyEmailIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies an email address. This action causes a confirmation email message to be sent to the specified address.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSES.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)verifyEmailIdentity:(AWSSESVerifyEmailIdentityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyEmailIdentity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSSESVerifyEmailIdentityResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyEmailIdentity:</Anchor>
+            <NodeRef refid="869"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

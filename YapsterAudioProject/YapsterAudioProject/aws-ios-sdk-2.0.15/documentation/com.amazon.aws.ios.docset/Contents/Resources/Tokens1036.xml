@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AWSCredentialsProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AWSCredentialsProvider</TokenIdentifier>
+			<Abstract type="html">The AWS credentials provider protocol used to provide credentials
+to the SDK in order to make calls to the AWS services.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1036"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/setAccessKey:</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/setSecretKey:</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/setSessionKey:</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/sessionKey</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSCredentialsProvider/sessionKey</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/setExpiration:</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/expiration</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSCredentialsProvider/expiration</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSCredentialsProvider/refresh</TokenIdentifier>
+			<Abstract type="html">Refresh the token associated with this provider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)refresh</Declaration>
+			
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/refresh</Anchor>
+            <NodeRef refid="1036"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

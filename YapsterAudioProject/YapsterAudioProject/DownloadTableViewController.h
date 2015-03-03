@@ -8,17 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-#import "TWAudio.h"
+
+#import "PlayingYapViewController.h"
 
 @protocol DTVCDelegate;
 
-@interface DownloadTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate,TWADelegate,AVAudioPlayerDelegate>
+@interface DownloadTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate,AVAudioPlayerDelegate,PlayingYapDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
-//@property (strong, nonatomic) AVPlayer * player;
-@property (strong, nonatomic) AVAudioPlayer * player;
-
 @property id <DTVCDelegate> delegate;
+
+@property AVQueuePlayer * player;
 
 @end
 

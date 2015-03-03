@@ -6,16 +6,16 @@
 //  Copyright (c) 2015 thomas wheeler. All rights reserved.
 //
 
-#import "AudioProjectObject.h"
+#import "Yap.h"
 #import <AWSiOSSDKv2/S3.h>
 
-@interface AudioProjectObject()
+@interface Yap()
 
 @property (strong, nonatomic) NSURLConnection* downloadConnection;
 
 @end
 
-@implementation AudioProjectObject{
+@implementation Yap{
 	BOOL downloadedImage;
 	BOOL imageIsDownloading;
 }
@@ -23,13 +23,17 @@
 	self = [super init];
 	if(self){
 		self.imageKey = imageKey;
-		self.audioDownloader = [[TWAudio alloc] initWithKey:mp3Key bucketName:@"yapster"];
+		self.mp3Key = mp3Key;
 		
 		downloadedImage = NO;
 		imageIsDownloading = NO;
 		
-		[self loadImage];
-		//[self loadPresignedURL];
+		dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+			[self loadPresignedURL];
+		});
+		dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+			[self loadImage];
+		});
 	}
 	return self;
 }
@@ -47,14 +51,16 @@
 
 -(void) loadImage {
 	
+	__weak Yap* weakSelf = self;
+	
 	AWSS3TransferManagerDownloadRequest *downloadRequest = [AWSS3TransferManagerDownloadRequest new];
 	
 	downloadRequest.bucket = @"yapster";
 	downloadRequest.key = self.imageKey;
 	downloadRequest.downloadingFileURL = [NSURL URLWithString: self.downloadedImageFile];
 	downloadRequest.downloadProgress = ^(int64_t bytesWritten, int64_t totalBytesWritten, int64_t totalBytesExpectedToWrite){
-			if(self.updateProgress){
-				self.updateProgress(bytesWritten,totalBytesWritten,totalBytesExpectedToWrite);
+			if(weakSelf.updateImageDownloadProgress){
+				weakSelf.updateImageDownloadProgress(bytesWritten,totalBytesWritten,totalBytesExpectedToWrite);
 			}
 	};
 	
@@ -82,14 +88,40 @@
 			}
 			
 			if (task.result) {
+				
 				downloadedImage = YES;
 				imageIsDownloading = NO;
-				if(self.imageDownloadCompletionHandler){
-					self.imageDownloadCompletionHandler();
+				
+				if(weakSelf.imageDownloadCompletionHandler){
+					weakSelf.imageDownloadCompletionHandler();
 				}
 			}
 			return nil;
 		}];
 }
 
+-(void) loadPresignedURL {
+	__weak Yap* weakSelf = self;
+	
+	AWSS3GetPreSignedURLRequest *getPreSignedURLRequest = [AWSS3GetPreSignedURLRequest new];
+	getPreSignedURLRequest.bucket = @"yapster";
+	getPreSignedURLRequest.key = self.mp3Key;
+	getPreSignedURLRequest.HTTPMethod = AWSHTTPMethodGET;
+	getPreSignedURLRequest.expires = [NSDate dateWithTimeIntervalSinceNow:3600];
+	
+	[[[AWSS3PreSignedURLBuilder defaultS3PreSignedURLBuilder] getPreSignedURL:getPreSignedURLRequest]
+	 continueWithBlock:^id(BFTask *task) {
+		 
+		 if (task.error) {
+			 NSLog(@"Error: %@",task.error);
+		 } else {
+			 weakSelf.purl = (NSURL*)task.result;
+			 if (weakSelf.purlDownloadCompletionHandler) {
+				 weakSelf.purlDownloadCompletionHandler();
+			 }
+		 }
+		 
+		 return nil;
+	 }];
+}
 @end

@@ -37,9 +37,7 @@
 		EF1777491A8160C000CA5042 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1777481A8160C000CA5042 /* libsqlite3.dylib */; };
 		EF17774B1A8160D100CA5042 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF17774A1A8160D100CA5042 /* libz.dylib */; };
 		EF17774D1A82726600CA5042 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF17774C1A82726600CA5042 /* AVFoundation.framework */; };
-		EF4DFBAE1A9E1AC2003CDC20 /* TWAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DFBAD1A9E1AC2003CDC20 /* TWAPViewController.m */; };
-		EF4F838F1A92CC3600B2BD81 /* TWAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F838E1A92CC3600B2BD81 /* TWAudio.m */; };
-		EF4F83921A938DAA00B2BD81 /* TWImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F83911A938DAA00B2BD81 /* TWImage.m */; };
+		EF4DFBAE1A9E1AC2003CDC20 /* PlayingYapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DFBAD1A9E1AC2003CDC20 /* PlayingYapViewController.m */; };
 		EFD5008E1A8129C80091893C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD5008D1A8129C80091893C /* main.m */; };
 		EFD500911A8129C80091893C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD500901A8129C80091893C /* AppDelegate.m */; };
 		EFD500941A8129C80091893C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD500931A8129C80091893C /* ViewController.m */; };
@@ -47,9 +45,8 @@
 		EFD500991A8129C80091893C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD500981A8129C80091893C /* Images.xcassets */; };
 		EFD5009C1A8129C80091893C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD5009A1A8129C80091893C /* LaunchScreen.xib */; };
 		EFD500A81A8129C80091893C /* YapsterAudioProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD500A71A8129C80091893C /* YapsterAudioProjectTests.m */; };
-		EFEE61621A85D994001A5947 /* IronBacon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFEE61611A85D994001A5947 /* IronBacon.mp3 */; };
 		EFEE61651A89436C001A5947 /* ContentGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEE61641A89436B001A5947 /* ContentGenerator.m */; };
-		EFEE61681A8A8BD8001A5947 /* AudioProjectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEE61671A8A8BD8001A5947 /* AudioProjectObject.m */; };
+		EFEE61681A8A8BD8001A5947 /* Yap.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEE61671A8A8BD8001A5947 /* Yap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,12 +92,8 @@
 		EF1777481A8160C000CA5042 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		EF17774A1A8160D100CA5042 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		EF17774C1A82726600CA5042 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		EF4DFBAC1A9E1AC1003CDC20 /* TWAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAPViewController.h; sourceTree = "<group>"; };
-		EF4DFBAD1A9E1AC2003CDC20 /* TWAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAPViewController.m; sourceTree = "<group>"; };
-		EF4F838D1A92CC3600B2BD81 /* TWAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAudio.h; sourceTree = "<group>"; };
-		EF4F838E1A92CC3600B2BD81 /* TWAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAudio.m; sourceTree = "<group>"; };
-		EF4F83901A938DAA00B2BD81 /* TWImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWImage.h; sourceTree = "<group>"; };
-		EF4F83911A938DAA00B2BD81 /* TWImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWImage.m; sourceTree = "<group>"; };
+		EF4DFBAC1A9E1AC1003CDC20 /* PlayingYapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingYapViewController.h; sourceTree = "<group>"; };
+		EF4DFBAD1A9E1AC2003CDC20 /* PlayingYapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingYapViewController.m; sourceTree = "<group>"; };
 		EFD500881A8129C80091893C /* YapsterAudioProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YapsterAudioProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD5008C1A8129C80091893C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFD5008D1A8129C80091893C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,11 +107,10 @@
 		EFD500A11A8129C80091893C /* YapsterAudioProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YapsterAudioProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD500A61A8129C80091893C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFD500A71A8129C80091893C /* YapsterAudioProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YapsterAudioProjectTests.m; sourceTree = "<group>"; };
-		EFEE61611A85D994001A5947 /* IronBacon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IronBacon.mp3; sourceTree = "<group>"; };
 		EFEE61631A89436A001A5947 /* ContentGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentGenerator.h; sourceTree = "<group>"; };
 		EFEE61641A89436B001A5947 /* ContentGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentGenerator.m; sourceTree = "<group>"; };
-		EFEE61661A8A8BD8001A5947 /* AudioProjectObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioProjectObject.h; sourceTree = "<group>"; };
-		EFEE61671A8A8BD8001A5947 /* AudioProjectObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioProjectObject.m; sourceTree = "<group>"; };
+		EFEE61661A8A8BD8001A5947 /* Yap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yap.h; sourceTree = "<group>"; };
+		EFEE61671A8A8BD8001A5947 /* Yap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,20 +169,16 @@
 				EFD500901A8129C80091893C /* AppDelegate.m */,
 				EFD500921A8129C80091893C /* ViewController.h */,
 				EFD500931A8129C80091893C /* ViewController.m */,
-				EF4F838D1A92CC3600B2BD81 /* TWAudio.h */,
-				EF4F838E1A92CC3600B2BD81 /* TWAudio.m */,
-				EF4F83901A938DAA00B2BD81 /* TWImage.h */,
-				EF4F83911A938DAA00B2BD81 /* TWImage.m */,
 				EF061BFB1A8486C500A35B66 /* DownloadTableViewCell.h */,
 				EF061BFC1A8486C500A35B66 /* DownloadTableViewCell.m */,
 				EF061BFA1A8484AC00A35B66 /* DownloadTableViewController.h */,
 				EF061BF81A84843500A35B66 /* DownloadTableViewController.m */,
-				EFEE61661A8A8BD8001A5947 /* AudioProjectObject.h */,
-				EFEE61671A8A8BD8001A5947 /* AudioProjectObject.m */,
+				EFEE61661A8A8BD8001A5947 /* Yap.h */,
+				EFEE61671A8A8BD8001A5947 /* Yap.m */,
 				EFEE61631A89436A001A5947 /* ContentGenerator.h */,
 				EFEE61641A89436B001A5947 /* ContentGenerator.m */,
-				EF4DFBAC1A9E1AC1003CDC20 /* TWAPViewController.h */,
-				EF4DFBAD1A9E1AC2003CDC20 /* TWAPViewController.m */,
+				EF4DFBAC1A9E1AC1003CDC20 /* PlayingYapViewController.h */,
+				EF4DFBAD1A9E1AC2003CDC20 /* PlayingYapViewController.m */,
 				EFD500951A8129C80091893C /* Main.storyboard */,
 				EFD500981A8129C80091893C /* Images.xcassets */,
 				EFD5009A1A8129C80091893C /* LaunchScreen.xib */,
@@ -202,7 +190,6 @@
 		EFD5008B1A8129C80091893C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EFEE61611A85D994001A5947 /* IronBacon.mp3 */,
 				EF17774A1A8160D100CA5042 /* libz.dylib */,
 				EF1777481A8160C000CA5042 /* libsqlite3.dylib */,
 				EF17772A1A812F6500CA5042 /* autoscaling-2011-01-01.json */,
@@ -303,6 +290,7 @@
 				TargetAttributes = {
 					EFD500871A8129C80091893C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = XD333E9SFA;
 					};
 					EFD500A01A8129C80091893C = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -338,7 +326,6 @@
 				EF1777461A812F6600CA5042 /* sqs-2012-11-05.json in Resources */,
 				EF1777471A812F6600CA5042 /* sts-2011-06-15.json in Resources */,
 				EF17773B1A812F6600CA5042 /* css-2014-06-30.json in Resources */,
-				EFEE61621A85D994001A5947 /* IronBacon.mp3 in Resources */,
 				EF17773E1A812F6600CA5042 /* elasticloadbalancing-2012-06-01.json in Resources */,
 				EF1777391A812F6600CA5042 /* autoscaling-2011-01-01.json in Resources */,
 				EF1777451A812F6600CA5042 /* sns-2010-03-31.json in Resources */,
@@ -370,12 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4DFBAE1A9E1AC2003CDC20 /* TWAPViewController.m in Sources */,
-				EFEE61681A8A8BD8001A5947 /* AudioProjectObject.m in Sources */,
-				EF4F838F1A92CC3600B2BD81 /* TWAudio.m in Sources */,
+				EF4DFBAE1A9E1AC2003CDC20 /* PlayingYapViewController.m in Sources */,
+				EFEE61681A8A8BD8001A5947 /* Yap.m in Sources */,
 				EFD500941A8129C80091893C /* ViewController.m in Sources */,
 				EFEE61651A89436C001A5947 /* ContentGenerator.m in Sources */,
-				EF4F83921A938DAA00B2BD81 /* TWImage.m in Sources */,
 				EFD500911A8129C80091893C /* AppDelegate.m in Sources */,
 				EF061BFD1A8486C500A35B66 /* DownloadTableViewCell.m in Sources */,
 				EFD5008E1A8129C80091893C /* main.m in Sources */,

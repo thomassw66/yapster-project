@@ -7,7 +7,7 @@
 //
 
 #import "ContentGenerator.h"
-#import "AudioProjectObject.h"
+#import "Yap.h"
 
 @implementation ContentGenerator
 
@@ -19,7 +19,7 @@
 	NSMutableArray* output = [[NSMutableArray alloc] init];
 	
 	for(int i = 0; i < amount; i++){
-		AudioProjectObject *d = [[AudioProjectObject alloc] initWithImageKey:imageURL[arc4random()%imageURL.count] mp3Key:mp3URL[arc4random()%mp3URL.count]];
+		Yap *d = [[Yap alloc] initWithImageKey:imageURL[arc4random()%imageURL.count] mp3Key:mp3URL[arc4random()%mp3URL.count]];
 		[output addObject:d];
 	
 	}

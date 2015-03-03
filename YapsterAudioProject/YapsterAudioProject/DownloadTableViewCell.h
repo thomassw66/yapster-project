@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AudioProjectObject.h"
+#import "Yap.h"
 
 @interface DownloadTableViewCell : UITableViewCell 
 

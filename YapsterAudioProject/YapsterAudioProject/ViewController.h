@@ -10,12 +10,14 @@
 
 #import <AWSiOSSDKv2/AWSCore.h>
 #import <AWSiOSSDKv2/S3.h>
-#import "TWAudio.h"
+
 #import "DownloadTableViewController.h"
 
-@interface ViewController : UIViewController <NSURLConnectionDataDelegate,TWADelegate,DTVCDelegate>
+@interface ViewController : UIViewController <NSURLConnectionDataDelegate,DTVCDelegate>
 
 @property NSArray *contents;
+@property (strong, nonatomic) IBOutlet UIButton *button;
+@property (strong, nonatomic) IBOutlet UILabel *errorLabel;
 
 @end
 
